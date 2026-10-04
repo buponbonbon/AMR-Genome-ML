@@ -58,3 +58,42 @@ Thumbs.db
 venv/
 env/
 conda-env/
+*.AppxBundlewsl -d Ubuntu-24.04
+
+# Large/generated project data
+checkpoints/
+data/
+results/
+outputs/
+models/
+*.joblib
+*.pkl
+
+# Logs
+logs/
+*.log
+
+# Backup files
+*.bak
+*.bak_*
+*.bak*
+
+# Archived exploratory scripts
+scripts/archive/
+
+# Compiled binaries / build artifacts
+scripts/build_unitig_bitpack
+scripts/build_unitig_bitpack_benchmark_pass
+*.o
+*.obj
+*.exe
+
+# Compiled unitig utilities
+scripts/build_unitig_bitpack
+scripts/build_unitig_bitpack_resume
+scripts/build_unitig_bitpack_benchmark_pass
+
+# Internal benchmark / legacy / repair utilities
+scripts/build_unitig_bitpack_benchmark_pass.cpp
+scripts/file13_drive_legacy_audit.py
+scripts/repair_key_metrics_summary.py
