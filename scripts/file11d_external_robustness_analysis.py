@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-FILE11D — POST-HOC EXTERNAL VALIDATION REVIEWER-DEFENSE DIAGNOSTICS
+FILE11D — POST-HOC EXTERNAL robustness analysis
 ===================================================================
 
 Purpose
