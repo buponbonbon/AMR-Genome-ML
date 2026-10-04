@@ -489,8 +489,12 @@ def main() -> int:
     )
 
 
+    # Transient unitig-caller workspace must live on a native
+    # Linux filesystem. /mnt/c is Windows DrvFS and does not
+    # support POSIX FIFOs (mkfifo).
     work_dir = (
-        checkpoint_dir
+        Path(os.environ.get("TMPDIR", "/tmp"))
+        / "amr_genome_ml"
         / "unitig_full_k31_work"
     )
 
@@ -773,18 +777,18 @@ def main() -> int:
         "wb"
     )
 
-    fifo_reader = fifo_path.open(
-        "rb",
-        buffering=0,
-    )
-
+    # Open the FIFO inside the child process.
+    # Opening a read-only FIFO in the parent would block
+    # before unitig-caller can open the write end.
     gzip_process = subprocess.Popen(
         [
-            gzip_bin,
-            "-1",
+            "/bin/bash",
             "-c",
+            'exec "$1" -1 -c < "$2"',
+            "_",
+            gzip_bin,
+            str(fifo_path),
         ],
-        stdin=fifo_reader,
         stdout=partial_handle,
         stderr=subprocess.PIPE,
     )
@@ -1043,8 +1047,6 @@ def main() -> int:
         # =================================================
         # Finish gzip
         # =================================================
-
-        fifo_reader.close()
 
         gzip_returncode = (
             gzip_process.wait()
@@ -1334,11 +1336,6 @@ def main() -> int:
         fifo_path.unlink(
             missing_ok=True
         )
-
-        try:
-            fifo_reader.close()
-        except Exception:
-            pass
 
         try:
             partial_handle.close()
