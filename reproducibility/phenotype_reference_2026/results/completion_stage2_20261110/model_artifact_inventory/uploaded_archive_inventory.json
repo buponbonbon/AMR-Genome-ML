@@ -1,0 +1,15 @@
+[
+  {
+    "archive": "novelty_gate_A1_AST.zip",
+    "matching_entries": []
+  },
+  {
+    "archive": "AMR_AUDIT_FAST_20261024_081820_de565a.zip",
+    "matching_entries": [
+      {
+        "path": "project/checkpoints/external_validation_file11c/file11c_final_summary.json",
+        "bytes": 4250
+      }
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "file": "PRJEB39943_ENA_runs.tsv",
+  "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB39943&result=read_run&fields=run_accession%2Csample_accession%2Csecondary_sample_accession%2Cstudy_accession%2Cscientific_name%2Ctax_id&format=tsv&download=true",
+  "started_utc": "2026-11-11T07:23:45.339922+00:00",
+  "http_status": 200,
+  "final_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB39943&result=read_run&fields=run_accession%2Csample_accession%2Csecondary_sample_accession%2Cstudy_accession%2Cscientific_name%2Ctax_id&format=tsv&download=true",
+  "content_type": "text/plain",
+  "content_range": null,
+  "bytes": 244700,
+  "sha256": "9537b7bb27fd6050c47cb25cb925fa6ad6dd31347f76bf053399c0d6bcbc9b36",
+  "signature_hex": "72756e5f616363657373696f",
+  "completed_utc": "2026-11-11T07:23:46.613155+00:00"
+}

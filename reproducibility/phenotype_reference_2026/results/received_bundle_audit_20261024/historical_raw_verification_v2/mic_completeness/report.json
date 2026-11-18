@@ -1,0 +1,35 @@
+{
+  "rows": 525,
+  "raw_rows": 525,
+  "duplicate_projected_rows": 0,
+  "nonempty_fields": {
+    "mic_value": 525,
+    "mic_sign": 525,
+    "unit": 525,
+    "method": 525,
+    "platform": 525,
+    "standard": 525,
+    "version": 0,
+    "organism": 0,
+    "context": 0,
+    "testing_date": 0
+  },
+  "statuses": {
+    "INCOMPLETE_METADATA": 525
+  },
+  "clinical_adjudication": false,
+  "disclaimer": "Reference-record audit only; not clinical adjudication, causal attribution, or independent validation.",
+  "breakpoint_document_contents_verified": false,
+  "inputs": {
+    "mic": {
+      "path": "/workspace/AMR-Genome-ML/results/received_bundle_audit_20261024/historical_raw_verification_v2/inputs/file19_temporal_175_three_drug_crosswalk.csv",
+      "sha256": "f0746ca3a6ee48cc6b1593a064d4b0efd7b9351cc5927fc6860dce67fb2cd4af"
+    },
+    "config": {
+      "path": "/workspace/AMR-Genome-ML/results/received_bundle_audit_20261024/historical_raw_verification_v2/config.json",
+      "sha256": "d66c430f57377d1ffd18c323242705b21c8248255975592f16f3bf9fe1cd5f4d"
+    }
+  },
+  "audit_version": "1.0.0",
+  "completed_utc": "2026-10-24T08:27:44.574606+00:00"
+}

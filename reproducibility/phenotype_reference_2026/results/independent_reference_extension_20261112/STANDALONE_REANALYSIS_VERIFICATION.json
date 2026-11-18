@@ -1,0 +1,15 @@
+{
+  "status": "PASS_STANDALONE_THREE_ANALYSES_REPORTS_ARRAYS_TABLES_AND_INDEPENDENT_NATIVE_CLINICAL_CHECKS",
+  "semantic_report_values_checked": 4614,
+  "maximum_report_numeric_difference": 0.0,
+  "bootstrap_arrays_matched": 8,
+  "CSV_tables_matched": 12,
+  "absolute_numeric_tolerance": 1e-12,
+  "native_cases": 170,
+  "clinical_cells": 288,
+  "python": "3.13.17",
+  "numpy": "2.5.4",
+  "sklearn": "1.9.1",
+  "source_report_sha256": "3536e0517c728b3ddf75063eac7441861e0dc8d009a001263c4ac2b0036e6f4d",
+  "raw_DNA_and_retained_metadata_omitted": "Not rechecked from the light bundle; original full-input PASS records retained."
+}

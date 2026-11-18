@@ -1,0 +1,31 @@
+{
+  "status": "PASS_FROZEN_MODEL_AND_ALL_525_ORIGINAL_E2_PROBABILITIES_REPRODUCED",
+  "n": 525,
+  "features": 668,
+  "model_sha256": "1f55620cbd4b1dfd946ff37977e9a851b6aeaad8a5466eb553323331613cdcdd",
+  "feature_schema_sha256": "9ca9c8c89a6bb2c1a97d85b9b5906efbf9aee0fca7eedb0328915063212c132f",
+  "training_X_and_folds_hashes_match_original_lock": true,
+  "feature_metadata_prevalence_matches_training_matrix": true,
+  "feature_table_rows": 4233,
+  "fitted_training_rows_from_File07": 4227,
+  "feature_table_rows_not_in_fitting_cohort": 6,
+  "maximum_absolute_original_probability_difference": 1.1102230246251565e-16,
+  "maximum_absolute_manual_sigmoid_difference": 4.440892098500626e-16,
+  "hard_predictions_identical": true,
+  "historical_confusion": {
+    "tp": 109,
+    "fn": 54,
+    "tn": 221,
+    "fp": 141
+  },
+  "historical_auroc": 0.6673473884011795,
+  "historical_average_precision": 0.41148135228449423,
+  "load_warnings": [
+    "Trying to unpickle estimator LogisticRegression from version 1.9.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations"
+  ],
+  "no_training_or_tuning": true,
+  "limitations": [
+    "This is frozen artifact/prediction reproduction, not a new external clinical validation.",
+    "A serialization-version warning, if present, is recorded; all native and independent linear-score probabilities were numerically checked."
+  ]
+}

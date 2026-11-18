@@ -1,0 +1,12 @@
+{
+  "sample_accession": "SAMN02356599",
+  "asm_acc": "GCA_000566985.1",
+  "expected_fasta_sha256": "50f5874c32c9d93d2d1f3bf8eef3623671feecc99e2db0180a430957dbd0499c",
+  "batch_zip": "results/database_reference_factorial_20261111/E2_recovery/batch_zips/f4773d68a45d4d71.zip",
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_000567045.1,GCA_000566985.1,GCA_000566925.1,GCA_000566865.1,GCA_000566805.1,GCA_000566785.1,GCA_000566745.1,GCA_000566725.1,GCA_013180525.1,GCA_013180515.1,GCA_013180445.1,GCA_013180465.1,GCA_013180385.1,GCA_014840555.1,GCA_014946935.1,GCA_014946955.1,GCA_014842715.1,GCA_014840345.1,GCA_014840325.1,GCA_014946925.1,GCA_011682905.1,GCA_011682815.1,GCA_013867375.1,GCA_013450455.1,GCA_013450405.1/download?include_annotation_type=GENOME_FASTA",
+  "actual_fasta_sha256": "50f5874c32c9d93d2d1f3bf8eef3623671feecc99e2db0180a430957dbd0499c",
+  "bytes": 5494924,
+  "zip_member": "ncbi_dataset/data/GCA_000566985.1/GCA_000566985.1_Kleb_pneu_UCI_19_V1_genomic.fna",
+  "status": "PASS_EXACT_FROZEN_FASTA_BYTES",
+  "completed_utc": "2026-11-11T14:17:21.107570+00:00"
+}

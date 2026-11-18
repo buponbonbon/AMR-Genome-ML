@@ -1,0 +1,125 @@
+variable,stratum,method,n,R,S,TP,FN,TN,FP,sensitivity,specificity,balanced_accuracy,MCC,AUROC,average_precision
+Presence of one or more carbapenemases (in silico),No,frozen_ML,94,1,93,1,0,91,2,1.0,0.978494623655914,0.989247311827957,0.57110846128557,1.0,1.0
+Presence of one or more carbapenemases (in silico),No,native_broad_annotation_rule,94,1,93,1,0,84,9,1.0,0.9032258064516129,0.9516129032258065,0.30053715351876426,0.9516129032258065,0.1
+Presence of one or more carbapenemases (in silico),No,native_KPC_rule,94,1,93,0,1,92,1,0.0,0.989247311827957,0.4946236559139785,-0.010752688172043012,0.4946236559139785,0.010638297872340425
+Presence of one or more carbapenemases (in silico),No,author_carbapenemase_presence,94,1,93,0,1,93,0,0.0,1.0,0.5,0.0,0.5,0.010638297872340425
+Presence of one or more carbapenemases (in silico),Yes,frozen_ML,76,39,37,34,5,23,14,0.8717948717948718,0.6216216216216216,0.7467082467082466,0.5112663311751141,0.8724878724878725,0.8981604902311636
+Presence of one or more carbapenemases (in silico),Yes,native_broad_annotation_rule,76,39,37,39,0,0,37,1.0,0.0,0.5,0.0,0.5,0.5131578947368421
+Presence of one or more carbapenemases (in silico),Yes,native_KPC_rule,76,39,37,19,20,35,2,0.48717948717948717,0.9459459459459459,0.7165627165627165,0.48412316033756786,0.7165627165627165,0.7039393355182829
+Presence of one or more carbapenemases (in silico),Yes,author_carbapenemase_presence,76,39,37,39,0,0,37,1.0,0.0,0.5,0.0,0.5,0.5131578947368421
+reported_ST_stratum,not_seen_in_fitting,frozen_ML,13,3,10,2,1,9,1,0.6666666666666666,0.9,0.7833333333333333,0.5666666666666667,0.9666666666666667,0.9166666666666666
+reported_ST_stratum,not_seen_in_fitting,native_broad_annotation_rule,13,3,10,3,0,7,3,1.0,0.7,0.85,0.5916079783099616,0.85,0.5
+reported_ST_stratum,not_seen_in_fitting,native_KPC_rule,13,3,10,3,0,10,0,1.0,1.0,1.0,1.0,1.0,1.0
+reported_ST_stratum,not_seen_in_fitting,author_carbapenemase_presence,13,3,10,3,0,7,3,1.0,0.7,0.85,0.5916079783099616,0.85,0.5
+reported_ST_stratum,seen_in_fitting,frozen_ML,153,37,116,33,4,101,15,0.8918918918918919,0.8706896551724138,0.8812907735321529,0.7037215983641972,0.9538676607642125,0.8961759876122862
+reported_ST_stratum,seen_in_fitting,native_broad_annotation_rule,153,37,116,37,0,73,43,1.0,0.6293103448275862,0.8146551724137931,0.5394960931116727,0.8146551724137931,0.4625
+reported_ST_stratum,seen_in_fitting,native_KPC_rule,153,37,116,16,21,113,3,0.43243243243243246,0.9741379310344828,0.7032851817334576,0.527881418434504,0.7032851817334576,0.5014085292723063
+reported_ST_stratum,seen_in_fitting,author_carbapenemase_presence,153,37,116,36,1,82,34,0.972972972972973,0.7068965517241379,0.8399347623485555,0.5843423525958105,0.8399347623485555,0.5069220480985186
+reported_ST_stratum,unknown,frozen_ML,4,0,4,0,0,4,0,,1.0,,0.0,,
+reported_ST_stratum,unknown,native_broad_annotation_rule,4,0,4,0,0,4,0,,1.0,,0.0,,
+reported_ST_stratum,unknown,native_KPC_rule,4,0,4,0,0,4,0,,1.0,,0.0,,
+reported_ST_stratum,unknown,author_carbapenemase_presence,4,0,4,0,0,4,0,,1.0,,0.0,,
+Country,Austria,frozen_ML,1,1,0,1,0,0,0,1.0,,,0.0,,1.0
+Country,Austria,native_broad_annotation_rule,1,1,0,1,0,0,0,1.0,,,0.0,,1.0
+Country,Austria,native_KPC_rule,1,1,0,0,1,0,0,0.0,,,0.0,,1.0
+Country,Austria,author_carbapenemase_presence,1,1,0,1,0,0,0,1.0,,,0.0,,1.0
+Country,Belgium,frozen_ML,9,0,9,0,0,8,1,,0.8888888888888888,,0.0,,
+Country,Belgium,native_broad_annotation_rule,9,0,9,0,0,7,2,,0.7777777777777778,,0.0,,
+Country,Belgium,native_KPC_rule,9,0,9,0,0,9,0,,1.0,,0.0,,
+Country,Belgium,author_carbapenemase_presence,9,0,9,0,0,8,1,,0.8888888888888888,,0.0,,
+Country,Croatia,frozen_ML,4,0,4,0,0,4,0,,1.0,,0.0,,
+Country,Croatia,native_broad_annotation_rule,4,0,4,0,0,3,1,,0.75,,0.0,,
+Country,Croatia,native_KPC_rule,4,0,4,0,0,4,0,,1.0,,0.0,,
+Country,Croatia,author_carbapenemase_presence,4,0,4,0,0,3,1,,0.75,,0.0,,
+Country,Czech Republic,frozen_ML,8,1,7,1,0,7,0,1.0,1.0,1.0,1.0,1.0,1.0
+Country,Czech Republic,native_broad_annotation_rule,8,1,7,1,0,6,1,1.0,0.8571428571428571,0.9285714285714286,0.6546536707079772,0.9285714285714286,0.5
+Country,Czech Republic,native_KPC_rule,8,1,7,0,1,7,0,0.0,1.0,0.5,0.0,0.5,0.125
+Country,Czech Republic,author_carbapenemase_presence,8,1,7,1,0,7,0,1.0,1.0,1.0,1.0,1.0,1.0
+Country,Estonia,frozen_ML,4,0,4,0,0,4,0,,1.0,,0.0,,
+Country,Estonia,native_broad_annotation_rule,4,0,4,0,0,2,2,,0.5,,0.0,,
+Country,Estonia,native_KPC_rule,4,0,4,0,0,4,0,,1.0,,0.0,,
+Country,Estonia,author_carbapenemase_presence,4,0,4,0,0,4,0,,1.0,,0.0,,
+Country,France,frozen_ML,8,0,8,0,0,8,0,,1.0,,0.0,,
+Country,France,native_broad_annotation_rule,8,0,8,0,0,2,6,,0.25,,0.0,,
+Country,France,native_KPC_rule,8,0,8,0,0,8,0,,1.0,,0.0,,
+Country,France,author_carbapenemase_presence,8,0,8,0,0,4,4,,0.5,,0.0,,
+Country,Germany,frozen_ML,7,3,4,3,0,2,2,1.0,0.5,0.75,0.5477225575051661,1.0,1.0
+Country,Germany,native_broad_annotation_rule,7,3,4,3,0,1,3,1.0,0.25,0.625,0.3535533905932738,0.625,0.5
+Country,Germany,native_KPC_rule,7,3,4,3,0,4,0,1.0,1.0,1.0,1.0,1.0,1.0
+Country,Germany,author_carbapenemase_presence,7,3,4,3,0,1,3,1.0,0.25,0.625,0.3535533905932738,0.625,0.5
+Country,Greece,frozen_ML,4,0,4,0,0,4,0,,1.0,,0.0,,
+Country,Greece,native_broad_annotation_rule,4,0,4,0,0,4,0,,1.0,,0.0,,
+Country,Greece,native_KPC_rule,4,0,4,0,0,4,0,,1.0,,0.0,,
+Country,Greece,author_carbapenemase_presence,4,0,4,0,0,4,0,,1.0,,0.0,,
+Country,Hungary,frozen_ML,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Hungary,native_broad_annotation_rule,2,0,2,0,0,0,2,,0.0,,0.0,,
+Country,Hungary,native_KPC_rule,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Hungary,author_carbapenemase_presence,2,0,2,0,0,0,2,,0.0,,0.0,,
+Country,Ireland,frozen_ML,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Ireland,native_broad_annotation_rule,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Ireland,native_KPC_rule,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Ireland,author_carbapenemase_presence,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Israel,frozen_ML,8,4,4,4,0,3,1,1.0,0.75,0.875,0.7745966692414834,1.0,1.0
+Country,Israel,native_broad_annotation_rule,8,4,4,4,0,3,1,1.0,0.75,0.875,0.7745966692414834,0.875,0.8
+Country,Israel,native_KPC_rule,8,4,4,2,2,3,1,0.5,0.75,0.625,0.2581988897471611,0.625,0.5833333333333333
+Country,Israel,author_carbapenemase_presence,8,4,4,3,1,3,1,0.75,0.75,0.75,0.5,0.75,0.6875
+Country,Italy,frozen_ML,26,8,18,8,0,17,1,1.0,0.9444444444444444,0.9722222222222222,0.9162456945817024,1.0,1.0
+Country,Italy,native_broad_annotation_rule,26,8,18,8,0,16,2,1.0,0.8888888888888888,0.9444444444444444,0.8432740427115678,0.9444444444444444,0.8
+Country,Italy,native_KPC_rule,26,8,18,8,0,17,1,1.0,0.9444444444444444,0.9722222222222222,0.9162456945817024,0.9722222222222222,0.8888888888888888
+Country,Italy,author_carbapenemase_presence,26,8,18,8,0,17,1,1.0,0.9444444444444444,0.9722222222222222,0.9162456945817024,0.9722222222222222,0.8888888888888888
+Country,Latvia,frozen_ML,1,0,1,0,0,1,0,,1.0,,0.0,,
+Country,Latvia,native_broad_annotation_rule,1,0,1,0,0,0,1,,0.0,,0.0,,
+Country,Latvia,native_KPC_rule,1,0,1,0,0,1,0,,1.0,,0.0,,
+Country,Latvia,author_carbapenemase_presence,1,0,1,0,0,0,1,,0.0,,0.0,,
+Country,Lithuania,frozen_ML,1,0,1,0,0,1,0,,1.0,,0.0,,
+Country,Lithuania,native_broad_annotation_rule,1,0,1,0,0,1,0,,1.0,,0.0,,
+Country,Lithuania,native_KPC_rule,1,0,1,0,0,1,0,,1.0,,0.0,,
+Country,Lithuania,author_carbapenemase_presence,1,0,1,0,0,1,0,,1.0,,0.0,,
+Country,Luxembourg,frozen_ML,4,2,2,2,0,1,1,1.0,0.5,0.75,0.5773502691896258,1.0,1.0
+Country,Luxembourg,native_broad_annotation_rule,4,2,2,2,0,1,1,1.0,0.5,0.75,0.5773502691896258,0.75,0.6666666666666666
+Country,Luxembourg,native_KPC_rule,4,2,2,2,0,2,0,1.0,1.0,1.0,1.0,1.0,1.0
+Country,Luxembourg,author_carbapenemase_presence,4,2,2,2,0,1,1,1.0,0.5,0.75,0.5773502691896258,0.75,0.6666666666666666
+Country,Montenegro,frozen_ML,2,0,2,0,0,1,1,,0.5,,0.0,,
+Country,Montenegro,native_broad_annotation_rule,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Montenegro,native_KPC_rule,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Montenegro,author_carbapenemase_presence,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Norway,frozen_ML,3,1,2,1,0,2,0,1.0,1.0,1.0,1.0,1.0,1.0
+Country,Norway,native_broad_annotation_rule,3,1,2,1,0,2,0,1.0,1.0,1.0,1.0,1.0,1.0
+Country,Norway,native_KPC_rule,3,1,2,0,1,2,0,0.0,1.0,0.5,0.0,0.5,0.3333333333333333
+Country,Norway,author_carbapenemase_presence,3,1,2,1,0,2,0,1.0,1.0,1.0,1.0,1.0,1.0
+Country,Poland,frozen_ML,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Poland,native_broad_annotation_rule,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Poland,native_KPC_rule,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Poland,author_carbapenemase_presence,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Romania,frozen_ML,10,6,4,6,0,3,1,1.0,0.75,0.875,0.8017837257372732,0.8333333333333334,0.8734126984126984
+Country,Romania,native_broad_annotation_rule,10,6,4,6,0,1,3,1.0,0.25,0.625,0.408248290463863,0.625,0.6666666666666666
+Country,Romania,native_KPC_rule,10,6,4,1,5,4,0,0.16666666666666666,1.0,0.5833333333333334,0.2721655269759087,0.5833333333333334,0.6666666666666666
+Country,Romania,author_carbapenemase_presence,10,6,4,6,0,1,3,1.0,0.25,0.625,0.408248290463863,0.625,0.6666666666666666
+Country,Serbia,frozen_ML,5,1,4,1,0,3,1,1.0,0.75,0.875,0.6123724356957946,1.0,1.0
+Country,Serbia,native_broad_annotation_rule,5,1,4,1,0,3,1,1.0,0.75,0.875,0.6123724356957946,0.875,0.5
+Country,Serbia,native_KPC_rule,5,1,4,0,1,4,0,0.0,1.0,0.5,0.0,0.5,0.2
+Country,Serbia,author_carbapenemase_presence,5,1,4,1,0,4,0,1.0,1.0,1.0,1.0,1.0,1.0
+Country,Slovakia,frozen_ML,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Slovakia,native_broad_annotation_rule,2,0,2,0,0,1,1,,0.5,,0.0,,
+Country,Slovakia,native_KPC_rule,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Slovakia,author_carbapenemase_presence,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Slovenia,frozen_ML,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Slovenia,native_broad_annotation_rule,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Slovenia,native_KPC_rule,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Slovenia,author_carbapenemase_presence,2,0,2,0,0,2,0,,1.0,,0.0,,
+Country,Spain,frozen_ML,18,3,15,2,1,10,5,0.6666666666666666,0.6666666666666666,0.6666666666666666,0.2548235957188128,0.8666666666666667,0.6805555555555555
+Country,Spain,native_broad_annotation_rule,18,3,15,3,0,5,10,1.0,0.3333333333333333,0.6666666666666666,0.2773500981126146,0.6666666666666666,0.23076923076923075
+Country,Spain,native_KPC_rule,18,3,15,1,2,14,1,0.3333333333333333,0.9333333333333333,0.6333333333333333,0.31622776601683794,0.6333333333333333,0.27777777777777773
+Country,Spain,author_carbapenemase_presence,18,3,15,3,0,5,10,1.0,0.3333333333333333,0.6666666666666666,0.2773500981126146,0.6666666666666666,0.23076923076923075
+Country,Turkey,frozen_ML,27,6,21,3,3,19,2,0.5,0.9047619047619048,0.7023809523809523,0.4332001127219817,0.8174603174603174,0.7135854341736695
+Country,Turkey,native_broad_annotation_rule,27,6,21,6,0,12,9,1.0,0.5714285714285714,0.7857142857142857,0.4780914437337575,0.7857142857142857,0.4000000000000001
+Country,Turkey,native_KPC_rule,27,6,21,0,6,21,0,0.0,1.0,0.5,0.0,0.5,0.2222222222222222
+Country,Turkey,author_carbapenemase_presence,27,6,21,6,0,12,9,1.0,0.5714285714285714,0.7857142857142857,0.4780914437337575,0.7857142857142857,0.4000000000000001
+Country,"United Kingdom (England, Wales & N. Ireland)",frozen_ML,9,4,5,3,1,5,0,0.75,1.0,0.875,0.7905694150420948,1.0,1.0
+Country,"United Kingdom (England, Wales & N. Ireland)",native_broad_annotation_rule,9,4,5,4,0,5,0,1.0,1.0,1.0,1.0,1.0,1.0
+Country,"United Kingdom (England, Wales & N. Ireland)",native_KPC_rule,9,4,5,2,2,5,0,0.5,1.0,0.75,0.5976143046671968,0.75,0.7222222222222222
+Country,"United Kingdom (England, Wales & N. Ireland)",author_carbapenemase_presence,9,4,5,4,0,5,0,1.0,1.0,1.0,1.0,1.0,1.0
+Country,United Kingdom (Scotland),frozen_ML,1,0,1,0,0,1,0,,1.0,,0.0,,
+Country,United Kingdom (Scotland),native_broad_annotation_rule,1,0,1,0,0,1,0,,1.0,,0.0,,
+Country,United Kingdom (Scotland),native_KPC_rule,1,0,1,0,0,1,0,,1.0,,0.0,,
+Country,United Kingdom (Scotland),author_carbapenemase_presence,1,0,1,0,0,1,0,,1.0,,0.0,,

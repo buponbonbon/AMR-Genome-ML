@@ -1,0 +1,8 @@
+{
+  "version": "1.0.3",
+  "sha256": {
+    "file19_temporal_175_three_drug_crosswalk.csv": "f0746ca3a6ee48cc6b1593a064d4b0efd7b9351cc5927fc6860dce67fb2cd4af",
+    "file19_temporal_summary.json": "e1dce0cf4dc50ef90bfa4fc07b7c7ab5b4ee58e67a8299a5c37c399f3a820ef5",
+    "file19_temporal_reporting_guardrails.md": "3b4f7e98991a7c0e94f89b130652491cb7fbbbb869267743ecd18925cf30b564"
+  }
+}

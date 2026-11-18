@@ -1,0 +1,251 @@
+{
+  "project_root": "/mnt/c/Users/ASUS/Desktop/AMR-Genome-ML",
+  "candidate_files": [
+    {
+      "relative_path": "results/file15_reporting/file15_artifact_manifest.csv",
+      "size_bytes": 3750,
+      "header": "role | required | exists | path | bytes | sha256"
+    },
+    {
+      "relative_path": "results/file16b_annotation_v1/file16b_e2_mechanism_annotations.csv",
+      "size_bytes": 18669,
+      "header": "genome_id | mechanism_group"
+    },
+    {
+      "relative_path": "results/file16b_annotation_v1/file16b_e3_mechanism_annotations.csv",
+      "size_bytes": 11061,
+      "header": "genome_id | mechanism_group"
+    },
+    {
+      "relative_path": "results/file16d_source_audit_v1/file16d_output_manifest.json",
+      "size_bytes": 816,
+      "header": ""
+    },
+    {
+      "relative_path": "results/file16g_applied_v1/file16g_manifest.json",
+      "size_bytes": 588,
+      "header": ""
+    },
+    {
+      "relative_path": "results/file16g_applied_v1/file16g_mechanism_by_source.csv",
+      "size_bytes": 2136,
+      "header": "cohort | source_stratum | panel_group | n | n_resistant | n_susceptible | fn | fn_rate | fn_wilson_low | fn_wilson_high | fp | fp_rate | high_conf_fn | n_known_erd | n_distinct_known_erd | n_known_mlst | n_distinct_known_mlst | caveat"
+    },
+    {
+      "relative_path": "results/file16h_exact_rule_transfer_v1/file16h_paired_error_contrasts.csv",
+      "size_bytes": 1574,
+      "header": "cohort | rule_method | stratum | ml_correct_rule_wrong | ml_wrong_rule_correct | discordant | difference_correct_rule_minus_ml | notes"
+    },
+    {
+      "relative_path": "results/file16i_evidence_lock_v1/file16i_E2_paired_by_bioproject.csv",
+      "size_bytes": 4030,
+      "header": "bioproject_acc | source_selected_posthoc | n | n_resistant | n_susceptible | ml_tp | ml_fn | ml_tn | ml_fp | ml_sensitivity | ml_specificity | ml_balanced_accuracy | ml_false_susceptible_among_called_susceptible | rule_tp | rule_fn | rule_tn | rule_fp | rule_sensitivity | rule_specificity | rule_balanced_accuracy | rule_false_susceptible_among_called_susceptible | delta_rule_minus_ml_sensitivity | delta_rule_minus_ml_specificity | delta_rule_minus_ml_balanced_accuracy"
+    },
+    {
+      "relative_path": "results/file16i_evidence_lock_v1/file16i_paired_bootstrap_contrasts.csv",
+      "size_bytes": 2438,
+      "header": "cohort | resampling | metric | point | lower | upper | median | valid_replicates | n_clusters | n_missing_erd | caveat"
+    },
+    {
+      "relative_path": "results/file16i_evidence_lock_v1/file16i_paired_source_strata.csv",
+      "size_bytes": 1733,
+      "header": "stratum | post_hoc_source_split | n | n_resistant | n_susceptible | ml_tp | ml_fn | ml_tn | ml_fp | ml_sensitivity | ml_specificity | ml_balanced_accuracy | ml_false_susceptible_among_called_susceptible | rule_tp | rule_fn | rule_tn | rule_fp | rule_sensitivity | rule_specificity | rule_balanced_accuracy | rule_false_susceptible_among_called_susceptible | delta_rule_minus_ml_sensitivity | delta_rule_minus_ml_specificity | delta_rule_minus_ml_balanced_accuracy"
+    },
+    {
+      "relative_path": "results/file16j_mash_v1/file16j_amrfinder_protocol_audit.csv",
+      "size_bytes": 196906,
+      "header": "cohort | genome_id | raw_tsv | exists | hash_checked | hash_match | tsv_header_sha256 | n_fields | status"
+    },
+    {
+      "relative_path": "results/file16j_mash_v1/file16j_e3_bioproject_crosswalk.csv",
+      "size_bytes": 31790,
+      "header": "genome_id | biosample | assembly_accession | source_free_text | bioproject_acc | lookup_status | evidence_source | erd_group | resolved"
+    },
+    {
+      "relative_path": "results/file16j_mash_v1/file16j_E3_manifest_reconciliation.csv",
+      "size_bytes": 136745,
+      "header": "genome_id | in_final_manifest | frozen_fasta_path | manifest_fasta_path | paths_exact_same | frozen_fasta_content_sha256 | manifest_fasta_content_sha256 | expected_fasta_hash_same | manifest_status"
+    },
+    {
+      "relative_path": "results/file16j_mash_v1/file16j_exact_sequence_overlaps.csv",
+      "size_bytes": 76,
+      "header": "cohort_a | genome_a | cohort_b | genome_b | canonical_contig_multiset_sha256 | scope"
+    },
+    {
+      "relative_path": "results/file16j_mash_v1/file16j_fasta_integrity_manifest.csv",
+      "size_bytes": 1182533,
+      "header": "cohort | genome_id | fasta_path | file_exists | sequence_checked | sequence_status | canonical_contig_multiset_sha256 | raw_bytes_sha256 | fasta_expected_sha256 | expected_equals_raw | contig_count | assembly_bp | ambiguity_count"
+    },
+    {
+      "relative_path": "results/file16j_mash_v1/file16j_near_sequence_candidates.csv",
+      "size_bytes": 83,
+      "header": "cohort_a | genome_a | cohort_b | genome_b | mash_distance | mash_pvalue | shared_hashes | scope"
+    },
+    {
+      "relative_path": "results/file16j_mash_v1/file16j_output_manifest_sha256.json",
+      "size_bytes": 936,
+      "header": ""
+    },
+    {
+      "relative_path": "results/file16j_mash_v1/file16j_summary.json",
+      "size_bytes": 3379,
+      "header": ""
+    },
+    {
+      "relative_path": "results/file16j_mash_verified_v2/file16j_amrfinder_protocol_audit.csv",
+      "size_bytes": 196906,
+      "header": "cohort | genome_id | raw_tsv | exists | hash_checked | hash_match | tsv_header_sha256 | n_fields | status"
+    },
+    {
+      "relative_path": "results/file16j_mash_verified_v2/file16j_ani_56_pairs.csv",
+      "size_bytes": 3639,
+      "header": "cohort | external_genome | nearest_dev_genome | min_mash_distance | ani_percent | aligned_fraction_dev_percent | aligned_fraction_external_percent | status"
+    },
+    {
+      "relative_path": "results/file16j_mash_verified_v2/file16j_e3_bioproject_crosswalk.csv",
+      "size_bytes": 31790,
+      "header": "genome_id | biosample | assembly_accession | source_free_text | bioproject_acc | lookup_status | evidence_source | erd_group | resolved"
+    },
+    {
+      "relative_path": "results/file16j_mash_verified_v2/file16j_E3_manifest_reconciliation.csv",
+      "size_bytes": 136745,
+      "header": "genome_id | in_final_manifest | frozen_fasta_path | manifest_fasta_path | paths_exact_same | frozen_fasta_content_sha256 | manifest_fasta_content_sha256 | expected_fasta_hash_same | manifest_status"
+    },
+    {
+      "relative_path": "results/file16j_mash_verified_v2/file16j_exact_sequence_overlaps.csv",
+      "size_bytes": 76,
+      "header": "cohort_a | genome_a | cohort_b | genome_b | canonical_contig_multiset_sha256 | scope"
+    },
+    {
+      "relative_path": "results/file16j_mash_verified_v2/file16j_fasta_integrity_manifest.csv",
+      "size_bytes": 1182533,
+      "header": "cohort | genome_id | fasta_path | file_exists | sequence_checked | sequence_status | canonical_contig_multiset_sha256 | raw_bytes_sha256 | fasta_expected_sha256 | expected_equals_raw | contig_count | assembly_bp | ambiguity_count"
+    },
+    {
+      "relative_path": "results/file16j_mash_verified_v2/file16j_nearest_development.csv",
+      "size_bytes": 33775,
+      "header": "cohort | external_genome | nearest_dev_genome | min_mash_distance"
+    },
+    {
+      "relative_path": "results/file16j_mash_verified_v2/file16j_near_sequence_candidates.csv",
+      "size_bytes": 350431550,
+      "header": "cohort_a | genome_a | cohort_b | genome_b | mash_distance | mash_pvalue | shared_hashes | scope"
+    },
+    {
+      "relative_path": "results/file16j_mash_verified_v2/file16j_output_manifest_sha256.json",
+      "size_bytes": 1530,
+      "header": ""
+    },
+    {
+      "relative_path": "results/file16j_mash_verified_v2/file16j_summary.json",
+      "size_bytes": 3860,
+      "header": ""
+    },
+    {
+      "relative_path": "results/file16j_mash_verified_v2/file16j_very_close_pairs.csv",
+      "size_bytes": 2377,
+      "header": "cohort | external_genome | nearest_dev_genome | min_mash_distance"
+    },
+    {
+      "relative_path": "results/file16_audit_mechanisms_v1/file16_confident_susceptibility_risks.csv",
+      "size_bytes": 973,
+      "header": "cohort | predicted_susceptible_confidence_at_least | n_predicted_susceptible | n_truly_resistant_among_them | observed_false_susceptible_fraction | wilson95_low | wilson95_high | all_genomes_coverage | exploratory"
+    },
+    {
+      "relative_path": "results/file16_audit_mechanisms_v1/file16_cross_cohort_mechanism_signatures.csv",
+      "size_bytes": 2054,
+      "header": "mechanism_group | status | same_sign_across_cohorts | conservative_absolute_risk_difference_envelope | e2_n_resistant | e2_group_fn_rate | e2_others_fn_rate | e2_risk_difference | e2_fisher_p | e2_bh_q | e3_n_resistant | e3_group_fn_rate | e3_others_fn_rate | e3_risk_difference | e3_fisher_p | e3_bh_q | warning"
+    },
+    {
+      "relative_path": "results/file16_audit_mechanisms_v1/file16_identifier_overlaps.csv",
+      "size_bytes": 393,
+      "header": "cohort_a | cohort_b | field | available_a | available_b | overlap_n | example_overlaps"
+    },
+    {
+      "relative_path": "results/file16_audit_mechanisms_v1/file16_input_provenance.json",
+      "size_bytes": 4269,
+      "header": ""
+    },
+    {
+      "relative_path": "results/file16_audit_mechanisms_v1/file16_mechanism_failure_map.csv",
+      "size_bytes": 2035,
+      "header": "cohort | mechanism_group | n | n_resistant | false_susceptible_n | false_susceptible_rate | false_susceptible_wilson95_low | false_susceptible_wilson95_high | high_conf_false_susceptible_n | brier_within_mechanism | predicted_resistant_probability_mean | observed_resistant_prevalence | exploratory | low_n_warning"
+    },
+    {
+      "relative_path": "results/file16_audit_mechanisms_v1/file16_per_genome_prediction_error_audit.csv",
+      "size_bytes": 77162,
+      "header": "genome_id | y_true | prob_resistance | cohort | predicted_resistant_at_frozen_threshold_05 | error_type | high_conf_wrong | mechanism_group | mlst_group | erd_group"
+    },
+    {
+      "relative_path": "results/file16_audit_mechanisms_v1/file16_summary_metrics_and_bootstrap.json",
+      "size_bytes": 5262,
+      "header": ""
+    },
+    {
+      "relative_path": "results/file16_audit_v1/file16_cross_cohort_mechanism_signatures.csv",
+      "size_bytes": 281,
+      "header": "mechanism_group | status | same_sign_across_cohorts | conservative_absolute_risk_difference_envelope | e2_n_resistant | e2_group_fn_rate | e2_others_fn_rate | e2_risk_difference | e2_fisher_p | e2_bh_q | e3_n_resistant | e3_group_fn_rate | e3_others_fn_rate | e3_risk_difference | e3_fisher_p | e3_bh_q | warning"
+    },
+    {
+      "relative_path": "results/file16_audit_v1/file16_mechanism_failure_map.csv",
+      "size_bytes": 289,
+      "header": "cohort | mechanism_group | n | n_resistant | false_susceptible_n | false_susceptible_rate | false_susceptible_wilson95_low | false_susceptible_wilson95_high | high_conf_false_susceptible_n | brier_within_mechanism | predicted_resistant_probability_mean | observed_resistant_prevalence | exploratory | low_n_warning"
+    },
+    {
+      "relative_path": "results/file16_audit_v1/file16_per_genome_prediction_error_audit.csv",
+      "size_bytes": 60458,
+      "header": "genome_id | y_true | prob_resistance | cohort | predicted_resistant_at_frozen_threshold_05 | error_type | high_conf_wrong | mlst_group | erd_group"
+    },
+    {
+      "relative_path": "results/file16_inputs_v1/file16_development_manifest_standardized.csv",
+      "size_bytes": 46358,
+      "header": "genome_id"
+    },
+    {
+      "relative_path": "data/external_validation/e3/e3_candidate_manifest.csv",
+      "size_bytes": 51889,
+      "header": "Genome ID | Phenotype | Assembly Accession | BioSample | NCBI SNP/ERD Group | MLST | FASTA Path"
+    },
+    {
+      "relative_path": "data/external_validation/e3/file14_E3_manifest_template.csv",
+      "size_bytes": 84,
+      "header": "Genome ID | Phenotype | Assembly Accession | BioSample | NCBI SNP/ERD Group | MLST | FASTA Path"
+    },
+    {
+      "relative_path": "data/external_validation/e3/file14_final/file14_E3_all_preQC_fasta_manifest.csv",
+      "size_bytes": 79525,
+      "header": "Genome ID | status | fasta_path | fasta_content_sha256 | message | bytes | mtime_ns"
+    },
+    {
+      "relative_path": "data/external_validation/e3/file14_final/file14_E3_FINAL_fasta_manifest.csv",
+      "size_bytes": 79525,
+      "header": "Genome ID | status | fasta_path | fasta_content_sha256 | message | bytes | mtime_ns"
+    },
+    {
+      "relative_path": "data/external_validation/e3/file14_prepare/file14a_manifest_preparation_audit.json",
+      "size_bytes": 1422,
+      "header": ""
+    },
+    {
+      "relative_path": "data/external_validation/ncbi_pathogen_detection/file11c/file11c_external_meropenem_manifest.csv",
+      "size_bytes": 162194,
+      "header": "target_acc | asm_acc | biosample_acc | erd_group | collection_date | geo_loc_name | host | isolation_source | phenotype | label_binary | fasta_path | fasta_sha256"
+    },
+    {
+      "relative_path": "data/external_validation/ncbi_pathogen_detection/file11e/file11e_paired_cluster_bootstrap_contrasts.csv",
+      "size_bytes": 7948,
+      "header": "contrast | comparator | metric | delta_definition | n_boot_requested | n_boot_valid | bootstrap_delta_mean | ci95_low | ci95_high | fraction_delta_gt_0 | fraction_delta_lt_0"
+    },
+    {
+      "relative_path": "data/external_validation/ncbi_pathogen_detection/file11e/file11e_rule_determinant_manifest.csv",
+      "size_bytes": 110365,
+      "header": "asm_acc | element_symbol | kpc_family_match | carbapenem_semantic_match | canonical_family_fallback_match | amrfinder_carbapenemase_match | annotation_text"
+    },
+    {
+      "relative_path": "data/external_validation/ncbi_pathogen_detection/file11f/file11f_external_paired_cluster_bootstrap.csv",
+      "size_bytes": 9066,
+      "header": "contrast | model | metric | point_frozen_original | point_sensitivity_model | point_delta | delta_definition | n_boot_requested | n_boot_valid | bootstrap_delta_mean | ci95_low | ci95_high"
+    }
+  ],
+  "note": "Candidates not chosen automatically; Mash-only is not ANI confirmation"
+}

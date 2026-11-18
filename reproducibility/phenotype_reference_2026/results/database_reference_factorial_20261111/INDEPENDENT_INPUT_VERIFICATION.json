@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "created_utc": "2026-11-11T14:46:38.141315+00:00",
+  "database_records": [
+    {
+      "version": "2026-01-21.1",
+      "raw_source_files_verified": 41,
+      "manifest_sha256": "d4606bec9b6d4756bbe721efb0420e785eb3b064d802364c5a2bce2db450c0cc",
+      "changed_raw_files_after_indexing": []
+    },
+    {
+      "version": "2026-08-07.1",
+      "raw_source_files_verified": 43,
+      "manifest_sha256": "f616ffa62cfa2cb6c6f3e6baa84aff6acac880bea8b9d68951804e270e91063e",
+      "changed_raw_files_after_indexing": []
+    }
+  ],
+  "E2_historical_reference_matches_original_binary_labels": true,
+  "only_existing175focallabelsdiffer_across_E2_references": true
+}

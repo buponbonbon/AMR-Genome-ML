@@ -1,0 +1,1476 @@
+{
+  "status": "COMPLETE_CONTROLLED_DATABASE_REFERENCE_ANALYSIS",
+  "cohort": "CCRE",
+  "fixed_target": 355,
+  "paired": 354,
+  "unpaired": 1,
+  "controlled_DNA_bytes_and_caller_executable_match": true,
+  "input_sha256": {
+    "manifest": "fc4f6ce8217fba1107f506997953d860a1c454c9d5cf5ac872a0f6b2bcf11b20",
+    "January_run_signature": "88d87740a98bb6be5881e8bae44f961779b71a1a864f93993ccac58fa3dc8700",
+    "August_run_signature": "93c47ab8fe994e44d08af87d4594f03ff2ad1d7bc743764c49b96d9d0aa2e609",
+    "analysis_script": "eec8ff501ae894bb24e4ae626b09260cb26675fbd4e102822b9178f0002ca032"
+  },
+  "arm_verification": {
+    "Jan": {
+      "scored": 354,
+      "target": 355,
+      "maximum_manual_probability_difference": 3.3306690738754696e-16,
+      "all_feature_vectors_rules_and_receipt_hashes_verified": true
+    },
+    "Aug": {
+      "scored": 354,
+      "target": 355,
+      "maximum_manual_probability_difference": 3.3306690738754696e-16,
+      "all_feature_vectors_rules_and_receipt_hashes_verified": true
+    }
+  },
+  "cell_metrics": [
+    {
+      "database": "Jan",
+      "reference": "PHAS_original",
+      "method": "ML",
+      "n": 354,
+      "R": 164,
+      "S": 190,
+      "TP": 149,
+      "FN": 15,
+      "TN": 176,
+      "FP": 14,
+      "sensitivity": 0.9085365853658537,
+      "specificity": 0.9263157894736842,
+      "balanced_accuracy": 0.9174261874197689,
+      "MCC": 0.8352143079825396,
+      "AUROC": 0.9678915275994865,
+      "average_precision": 0.9622900596977181
+    },
+    {
+      "database": "Jan",
+      "reference": "PHAS_original",
+      "method": "broad_annotation_rule",
+      "n": 354,
+      "R": 164,
+      "S": 190,
+      "TP": 162,
+      "FN": 2,
+      "TN": 122,
+      "FP": 68,
+      "sensitivity": 0.9878048780487805,
+      "specificity": 0.6421052631578947,
+      "balanced_accuracy": 0.8149550706033376,
+      "MCC": 0.6584193174579898,
+      "AUROC": 0.8149550706033376,
+      "average_precision": 0.7014079359658741
+    },
+    {
+      "database": "Jan",
+      "reference": "PHAS_original",
+      "method": "KPC_rule",
+      "n": 354,
+      "R": 164,
+      "S": 190,
+      "TP": 60,
+      "FN": 104,
+      "TN": 187,
+      "FP": 3,
+      "sensitivity": 0.36585365853658536,
+      "specificity": 0.9842105263157894,
+      "balanced_accuracy": 0.6750320924261874,
+      "MCC": 0.45638318570575415,
+      "AUROC": 0.6750320924261874,
+      "average_precision": 0.6422173664835922
+    },
+    {
+      "database": "Aug",
+      "reference": "PHAS_original",
+      "method": "ML",
+      "n": 354,
+      "R": 164,
+      "S": 190,
+      "TP": 149,
+      "FN": 15,
+      "TN": 176,
+      "FP": 14,
+      "sensitivity": 0.9085365853658537,
+      "specificity": 0.9263157894736842,
+      "balanced_accuracy": 0.9174261874197689,
+      "MCC": 0.8352143079825396,
+      "AUROC": 0.968084082156611,
+      "average_precision": 0.9625151396810814
+    },
+    {
+      "database": "Aug",
+      "reference": "PHAS_original",
+      "method": "broad_annotation_rule",
+      "n": 354,
+      "R": 164,
+      "S": 190,
+      "TP": 162,
+      "FN": 2,
+      "TN": 122,
+      "FP": 68,
+      "sensitivity": 0.9878048780487805,
+      "specificity": 0.6421052631578947,
+      "balanced_accuracy": 0.8149550706033376,
+      "MCC": 0.6584193174579898,
+      "AUROC": 0.8149550706033376,
+      "average_precision": 0.7014079359658741
+    },
+    {
+      "database": "Aug",
+      "reference": "PHAS_original",
+      "method": "KPC_rule",
+      "n": 354,
+      "R": 164,
+      "S": 190,
+      "TP": 60,
+      "FN": 104,
+      "TN": 187,
+      "FP": 3,
+      "sensitivity": 0.36585365853658536,
+      "specificity": 0.9842105263157894,
+      "balanced_accuracy": 0.6750320924261874,
+      "MCC": 0.45638318570575415,
+      "AUROC": 0.6750320924261874,
+      "average_precision": 0.6422173664835922
+    }
+  ],
+  "point_contrasts": {
+    "DB_Aug_minus_Jan|PHAS_original|ML": {
+      "sensitivity": 0.0,
+      "specificity": 0.0,
+      "balanced_accuracy": 0.0,
+      "MCC": 0.0,
+      "AUROC": 0.00019255455712452463,
+      "average_precision": 0.0002250799833632966
+    },
+    "DB_Aug_minus_Jan|PHAS_original|broad_annotation_rule": {
+      "sensitivity": 0.0,
+      "specificity": 0.0,
+      "balanced_accuracy": 0.0,
+      "MCC": 0.0,
+      "AUROC": 0.0,
+      "average_precision": 0.0
+    },
+    "DB_Aug_minus_Jan|PHAS_original|KPC_rule": {
+      "sensitivity": 0.0,
+      "specificity": 0.0,
+      "balanced_accuracy": 0.0,
+      "MCC": 0.0,
+      "AUROC": 0.0,
+      "average_precision": 0.0
+    },
+    "ML_minus_broad_annotation_rule|Jan|PHAS_original": {
+      "sensitivity": -0.07926829268292679,
+      "specificity": 0.28421052631578947,
+      "balanced_accuracy": 0.10247111681643128,
+      "MCC": 0.17679499052454983,
+      "AUROC": 0.15293645699614888,
+      "average_precision": 0.26088212373184394
+    },
+    "ML_minus_KPC_rule|Jan|PHAS_original": {
+      "sensitivity": 0.5426829268292683,
+      "specificity": -0.05789473684210522,
+      "balanced_accuracy": 0.24239409499358144,
+      "MCC": 0.37883112227678545,
+      "AUROC": 0.29285943517329904,
+      "average_precision": 0.3200726932141259
+    },
+    "ML_minus_broad_annotation_rule|Aug|PHAS_original": {
+      "sensitivity": -0.07926829268292679,
+      "specificity": 0.28421052631578947,
+      "balanced_accuracy": 0.10247111681643128,
+      "MCC": 0.17679499052454983,
+      "AUROC": 0.1531290115532734,
+      "average_precision": 0.26110720371520724
+    },
+    "ML_minus_KPC_rule|Aug|PHAS_original": {
+      "sensitivity": 0.5426829268292683,
+      "specificity": -0.05789473684210522,
+      "balanced_accuracy": 0.24239409499358144,
+      "MCC": 0.37883112227678545,
+      "AUROC": 0.29305198973042357,
+      "average_precision": 0.3202977731974892
+    }
+  },
+  "source_composition_sensitivity": {
+    "PDS": {
+      "groups": 354,
+      "draws": 10000,
+      "seed": 20261111,
+      "cell_percentiles": {
+        "Jan|PHAS_original|ML": {
+          "sensitivity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.861271676300578,
+            "percentile_97_5": 0.9493688664485848
+          },
+          "specificity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.8877551020408163,
+            "percentile_97_5": 0.9615384615384616
+          },
+          "balanced_accuracy": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.8873725740042081,
+            "percentile_97_5": 0.9453564749111248
+          },
+          "MCC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.7753061455178673,
+            "percentile_97_5": 0.8916115539983585
+          },
+          "AUROC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.9498610778429291,
+            "percentile_97_5": 0.9826707562229362
+          },
+          "average_precision": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.9364552039201798,
+            "percentile_97_5": 0.9817803044316896
+          }
+        },
+        "Jan|PHAS_original|broad_annotation_rule": {
+          "sensitivity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.96875,
+            "percentile_97_5": 1.0
+          },
+          "specificity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.5728007011866235,
+            "percentile_97_5": 0.7087391976955084
+          },
+          "balanced_accuracy": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.7789464470972851,
+            "percentile_97_5": 0.8492265215305116
+          },
+          "MCC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.5941527605738346,
+            "percentile_97_5": 0.7192318476716065
+          },
+          "AUROC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.7789464470972851,
+            "percentile_97_5": 0.8492265215305116
+          },
+          "average_precision": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.6411994302036871,
+            "percentile_97_5": 0.7593715236081234
+          }
+        },
+        "Jan|PHAS_original|KPC_rule": {
+          "sensitivity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.2916666666666667,
+            "percentile_97_5": 0.44186837525707945
+          },
+          "specificity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.9639175257731959,
+            "percentile_97_5": 1.0
+          },
+          "balanced_accuracy": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.6369908497202267,
+            "percentile_97_5": 0.7140433784474483
+          },
+          "MCC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.38287816867175795,
+            "percentile_97_5": 0.5276563113103259
+          },
+          "AUROC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.6369908497202267,
+            "percentile_97_5": 0.7140433784474483
+          },
+          "average_precision": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.583148503529775,
+            "percentile_97_5": 0.6976208123551302
+          }
+        },
+        "Aug|PHAS_original|ML": {
+          "sensitivity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.861271676300578,
+            "percentile_97_5": 0.9493688664485848
+          },
+          "specificity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.8877551020408163,
+            "percentile_97_5": 0.9615384615384616
+          },
+          "balanced_accuracy": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.8873725740042081,
+            "percentile_97_5": 0.9453564749111248
+          },
+          "MCC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.7753061455178673,
+            "percentile_97_5": 0.8916115539983585
+          },
+          "AUROC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.9500620047704907,
+            "percentile_97_5": 0.9827836205904011
+          },
+          "average_precision": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.9367367295534487,
+            "percentile_97_5": 0.9819606751485235
+          }
+        },
+        "Aug|PHAS_original|broad_annotation_rule": {
+          "sensitivity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.96875,
+            "percentile_97_5": 1.0
+          },
+          "specificity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.5728007011866235,
+            "percentile_97_5": 0.7087391976955084
+          },
+          "balanced_accuracy": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.7789464470972851,
+            "percentile_97_5": 0.8492265215305116
+          },
+          "MCC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.5941527605738346,
+            "percentile_97_5": 0.7192318476716065
+          },
+          "AUROC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.7789464470972851,
+            "percentile_97_5": 0.8492265215305116
+          },
+          "average_precision": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.6411994302036871,
+            "percentile_97_5": 0.7593715236081234
+          }
+        },
+        "Aug|PHAS_original|KPC_rule": {
+          "sensitivity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.2916666666666667,
+            "percentile_97_5": 0.44186837525707945
+          },
+          "specificity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.9639175257731959,
+            "percentile_97_5": 1.0
+          },
+          "balanced_accuracy": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.6369908497202267,
+            "percentile_97_5": 0.7140433784474483
+          },
+          "MCC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.38287816867175795,
+            "percentile_97_5": 0.5276563113103259
+          },
+          "AUROC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.6369908497202267,
+            "percentile_97_5": 0.7140433784474483
+          },
+          "average_precision": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.583148503529775,
+            "percentile_97_5": 0.6976208123551302
+          }
+        }
+      },
+      "paired_contrast_percentiles": {
+        "DB_Aug_minus_Jan|PHAS_original|ML": {
+          "point": {
+            "sensitivity": 0.0,
+            "specificity": 0.0,
+            "balanced_accuracy": 0.0,
+            "MCC": 0.0,
+            "AUROC": 0.00019255455712452463,
+            "average_precision": 0.0002250799833632966
+          },
+          "metrics": {
+            "sensitivity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "specificity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "balanced_accuracy": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "MCC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "AUROC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0007669526526895286
+            },
+            "average_precision": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0008762804529104603
+            }
+          }
+        },
+        "DB_Aug_minus_Jan|PHAS_original|broad_annotation_rule": {
+          "point": {
+            "sensitivity": 0.0,
+            "specificity": 0.0,
+            "balanced_accuracy": 0.0,
+            "MCC": 0.0,
+            "AUROC": 0.0,
+            "average_precision": 0.0
+          },
+          "metrics": {
+            "sensitivity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "specificity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "balanced_accuracy": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "MCC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "AUROC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "average_precision": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            }
+          }
+        },
+        "DB_Aug_minus_Jan|PHAS_original|KPC_rule": {
+          "point": {
+            "sensitivity": 0.0,
+            "specificity": 0.0,
+            "balanced_accuracy": 0.0,
+            "MCC": 0.0,
+            "AUROC": 0.0,
+            "average_precision": 0.0
+          },
+          "metrics": {
+            "sensitivity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "specificity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "balanced_accuracy": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "MCC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "AUROC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "average_precision": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            }
+          }
+        },
+        "ML_minus_broad_annotation_rule|Jan|PHAS_original": {
+          "point": {
+            "sensitivity": -0.07926829268292679,
+            "specificity": 0.28421052631578947,
+            "balanced_accuracy": 0.10247111681643128,
+            "MCC": 0.17679499052454983,
+            "AUROC": 0.15293645699614888,
+            "average_precision": 0.26088212373184394
+          },
+          "metrics": {
+            "sensitivity": {
+              "valid_draws": 10000,
+              "percentile_2_5": -0.12280701754385959,
+              "percentile_97_5": -0.04117647058823537
+            },
+            "specificity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.2216216216216217,
+              "percentile_97_5": 0.3497267759562841
+            },
+            "balanced_accuracy": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.06419075647561054,
+              "percentile_97_5": 0.14074169872934783
+            },
+            "MCC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.10601557474847208,
+              "percentile_97_5": 0.24595324972781962
+            },
+            "AUROC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.12182754403941942,
+              "percentile_97_5": 0.18527841731556344
+            },
+            "average_precision": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.20831921119810218,
+              "percentile_97_5": 0.31621022038080604
+            }
+          }
+        },
+        "ML_minus_KPC_rule|Jan|PHAS_original": {
+          "point": {
+            "sensitivity": 0.5426829268292683,
+            "specificity": -0.05789473684210522,
+            "balanced_accuracy": 0.24239409499358144,
+            "MCC": 0.37883112227678545,
+            "AUROC": 0.29285943517329904,
+            "average_precision": 0.3200726932141259
+          },
+          "metrics": {
+            "sensitivity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.4634146341463415,
+              "percentile_97_5": 0.621301775147929
+            },
+            "specificity": {
+              "valid_draws": 10000,
+              "percentile_2_5": -0.09317011553438671,
+              "percentile_97_5": -0.026595744680851127
+            },
+            "balanced_accuracy": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.19995120918041207,
+              "percentile_97_5": 0.285428484171068
+            },
+            "MCC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.30021558297602896,
+              "percentile_97_5": 0.45930923602307266
+            },
+            "AUROC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.25474575823679246,
+              "percentile_97_5": 0.33039270389701886
+            },
+            "average_precision": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.27089832366644584,
+              "percentile_97_5": 0.372448625987815
+            }
+          }
+        },
+        "ML_minus_broad_annotation_rule|Aug|PHAS_original": {
+          "point": {
+            "sensitivity": -0.07926829268292679,
+            "specificity": 0.28421052631578947,
+            "balanced_accuracy": 0.10247111681643128,
+            "MCC": 0.17679499052454983,
+            "AUROC": 0.1531290115532734,
+            "average_precision": 0.26110720371520724
+          },
+          "metrics": {
+            "sensitivity": {
+              "valid_draws": 10000,
+              "percentile_2_5": -0.12280701754385959,
+              "percentile_97_5": -0.04117647058823537
+            },
+            "specificity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.2216216216216217,
+              "percentile_97_5": 0.3497267759562841
+            },
+            "balanced_accuracy": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.06419075647561054,
+              "percentile_97_5": 0.14074169872934783
+            },
+            "MCC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.10601557474847208,
+              "percentile_97_5": 0.24595324972781962
+            },
+            "AUROC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.12198879795946238,
+              "percentile_97_5": 0.18549590354453477
+            },
+            "average_precision": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.20838496528228612,
+              "percentile_97_5": 0.3163242166794382
+            }
+          }
+        },
+        "ML_minus_KPC_rule|Aug|PHAS_original": {
+          "point": {
+            "sensitivity": 0.5426829268292683,
+            "specificity": -0.05789473684210522,
+            "balanced_accuracy": 0.24239409499358144,
+            "MCC": 0.37883112227678545,
+            "AUROC": 0.29305198973042357,
+            "average_precision": 0.3202977731974892
+          },
+          "metrics": {
+            "sensitivity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.4634146341463415,
+              "percentile_97_5": 0.621301775147929
+            },
+            "specificity": {
+              "valid_draws": 10000,
+              "percentile_2_5": -0.09317011553438671,
+              "percentile_97_5": -0.026595744680851127
+            },
+            "balanced_accuracy": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.19995120918041207,
+              "percentile_97_5": 0.285428484171068
+            },
+            "MCC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.30021558297602896,
+              "percentile_97_5": 0.45930923602307266
+            },
+            "AUROC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.25491009318329216,
+              "percentile_97_5": 0.33054362684782346
+            },
+            "average_precision": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.27105744138763216,
+              "percentile_97_5": 0.37271886682753186
+            }
+          }
+        }
+      }
+    },
+    "country": {
+      "groups": 29,
+      "draws": 10000,
+      "seed": 20261112,
+      "cell_percentiles": {
+        "Jan|PHAS_original|ML": {
+          "sensitivity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.8432835820895522,
+            "percentile_97_5": 0.957983193277311
+          },
+          "specificity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.8776349780418498,
+            "percentile_97_5": 0.9803921568627451
+          },
+          "balanced_accuracy": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.8642532351699269,
+            "percentile_97_5": 0.9603856505078578
+          },
+          "MCC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.7203870278095671,
+            "percentile_97_5": 0.9202746443787545
+          },
+          "AUROC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.9274822142967721,
+            "percentile_97_5": 0.992013197568951
+          },
+          "average_precision": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.8867707460176899,
+            "percentile_97_5": 0.9932227411645468
+          }
+        },
+        "Jan|PHAS_original|broad_annotation_rule": {
+          "sensitivity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.9664429530201343,
+            "percentile_97_5": 1.0
+          },
+          "specificity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.48245356037151704,
+            "percentile_97_5": 0.8294616709732988
+          },
+          "balanced_accuracy": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.7276001239877466,
+            "percentile_97_5": 0.9117669662090978
+          },
+          "MCC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.46872437435344966,
+            "percentile_97_5": 0.8445353061841806
+          },
+          "AUROC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.7276001239877466,
+            "percentile_97_5": 0.9117669662090979
+          },
+          "average_precision": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.5008095177599371,
+            "percentile_97_5": 0.8759015455354685
+          }
+        },
+        "Jan|PHAS_original|KPC_rule": {
+          "sensitivity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.1989521758711929,
+            "percentile_97_5": 0.5340926736307171
+          },
+          "specificity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.967032060348892,
+            "percentile_97_5": 1.0
+          },
+          "balanced_accuracy": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.5898228469899666,
+            "percentile_97_5": 0.7619050827301815
+          },
+          "MCC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.2909143498649942,
+            "percentile_97_5": 0.5988732209635866
+          },
+          "AUROC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.5898228469899666,
+            "percentile_97_5": 0.7619050827301815
+          },
+          "average_precision": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.4770851750016164,
+            "percentile_97_5": 0.7645082735392044
+          }
+        },
+        "Aug|PHAS_original|ML": {
+          "sensitivity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.8432835820895522,
+            "percentile_97_5": 0.957983193277311
+          },
+          "specificity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.8776349780418498,
+            "percentile_97_5": 0.9803921568627451
+          },
+          "balanced_accuracy": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.8642532351699269,
+            "percentile_97_5": 0.9603856505078578
+          },
+          "MCC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.7203870278095671,
+            "percentile_97_5": 0.9202746443787545
+          },
+          "AUROC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.9276604216813884,
+            "percentile_97_5": 0.9921245970446333
+          },
+          "average_precision": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.8868208520943416,
+            "percentile_97_5": 0.9932959952496372
+          }
+        },
+        "Aug|PHAS_original|broad_annotation_rule": {
+          "sensitivity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.9664429530201343,
+            "percentile_97_5": 1.0
+          },
+          "specificity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.48245356037151704,
+            "percentile_97_5": 0.8294616709732988
+          },
+          "balanced_accuracy": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.7276001239877466,
+            "percentile_97_5": 0.9117669662090978
+          },
+          "MCC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.46872437435344966,
+            "percentile_97_5": 0.8445353061841806
+          },
+          "AUROC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.7276001239877466,
+            "percentile_97_5": 0.9117669662090979
+          },
+          "average_precision": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.5008095177599371,
+            "percentile_97_5": 0.8759015455354685
+          }
+        },
+        "Aug|PHAS_original|KPC_rule": {
+          "sensitivity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.1989521758711929,
+            "percentile_97_5": 0.5340926736307171
+          },
+          "specificity": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.967032060348892,
+            "percentile_97_5": 1.0
+          },
+          "balanced_accuracy": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.5898228469899666,
+            "percentile_97_5": 0.7619050827301815
+          },
+          "MCC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.2909143498649942,
+            "percentile_97_5": 0.5988732209635866
+          },
+          "AUROC": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.5898228469899666,
+            "percentile_97_5": 0.7619050827301815
+          },
+          "average_precision": {
+            "valid_draws": 10000,
+            "percentile_2_5": 0.4770851750016164,
+            "percentile_97_5": 0.7645082735392044
+          }
+        }
+      },
+      "paired_contrast_percentiles": {
+        "DB_Aug_minus_Jan|PHAS_original|ML": {
+          "point": {
+            "sensitivity": 0.0,
+            "specificity": 0.0,
+            "balanced_accuracy": 0.0,
+            "MCC": 0.0,
+            "AUROC": 0.00019255455712452463,
+            "average_precision": 0.0002250799833632966
+          },
+          "metrics": {
+            "sensitivity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "specificity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "balanced_accuracy": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "MCC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "AUROC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0005346478547870125
+            },
+            "average_precision": {
+              "valid_draws": 10000,
+              "percentile_2_5": -1.1102230246251565e-16,
+              "percentile_97_5": 0.0006939713679055298
+            }
+          }
+        },
+        "DB_Aug_minus_Jan|PHAS_original|broad_annotation_rule": {
+          "point": {
+            "sensitivity": 0.0,
+            "specificity": 0.0,
+            "balanced_accuracy": 0.0,
+            "MCC": 0.0,
+            "AUROC": 0.0,
+            "average_precision": 0.0
+          },
+          "metrics": {
+            "sensitivity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "specificity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "balanced_accuracy": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "MCC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "AUROC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "average_precision": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            }
+          }
+        },
+        "DB_Aug_minus_Jan|PHAS_original|KPC_rule": {
+          "point": {
+            "sensitivity": 0.0,
+            "specificity": 0.0,
+            "balanced_accuracy": 0.0,
+            "MCC": 0.0,
+            "AUROC": 0.0,
+            "average_precision": 0.0
+          },
+          "metrics": {
+            "sensitivity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "specificity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "balanced_accuracy": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "MCC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "AUROC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            },
+            "average_precision": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0,
+              "percentile_97_5": 0.0
+            }
+          }
+        },
+        "ML_minus_broad_annotation_rule|Jan|PHAS_original": {
+          "point": {
+            "sensitivity": -0.07926829268292679,
+            "specificity": 0.28421052631578947,
+            "balanced_accuracy": 0.10247111681643128,
+            "MCC": 0.17679499052454983,
+            "AUROC": 0.15293645699614888,
+            "average_precision": 0.26088212373184394
+          },
+          "metrics": {
+            "sensitivity": {
+              "valid_draws": 10000,
+              "percentile_2_5": -0.13194772012578623,
+              "percentile_97_5": -0.03424511181360501
+            },
+            "specificity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.1428571428571429,
+              "percentile_97_5": 0.40061210314589174
+            },
+            "balanced_accuracy": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0393354187946885,
+              "percentile_97_5": 0.1467960293773811
+            },
+            "MCC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.04870494893034691,
+              "percentile_97_5": 0.265402097359572
+            },
+            "AUROC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.07675570402168627,
+              "percentile_97_5": 0.2042658632574375
+            },
+            "average_precision": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.11460583438529799,
+              "percentile_97_5": 0.39134232575312833
+            }
+          }
+        },
+        "ML_minus_KPC_rule|Jan|PHAS_original": {
+          "point": {
+            "sensitivity": 0.5426829268292683,
+            "specificity": -0.05789473684210522,
+            "balanced_accuracy": 0.24239409499358144,
+            "MCC": 0.37883112227678545,
+            "AUROC": 0.29285943517329904,
+            "average_precision": 0.3200726932141259
+          },
+          "metrics": {
+            "sensitivity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.4015733118587449,
+              "percentile_97_5": 0.6858974358974359
+            },
+            "specificity": {
+              "valid_draws": 10000,
+              "percentile_2_5": -0.09467455621301779,
+              "percentile_97_5": -0.014598540145985384
+            },
+            "balanced_accuracy": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.17579501936035571,
+              "percentile_97_5": 0.3155429163261368
+            },
+            "MCC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.255282585908176,
+              "percentile_97_5": 0.5223995867337657
+            },
+            "AUROC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.21887805605016383,
+              "percentile_97_5": 0.3656535283775776
+            },
+            "average_precision": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.22285833722223444,
+              "percentile_97_5": 0.4229875593722062
+            }
+          }
+        },
+        "ML_minus_broad_annotation_rule|Aug|PHAS_original": {
+          "point": {
+            "sensitivity": -0.07926829268292679,
+            "specificity": 0.28421052631578947,
+            "balanced_accuracy": 0.10247111681643128,
+            "MCC": 0.17679499052454983,
+            "AUROC": 0.1531290115532734,
+            "average_precision": 0.26110720371520724
+          },
+          "metrics": {
+            "sensitivity": {
+              "valid_draws": 10000,
+              "percentile_2_5": -0.13194772012578623,
+              "percentile_97_5": -0.03424511181360501
+            },
+            "specificity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.1428571428571429,
+              "percentile_97_5": 0.40061210314589174
+            },
+            "balanced_accuracy": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.0393354187946885,
+              "percentile_97_5": 0.1467960293773811
+            },
+            "MCC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.04870494893034691,
+              "percentile_97_5": 0.265402097359572
+            },
+            "AUROC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.07684375021194916,
+              "percentile_97_5": 0.20438773728346993
+            },
+            "average_precision": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.11465606752776411,
+              "percentile_97_5": 0.39162881267700567
+            }
+          }
+        },
+        "ML_minus_KPC_rule|Aug|PHAS_original": {
+          "point": {
+            "sensitivity": 0.5426829268292683,
+            "specificity": -0.05789473684210522,
+            "balanced_accuracy": 0.24239409499358144,
+            "MCC": 0.37883112227678545,
+            "AUROC": 0.29305198973042357,
+            "average_precision": 0.3202977731974892
+          },
+          "metrics": {
+            "sensitivity": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.4015733118587449,
+              "percentile_97_5": 0.6858974358974359
+            },
+            "specificity": {
+              "valid_draws": 10000,
+              "percentile_2_5": -0.09467455621301779,
+              "percentile_97_5": -0.014598540145985384
+            },
+            "balanced_accuracy": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.17579501936035571,
+              "percentile_97_5": 0.3155429163261368
+            },
+            "MCC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.255282585908176,
+              "percentile_97_5": 0.5223995867337657
+            },
+            "AUROC": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.21892342795074504,
+              "percentile_97_5": 0.3660741612379252
+            },
+            "average_precision": {
+              "valid_draws": 10000,
+              "percentile_2_5": 0.22286657926753004,
+              "percentile_97_5": 0.4234429972090699
+            }
+          }
+        }
+      }
+    }
+  },
+  "feature_changes": {
+    "cells": 1,
+    "samples": 1,
+    "features": 1,
+    "maximum_probability_difference": 0.15868887603213144
+  },
+  "decision_changes": {
+    "ML": {
+      "changed": 0,
+      "S_to_R": 0,
+      "R_to_S": 0
+    },
+    "broad_annotation_rule": {
+      "changed": 0,
+      "S_to_R": 0,
+      "R_to_S": 0
+    },
+    "KPC_rule": {
+      "changed": 0,
+      "S_to_R": 0,
+      "R_to_S": 0
+    }
+  },
+  "full_target_missing_bounds": {
+    "Jan|PHAS_original|ML": {
+      "TP": {
+        "min": 149,
+        "max": 149
+      },
+      "FN": {
+        "min": 15,
+        "max": 15
+      },
+      "TN": {
+        "min": 176,
+        "max": 177
+      },
+      "FP": {
+        "min": 14,
+        "max": 15
+      },
+      "sensitivity": {
+        "min": 0.9085365853658537,
+        "max": 0.9085365853658537
+      },
+      "specificity": {
+        "min": 0.9214659685863874,
+        "max": 0.9267015706806283
+      },
+      "balanced_accuracy": {
+        "min": 0.9150012769761205,
+        "max": 0.9176190780232409
+      },
+      "MCC": {
+        "min": 0.8300025539522411,
+        "max": 0.8356117092129279
+      },
+      "AUROC": {
+        "min": 0.9628240326905887,
+        "max": 0.9680596347848295
+      },
+      "average_precision": {
+        "min": 0.9343196868577346,
+        "max": 0.9622900596977181
+      }
+    },
+    "Jan|PHAS_original|broad_annotation_rule": {
+      "TP": {
+        "min": 162,
+        "max": 162
+      },
+      "FN": {
+        "min": 2,
+        "max": 2
+      },
+      "TN": {
+        "min": 122,
+        "max": 123
+      },
+      "FP": {
+        "min": 68,
+        "max": 69
+      },
+      "sensitivity": {
+        "min": 0.9878048780487805,
+        "max": 0.9878048780487805
+      },
+      "specificity": {
+        "min": 0.6387434554973822,
+        "max": 0.643979057591623
+      },
+      "balanced_accuracy": {
+        "min": 0.8132741667730814,
+        "max": 0.8158919678202017
+      },
+      "MCC": {
+        "min": 0.6552037197191319,
+        "max": 0.6594597020703641
+      },
+      "AUROC": {
+        "min": 0.8132741667730814,
+        "max": 0.8158919678202018
+      },
+      "average_precision": {
+        "min": 0.6983800809290333,
+        "max": 0.7013920212686512
+      }
+    },
+    "Jan|PHAS_original|KPC_rule": {
+      "TP": {
+        "min": 60,
+        "max": 60
+      },
+      "FN": {
+        "min": 104,
+        "max": 104
+      },
+      "TN": {
+        "min": 187,
+        "max": 188
+      },
+      "FP": {
+        "min": 3,
+        "max": 4
+      },
+      "sensitivity": {
+        "min": 0.36585365853658536,
+        "max": 0.36585365853658536
+      },
+      "specificity": {
+        "min": 0.9790575916230366,
+        "max": 0.9842931937172775
+      },
+      "balanced_accuracy": {
+        "min": 0.672455625079811,
+        "max": 0.6750734261269314
+      },
+      "MCC": {
+        "min": 0.4473109054209299,
+        "max": 0.45690628670842287
+      },
+      "AUROC": {
+        "min": 0.672455625079811,
+        "max": 0.6750734261269314
+      },
+      "average_precision": {
+        "min": 0.6359455513569221,
+        "max": 0.6413898022280021
+      }
+    },
+    "Aug|PHAS_original|ML": {
+      "TP": {
+        "min": 149,
+        "max": 149
+      },
+      "FN": {
+        "min": 15,
+        "max": 15
+      },
+      "TN": {
+        "min": 176,
+        "max": 177
+      },
+      "FP": {
+        "min": 14,
+        "max": 15
+      },
+      "sensitivity": {
+        "min": 0.9085365853658537,
+        "max": 0.9085365853658537
+      },
+      "specificity": {
+        "min": 0.9214659685863874,
+        "max": 0.9267015706806283
+      },
+      "balanced_accuracy": {
+        "min": 0.9150012769761205,
+        "max": 0.9176190780232409
+      },
+      "MCC": {
+        "min": 0.8300025539522411,
+        "max": 0.8356117092129279
+      },
+      "AUROC": {
+        "min": 0.9630155791086706,
+        "max": 0.9682511812029115
+      },
+      "average_precision": {
+        "min": 0.9345418519969765,
+        "max": 0.9625151396810814
+      }
+    },
+    "Aug|PHAS_original|broad_annotation_rule": {
+      "TP": {
+        "min": 162,
+        "max": 162
+      },
+      "FN": {
+        "min": 2,
+        "max": 2
+      },
+      "TN": {
+        "min": 122,
+        "max": 123
+      },
+      "FP": {
+        "min": 68,
+        "max": 69
+      },
+      "sensitivity": {
+        "min": 0.9878048780487805,
+        "max": 0.9878048780487805
+      },
+      "specificity": {
+        "min": 0.6387434554973822,
+        "max": 0.643979057591623
+      },
+      "balanced_accuracy": {
+        "min": 0.8132741667730814,
+        "max": 0.8158919678202017
+      },
+      "MCC": {
+        "min": 0.6552037197191319,
+        "max": 0.6594597020703641
+      },
+      "AUROC": {
+        "min": 0.8132741667730814,
+        "max": 0.8158919678202018
+      },
+      "average_precision": {
+        "min": 0.6983800809290333,
+        "max": 0.7013920212686512
+      }
+    },
+    "Aug|PHAS_original|KPC_rule": {
+      "TP": {
+        "min": 60,
+        "max": 60
+      },
+      "FN": {
+        "min": 104,
+        "max": 104
+      },
+      "TN": {
+        "min": 187,
+        "max": 188
+      },
+      "FP": {
+        "min": 3,
+        "max": 4
+      },
+      "sensitivity": {
+        "min": 0.36585365853658536,
+        "max": 0.36585365853658536
+      },
+      "specificity": {
+        "min": 0.9790575916230366,
+        "max": 0.9842931937172775
+      },
+      "balanced_accuracy": {
+        "min": 0.672455625079811,
+        "max": 0.6750734261269314
+      },
+      "MCC": {
+        "min": 0.4473109054209299,
+        "max": 0.45690628670842287
+      },
+      "AUROC": {
+        "min": 0.672455625079811,
+        "max": 0.6750734261269314
+      },
+      "average_precision": {
+        "min": 0.6359455513569221,
+        "max": 0.6413898022280021
+      }
+    }
+  },
+  "original_August_reproduction": null,
+  "independent_weighted_metric_checks": 36,
+  "phenotype_labels_unchanged_within_each_reference": true,
+  "limits": [
+    "Post-hoc selected sources; source-composition percentiles, not patient-population confidence guarantees.",
+    "Database effects concern only these two catalog versions with the frozen model/schema/rules.",
+    "Reference effects are relative to dated records, not adjudication of clinical truth.",
+    "Only E2 has two dated reference conditions; CCRE is a database-factor extension with stable originalPHAS.",
+    "No new independent temporal phenotype-reversal event is established.",
+    "Annotation changes and model coefficients do not establish biological resistance mechanisms."
+  ]
+}

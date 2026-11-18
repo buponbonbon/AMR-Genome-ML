@@ -1,0 +1,54 @@
+{
+  "scope": "Fixed-threshold reference-dependent metrics, not clinical safety validation",
+  "reference_crosswalk_sha256": "f2983db5a1d4c2300fdba90dde888262f1bb96a9e357856746c942d48409ad5a",
+  "no_training_or_new_rule_selection": true,
+  "status": "NEW_RULE_POINTS_MISSING_AUROC_AP_ORDER_CERTIFIED_BY_MARGIN_BOUNDS",
+  "feasible_aggregate_matrices": 165,
+  "feasible_metric_bounds": {
+    "sensitivity": {
+      "min": 0.38345864661654133,
+      "max": 1.0
+    },
+    "specificity": {
+      "min": 0.20463320463320464,
+      "max": 0.8378378378378378
+    },
+    "balanced_accuracy": {
+      "min": 0.294045925624873,
+      "max": 0.9189189189189189
+    },
+    "mcc": {
+      "min": -0.4182017625315465,
+      "max": 0.8506393028700376
+    },
+    "error_n": {
+      "min": 42,
+      "max": 370
+    },
+    "auroc": {
+      "min": 0.294045925624873,
+      "max": 0.9189189189189189
+    },
+    "average_precision": {
+      "min": 0.4393705041825343,
+      "max": 0.8636363636363636
+    }
+  },
+  "bounds_interpretation": "Ranges over unknown rule calls consistent with archived margins only; not confidence intervals, actual replay or a new algorithm.",
+  "minimum_missing_input": "results/file16i_evidence_lock_v1/file16i_E2_paired_by_bioproject.csv (4030 bytes in preserved inventory)",
+  "ordering_certificate": {
+    "scope": "Ordering of continuous frozen ML scores versus the documented fixed binary rule score (0/1), under each common reference",
+    "historical_ML_auroc": 0.6673473884011796,
+    "historical_binary_rule_auroc": 0.6885062536013287,
+    "october_ML_auroc": 0.9689087583824426,
+    "october_binary_rule_auroc_upper_bound": 0.9189189189189189,
+    "historical_ML_AP": 0.4114813522844942,
+    "historical_binary_rule_AP": 0.42695137173664777,
+    "october_ML_AP": 0.9742081035825135,
+    "october_binary_rule_AP_upper_bound": 0.8636363636363636,
+    "AUROC_order_reversal_proven": true,
+    "AP_order_reversal_proven": true,
+    "bound_derivation": "Rule has 308 fixed positive calls. October reference has 266 R and 259 S, so TP<=266 and FP>=42. Binary-score AUROC=(TPR+TNR)/2 <=(1+217/259)/2=0.9189189189. The complete feasible count enumeration also bounds binary-score AP at 266/308=0.8636363636.",
+    "limits": "New rule point metrics and FN/FP are not recovered. Hard-decision BA/MCC/safety ordering is not certified. AP depends on reference prevalence. This is an established score-format identity applied to the documented comparator, not a new algorithm or clinical superiority claim."
+  }
+}

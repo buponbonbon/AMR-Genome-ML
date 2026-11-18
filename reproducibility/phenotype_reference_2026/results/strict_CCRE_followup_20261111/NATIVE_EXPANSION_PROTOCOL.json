@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-11-11T09:15:29.513495+00:00",
+  "status": "SOURCE_AMENDMENT_AND_EXPANSION_FIXED_BEFORE_NEW_NATIVE_CALLS; LEGACY_DIAGNOSTIC_ALREADY_KNOWN",
+  "initial40_manifest_sha256": "958f68a8077af42bd0b35dbb7624f5e24f5d17ae52dda9062e0b56d344976281",
+  "representatives355_manifest_sha256": "88e2c25724cb32f7f8570d8bde8550ecc3d0ee5072c97267385134d948cd3182",
+  "expansion": "All existing 355 hash-selected one-per-PDS representatives, regardless of new model accuracy. The initial40 are a staging subset, not an independent replication of the355.",
+  "assembly_source": "Public ENA SEQUENCE_ASSEMBLY records in PRJEB87787 linked by exact canonical BioSample; independently assembled source, not assumed byte-identical to author Pathogenwatch assemblies. Source read-run and method linkage will be retained where available.",
+  "source_access": "Published ENA HTTPS files, MD5 and byte-count verification; no author contact or authenticated-site bypass.",
+  "locked_downstream": "Original File11C nucleotide caller/parser AMRFinderPlus 4.2.7 DB2026-08-07.1, model hash1f55620cbd4b1dfd946ff37977e9a851b6aeaad8a5466eb553323331613cdcdd and threshold0.5; original File11E rules unchanged.",
+  "QC": "Report length, contigs, N50 and ambiguous-base fraction. Flags do not replace selected samples or filter by observed correctness. Unreadable/checksum-failing input prevents scoring and is explicitly reported.",
+  "reference": "Original published PHAS meropenem S/R with MIC; I/missing unchanged/excluded per original screening.",
+  "source_independence_limits": "No exact development/E2 BioSample overlap. PDS exclusion concerns only mapped fitting isolates (2944/4218). Add descriptive seen/unseen reported-ST sensitivity without claiming it establishes universal genomic independence.",
+  "inference": "Report paired model/rule error counts and discrimination. One-per-PDS sampling and source composition limits remain; no clinical-utility or acceptance guarantee.",
+  "no_retraining_tuning_relabeling_or_favorable_sample_selection": true
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "canonical_BioSamples": 40,
+  "published_Run_accessions_exactly_matched": 40,
+  "ENA_taxon_573": 40,
+  "checksums_verified": 40,
+  "source": "AllTheBacteria release 0.2 set 3, ENA PRJEB87787",
+  "assembly_source_differs_from_author_Pathogenwatch_export": true,
+  "original_selection_manifest_sha256": "958f68a8077af42bd0b35dbb7624f5e24f5d17ae52dda9062e0b56d344976281"
+}

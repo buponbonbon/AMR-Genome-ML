@@ -1,0 +1,17 @@
+{
+  "status": "PASS_INDEPENDENT_CSV_LOGISTIC_RULE_METRIC_AND_INTERVAL_AUDIT",
+  "arms": {
+    "CCRE_Jan": 354,
+    "CCRE_Aug": 354,
+    "E2_Jan": 525,
+    "E2_Aug": 525
+  },
+  "raw_TSV_feature_rule_score_checks": 1758,
+  "maximum_math_fsum_probability_difference": 3.3306690738754696e-16,
+  "distinct_DNA_files_rehashed": 879,
+  "DNA_hash_recheck_requested": true,
+  "preserved_E2_historical_probabilities_and_175_focal_reference_differences_verified": true,
+  "sklearn_point_metrics_and_all_saved_bootstrap_contrast_percentiles_verified": true,
+  "analysis_sha256": "4f1bdfd91dbe8682bd376d499f48d3d62c68c8834b902ba72cbc352a451c8b78",
+  "verifier_sha256": "394cacf671491310ed13770599d9a52de7e9c3004711715a5bdf80addc6b4b49"
+}

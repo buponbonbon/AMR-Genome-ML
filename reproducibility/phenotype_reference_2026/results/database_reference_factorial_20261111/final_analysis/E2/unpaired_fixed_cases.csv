@@ -1,0 +1,1 @@
+sample_accession,target_acc,asm_acc,erd_group,collection_date,geo_loc_name,host,isolation_source,phenotype,label_binary,fasta_path,fasta_sha256,probability_R,predicted_R,external_MLST,lineage_novelty,biosample,historical_label,scenario_label,project,native_input_status,frozen_probability_R,frozen_predicted_R,kpc_family_rule,amrfinder_carbapenemase_rule

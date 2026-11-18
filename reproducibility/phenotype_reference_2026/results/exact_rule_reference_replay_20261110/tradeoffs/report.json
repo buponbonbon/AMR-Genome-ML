@@ -1,0 +1,88 @@
+{
+  "status": "EXACT_AGGREGATE_TRADEOFF_AND_SOURCE_SENSITIVITY_COMPLETE_NOT_CLINICAL_VALIDATION",
+  "source_BioProjects": 32,
+  "cohort_n": 525,
+  "paired_correctness": [
+    {
+      "reference": "historical",
+      "ML_correct_rule_wrong": 29,
+      "ML_wrong_rule_correct": 29,
+      "both_correct": 301,
+      "both_wrong": 166,
+      "rule_R_ML_S": 58,
+      "ML_R_rule_S": 0
+    },
+    {
+      "reference": "october",
+      "ML_correct_rule_wrong": 32,
+      "ML_wrong_rule_correct": 26,
+      "both_correct": 449,
+      "both_wrong": 18,
+      "rule_R_ML_S": 58,
+      "ML_R_rule_S": 0
+    }
+  ],
+  "error_weight_thresholds": {
+    "historical": {
+      "rule_minus_ML_FN_coefficient": -29,
+      "rule_minus_ML_FP_constant": 29,
+      "break_even_FN_to_FP_weight_ratio": "1"
+    },
+    "october": {
+      "rule_minus_ML_FN_coefficient": -26,
+      "rule_minus_ML_FP_constant": 32,
+      "break_even_FN_to_FP_weight_ratio": "16/13"
+    }
+  },
+  "focal_source_omission": [
+    {
+      "excluded_BioProject": "PRJNA1322038",
+      "reference": "historical",
+      "n_remaining": 350,
+      "ML_balanced_accuracy": 0.8926591575156244,
+      "rule_balanced_accuracy": 0.918134952861834,
+      "ML_minus_rule_balanced_accuracy": -0.025475795346209584,
+      "ML_mcc": 0.8004406329482883,
+      "rule_mcc": 0.8080190549864736,
+      "ML_minus_rule_mcc": -0.007578422038185373,
+      "ML_FN": 21,
+      "rule_FN": 2,
+      "ML_FP": 11,
+      "rule_FP": 33
+    },
+    {
+      "excluded_BioProject": "PRJNA1322038",
+      "reference": "october",
+      "n_remaining": 350,
+      "ML_balanced_accuracy": 0.8926591575156244,
+      "rule_balanced_accuracy": 0.918134952861834,
+      "ML_minus_rule_balanced_accuracy": -0.025475795346209584,
+      "ML_mcc": 0.8004406329482883,
+      "rule_mcc": 0.8080190549864736,
+      "ML_minus_rule_mcc": -0.007578422038185373,
+      "ML_FN": 21,
+      "rule_FN": 2,
+      "ML_FP": 11,
+      "rule_FP": 33
+    }
+  ],
+  "balanced_accuracy_ML_minus_rule_by_reference": {
+    "historical": -0.048901806595939346,
+    "october": 0.012903881324933919
+  },
+  "current_ML_minus_rule_FN": 26,
+  "current_rule_minus_ML_FP": 32,
+  "missing_source_count_input_status": "RESOLVED_BY_UPLOADED_ORIGINAL_4030_BYTE_TABLE",
+  "input_sha256": {
+    "file16i_E2_paired_by_bioproject.csv": "da55199bfa745118d7ec8837ea1380ca0398436f2f738f9a1f413f53da859b5d",
+    "available_exact_method_metrics.csv": "78b19693a77cb5de5d0d00f7052b70a8f582d22b9b56c7a8041aad7b568cdc92"
+  },
+  "limitations": [
+    "Counts are exact with respect to the supplied frozen aggregate table and the two recorded references, not adjudicated clinical truth.",
+    "Joint cells represent aggregate counts; per-isolate rule calls have not been recovered or fabricated.",
+    "Source-omission analysis changes cohort composition with fixed predictions; it is not retraining, cross-validation or an independent validation.",
+    "FN:FP weights are illustrative decision scenarios; no clinical utilities, treatment benefits or harms were elicited.",
+    "One source event and post-hoc source selection do not support universal clinical superiority or independent replication.",
+    "Score-order metrics compare continuous ML probabilities with the documented binary 0/1 rule score."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "historical_source_sha256": "3f619f1d58d2c39e16a016e05a2fd060dbed1494ec87acc21aedc86c73ca6346",
+  "uploaded_bundle_sha256": "ca1a585bba8cb78ab85aefbbfbefa28bb8287893849be42cfdcf6d28d6f03682",
+  "historical_rows": 3039,
+  "historical_unique_exact_keys": 3033,
+  "fully_identical_duplicate_rows": 6,
+  "biosamples_with_multiple_project_values": 1,
+  "source_assignment": "Historical exact target accession + BioSample + drug; no global BioSample-only project assumption",
+  "current_original_sha256": "4746eac12ac82aa9d384bc7b816c52bb6d5c08c41e23ede5c25ac3a0bcc46403",
+  "current_annotated_sha256": "5859e3015f47272e46512b1155d3b10194106a53c36ecb74050beb3a88e36f82",
+  "current_scope_rows": 525,
+  "historical_focal_unique_records": 777,
+  "full_source_october_comparison": "NOT_RUN_FULL_OCTOBER_EXPORT_ABSENT"
+}

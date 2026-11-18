@@ -1,0 +1,93 @@
+[
+  {
+    "file": "cabbage_archive.zip",
+    "url": "https://zenodo.org/api/records/21133550/files/Leonardini/CABBAGE-CABBAGE.zip/content",
+    "started_utc": "2026-11-11T07:18:59.413351+00:00",
+    "http_status": 200,
+    "final_url": "https://zenodo.org/api/records/21133550/files/Leonardini/CABBAGE-CABBAGE.zip/content",
+    "content_type": "application/octet-stream,application/octet-stream",
+    "content_range": null,
+    "bytes": 36199137,
+    "sha256": "6a0f3e4d588665b7c78c948ea33cc2db27561467e2dcc41f94d3ef000a11e2d6",
+    "signature_hex": "504b03040a00000000004130",
+    "completed_utc": "2026-11-11T07:19:51.098575+00:00"
+  },
+  {
+    "file": "cabbage_source_inventory.csv",
+    "url": "https://raw.githubusercontent.com/Leonardini/CABBAGE/f1728c39d6e4baa3da78cc7183ab592dbdbaf528/AllExtractedGenotypes/AllGenotypesAndSpeciesFiles.csv",
+    "started_utc": "2026-11-11T07:18:59.412845+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/Leonardini/CABBAGE/f1728c39d6e4baa3da78cc7183ab592dbdbaf528/AllExtractedGenotypes/AllGenotypesAndSpeciesFiles.csv",
+    "content_type": "text/plain; charset=utf-8",
+    "content_range": null,
+    "bytes": 12050,
+    "sha256": "cd3cdda183ab557ad33d4190a70503de85c875d7ac2089b7908ac0b02aa73554",
+    "signature_hex": "66696c655f6e756d6265722c",
+    "completed_utc": "2026-11-11T07:18:59.806517+00:00"
+  },
+  {
+    "file": "cabbage_README.md",
+    "url": "https://raw.githubusercontent.com/Leonardini/CABBAGE/f1728c39d6e4baa3da78cc7183ab592dbdbaf528/README.md",
+    "started_utc": "2026-11-11T07:18:59.413772+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/Leonardini/CABBAGE/f1728c39d6e4baa3da78cc7183ab592dbdbaf528/README.md",
+    "content_type": "text/plain; charset=utf-8",
+    "content_range": null,
+    "bytes": 2538,
+    "sha256": "da02b22c4555afd920ced9aaecf2f9c7cd316ab9798950a2cfe302c535706f6d",
+    "signature_hex": "546869732069732074686520",
+    "completed_utc": "2026-11-11T07:18:59.805083+00:00"
+  },
+  {
+    "file": "incredble_BetaLactams_AST.xlsx",
+    "url": "https://raw.githubusercontent.com/cnag-aat/incredble/8a240cf30602b48aaf0f6cf0c44124b01bb4bc89/queries/BetaLactams_AST.xlsx",
+    "started_utc": "2026-11-11T07:18:59.414084+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/cnag-aat/incredble/8a240cf30602b48aaf0f6cf0c44124b01bb4bc89/queries/BetaLactams_AST.xlsx",
+    "content_type": "application/octet-stream",
+    "content_range": null,
+    "bytes": 32118,
+    "sha256": "92f49332c076dd144ebe0c84f6b6670ccd4484c1de4e1873f6b9b487f6098f06",
+    "signature_hex": "504b03041400060008000000",
+    "completed_utc": "2026-11-11T07:18:59.705120+00:00"
+  },
+  {
+    "file": "incredble_BetaLactams_AST.txt",
+    "url": "https://raw.githubusercontent.com/cnag-aat/incredble/8a240cf30602b48aaf0f6cf0c44124b01bb4bc89/queries/BetaLactams_AST.txt",
+    "started_utc": "2026-11-11T07:18:59.705973+00:00",
+    "http_status": 200,
+    "final_url": "https://raw.githubusercontent.com/cnag-aat/incredble/8a240cf30602b48aaf0f6cf0c44124b01bb4bc89/queries/BetaLactams_AST.txt",
+    "content_type": "text/plain; charset=utf-8",
+    "content_range": null,
+    "bytes": 7215,
+    "sha256": "69dd93f7efea86a0892d70e9a4c816d41ce06a341ee8d9242860ff99f2c8a773",
+    "signature_hex": "414932353833203120362038",
+    "completed_utc": "2026-11-11T07:18:59.944152+00:00"
+  },
+  {
+    "file": "microreact_API_docs.html",
+    "url": "https://docs.microreact.org/api",
+    "started_utc": "2026-11-11T07:18:59.805903+00:00",
+    "http_status": 200,
+    "final_url": "https://docs.microreact.org/api",
+    "content_type": "text/plain; charset=utf-8",
+    "content_range": null,
+    "bytes": 842,
+    "sha256": "d764624be952cc5b3940d94b9506658e308da3c364300db45a8d427a9f5aa933",
+    "signature_hex": "3e20466f722074686520636f",
+    "completed_utc": "2026-11-11T07:19:00.275741+00:00"
+  },
+  {
+    "file": "CCRE_microreact_page.html",
+    "url": "https://microreact.org/project/klebsiella-ccre-survey",
+    "started_utc": "2026-11-11T07:18:59.807057+00:00",
+    "http_status": 200,
+    "final_url": "https://microreact.org/project/klebsiella-ccre-survey",
+    "content_type": "text/html; charset=utf-8",
+    "content_range": null,
+    "bytes": 11941,
+    "sha256": "7f71de2b256d8241d29c9c3747b67347560fef6391b49566397f9b4d359d36c5",
+    "signature_hex": "3c21444f4354595045206874",
+    "completed_utc": "2026-11-11T07:19:00.028264+00:00"
+  }
+]

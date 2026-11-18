@@ -1,0 +1,13 @@
+{
+  "file": "microreact_API_docs.html",
+  "url": "https://docs.microreact.org/api",
+  "started_utc": "2026-11-11T07:18:59.805903+00:00",
+  "http_status": 200,
+  "final_url": "https://docs.microreact.org/api",
+  "content_type": "text/plain; charset=utf-8",
+  "content_range": null,
+  "bytes": 842,
+  "sha256": "d764624be952cc5b3940d94b9506658e308da3c364300db45a8d427a9f5aa933",
+  "signature_hex": "3e20466f722074686520636f",
+  "completed_utc": "2026-11-11T07:19:00.275741+00:00"
+}

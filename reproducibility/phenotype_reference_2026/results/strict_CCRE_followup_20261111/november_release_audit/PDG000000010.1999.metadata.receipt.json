@@ -1,0 +1,9 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Acinetobacter/PDG000000010.1999/Metadata/PDG000000010.1999.metadata.tsv",
+  "http_status": 200,
+  "bytes": 63842234,
+  "sha256": "8113fd75250fc19499d2b0d3eb57890b55e0517d7946035d187ce8aa57619a68",
+  "retrieved_utc": "2026-11-11T09:52:59.484255+00:00",
+  "last_modified": null,
+  "file": "PDG000000010.1999.metadata.tsv"
+}

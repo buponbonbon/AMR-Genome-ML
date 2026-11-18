@@ -1,0 +1,17 @@
+scheme,metric,valid_draws,fraction_historical_rule_higher_october_ML_higher,fraction_any_strict_order_reversal
+all_projects,balanced_accuracy,10000,0.5346,0.5346
+all_projects,mcc,10000,0.5447,0.5447
+all_projects,auroc,10000,0.5637,0.5637
+all_projects,average_precision,10000,0.5142,0.5142
+all_projects,false_susceptible_rate,10000,0.0,0.0
+all_projects,false_resistant_rate,10000,0.0,0.0
+all_projects,false_susceptible_fraction_called_S,10000,0.0088,0.0088
+all_projects,accuracy,10000,0.285,0.285
+focal_retained,balanced_accuracy,10000,0.7071,0.7071
+focal_retained,mcc,10000,0.7614,0.7614
+focal_retained,auroc,10000,0.8008,0.8008
+focal_retained,average_precision,10000,0.693,0.693
+focal_retained,false_susceptible_rate,10000,0.0,0.0
+focal_retained,false_resistant_rate,10000,0.0,0.0
+focal_retained,false_susceptible_fraction_called_S,10000,0.0034,0.0034
+focal_retained,accuracy,10000,0.2934,0.2934

@@ -1,0 +1,10 @@
+{
+  "version": "1.0.2",
+  "outputs_sha256": {
+    "file19_all_E2_ast_crosswalk.csv": "77031996fac2f7631ee006cf9565d21576632ce4145546c6ccb9feaa52d026ba",
+    "file19_focus_PRJNA1322038_ast_triage.csv": "275e19bbe913936dff4fa75fd2fa060796f05f07445d304de9c5baa17e91015e",
+    "file19_ncbi_meropenem_rows.csv": "63d22e44cad3271ce7cca2aee9f1e1e1b039c63d35c34c44ff8cf004d7983561",
+    "file19_summary.json": "6f55be755ea204449bec761a3039e0770d615fb1cde8fb9b64736bbfe85e828d",
+    "file19_reporting_guardrails.md": "2680feb6d806a6e84b543d1aecf981e1d9534cf92f1b9889a09c439341f2f175"
+  }
+}

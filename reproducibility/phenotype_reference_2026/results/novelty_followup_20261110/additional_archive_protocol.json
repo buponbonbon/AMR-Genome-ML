@@ -1,0 +1,42 @@
+{
+  "frozen_utc": "2026-11-10T02:46:23.747057+00:00",
+  "scope": "Exploratory follow-up; original E2 event and previous archive probes have been examined",
+  "targets": [
+    {
+      "species": "Klebsiella pneumoniae",
+      "directory": "Klebsiella",
+      "old_build": "PDG000000012.2530",
+      "new_build": "PDG000000012.2559",
+      "role": "KNOWN_EVENT_ANCHOR_NOT_INDEPENDENT_REPLICATION"
+    },
+    {
+      "species": "Escherichia coli",
+      "directory": "Escherichia_coli_Shigella",
+      "old_build": "PDG000000004.6313",
+      "new_build": "PDG000000004.6380",
+      "role": "EXPLORATORY_EXPANSION"
+    }
+  ],
+  "build_selection": "Klebsiella latest retained build on/before 22 Sep versus 22 Oct; E. coli latest retained build on/before 22 Sep and first retained numeric build labelled 22 Oct. Actual metadata file timestamps are recorded separately and can predate build listing.",
+  "primary_drugs": [
+    "meropenem",
+    "imipenem"
+  ],
+  "primary_key": [
+    "target_acc",
+    "biosample_acc",
+    "antibiotic"
+  ],
+  "secondary_analysis": "All shared AST phenotype records may be described separately; no source selection by observed disagreement",
+  "taxonomy": "Report source annotation; require same named species in both builds for primary subset; retain exclusions",
+  "file_size_guard_bytes": 805306368,
+  "ecoli_deferred_reason": null,
+  "reference_AST_truth": false,
+  "immutability_note": "Release paths and listing dates are evidence of retained builds, not cryptographic proof metadata was never retrospectively rewritten.",
+  "no_author_contact": true,
+  "comparator_input_note": "Exact FILE11E/FILE16H rule calls are not in uploaded fast bundle; mechanism labels do not reproduce published rule counts.",
+  "amended_utc": "2026-11-10T02:53:51.988843+00:00",
+  "amendment_reason": "Complete 240 MB transfer of first four files took seconds. Expand the resource budget before examining cross-build disagreement outcomes; add known-event Klebsiella anchor and prechosen E. coli panel. No species was chosen from observed discrepancy rates.",
+  "prior_exposure_at_amendment": "AST schema and counts inspected for first two species; no cross-build phenotype comparison performed yet. Klebsiella focal event was already known.",
+  "free_disk_bytes_before_additional_downloads": 63887003648
+}

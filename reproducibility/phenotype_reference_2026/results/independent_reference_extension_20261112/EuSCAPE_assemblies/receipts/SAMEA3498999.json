@@ -1,0 +1,11 @@
+{
+  "sample_accession": "SAMEA3498999",
+  "assembly_accession": "GCA_900510915.1",
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_900510915.1,GCA_900511105.1,GCA_900511005.1,GCA_900511115.1,GCA_900511285.1,GCA_900511055.1,GCA_900511155.1,GCA_900511255.1,GCA_900509985.1,GCA_900511785.1,GCA_900511835.1,GCA_900510025.1,GCA_900511485.1,GCA_900511655.1,GCA_900511685.1,GCA_900510485.1,GCA_900510525.1,GCA_900510535.1,GCA_900511795.1,GCA_900511765.1/download?include_annotation_type=GENOME_FASTA",
+  "batch_zip": "493e0fcd90224cd043.zip",
+  "status": "PASS_PUBLISHED_ASSEMBLY_VERSION",
+  "fasta_sha256": "57a932faefef5d3b8cbd08d0616599f2f5509499f4d63e78eaf2ec20fb554a9e",
+  "bytes": 5900621,
+  "zip_member": "ncbi_dataset/data/GCA_900510915.1/GCA_900510915.1_17870_3_46_genomic.fna",
+  "archive_md5_verified": true
+}

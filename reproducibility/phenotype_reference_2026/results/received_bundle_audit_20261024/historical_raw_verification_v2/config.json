@@ -1,0 +1,84 @@
+{
+  "focal_project": "PRJNA1322038",
+  "target_drug": "meropenem",
+  "scope_note": "Current BQ is 175 focal BioSamples x 3 drugs, not full-source October. Project scope is assigned from historical exact accession/BioSample/drug keys, not inferred from BioSample alone.",
+  "expected": {
+    "matched_records": 525,
+    "prediction_n": 525,
+    "focal_prediction_n": 175,
+    "historical_R": 163,
+    "scenario_R": 266,
+    "mic_rows": 525
+  },
+  "historical": {
+    "path": "/workspace/attachments/3bb02029-e163-4b66-bae6-c481e656288d/file11_ncbi_ast_isolates_joined_raw.csv",
+    "sha256": "3f619f1d58d2c39e16a016e05a2fd060dbed1494ec87acc21aedc86c73ca6346",
+    "columns": {
+      "target_acc": "target_acc",
+      "biosample": "biosample_acc",
+      "drug": "antibiotic",
+      "label": "phenotype",
+      "project": "bioproject_acc",
+      "asm_acc": "asm_acc"
+    }
+  },
+  "current": {
+    "path": "/workspace/AMR-Genome-ML/results/received_bundle_audit_20261024/historical_raw_verification_v2/inputs/current_focal_annotated_with_exact_historical_project.csv",
+    "columns": {
+      "target_acc": "target_acc",
+      "biosample": "biosample_acc",
+      "drug": "antibiotic",
+      "label": "phenotype",
+      "project": "historical_project_for_scope",
+      "asm_acc": "asm_acc"
+    }
+  },
+  "predictions": {
+    "path": "/workspace/AMR-Genome-ML/results/received_bundle_audit_20261024/historical_raw_verification_v2/inputs/file11c_blind_predictions.csv",
+    "binary_label": true,
+    "columns": {
+      "target_acc": "target_acc",
+      "biosample": "biosample_acc",
+      "label": "label_binary",
+      "probability": "probability_R",
+      "prediction": "predicted_R"
+    }
+  },
+  "xml": {
+    "path": "/workspace/AMR-Genome-ML/results/received_bundle_audit_20261024/historical_raw_verification_v2/inputs/PRJNA1322038_biosample_efetch.xml",
+    "record_path": ".//Comment/Table[@class='Antibiogram.1.0']/Body/Row",
+    "columns": {
+      "drug": "Cell[1]",
+      "label": "Cell[2]",
+      "mic_sign": "Cell[3]",
+      "mic_value": "Cell[4]",
+      "unit": "Cell[5]",
+      "method": "Cell[6]",
+      "platform": "Cell[7]",
+      "vendor": "Cell[8]",
+      "reagent": "Cell[9]",
+      "standard": "Cell[10]"
+    }
+  },
+  "biosample_table": {
+    "path": "/workspace/AMR-Genome-ML/results/received_bundle_audit_20261024/historical_raw_verification_v2/xml_extraction/biosample_records.csv",
+    "columns": {
+      "biosample": "biosample",
+      "drug": "drug",
+      "label": "label"
+    }
+  },
+  "mic": {
+    "path": "/workspace/AMR-Genome-ML/results/received_bundle_audit_20261024/historical_raw_verification_v2/inputs/file19_temporal_175_three_drug_crosswalk.csv",
+    "columns": {
+      "biosample": "biosample_acc",
+      "drug": "antibiotic",
+      "mic_value": "mic_value",
+      "mic_sign": "mic_sign",
+      "unit": "mic_units",
+      "method": "mic_method",
+      "platform": "mic_platform",
+      "standard": "testing_standard"
+    }
+  }
+}

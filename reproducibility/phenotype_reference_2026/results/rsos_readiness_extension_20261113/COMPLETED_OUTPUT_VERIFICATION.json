@@ -1,0 +1,7 @@
+{
+  "status": "PASS_ORIGINAL_ALL_CASE_METRICS_PRESERVED_SAVED_PERCENTILES_AND_FULL_PDF_BUILDS",
+  "saved_stratum_contrasts_checked": 7,
+  "analysis_independent_interval_and_metric_checks": 582,
+  "original_labels_and_predictions_unchanged": true,
+  "analysis_report_sha256": "c75002304e1be8a04d477ab58eb81e7efc85886722781ef4808147bf43fae07a"
+}

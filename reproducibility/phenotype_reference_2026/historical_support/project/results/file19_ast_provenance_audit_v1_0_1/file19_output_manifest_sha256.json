@@ -1,0 +1,9 @@
+{
+  "version": "1.0.1",
+  "outputs_sha256": {
+    "file19_all_E2_ast_crosswalk.csv": "e8cf3c62aadc266935fe682d9c9611066a1ddcd1081942dc639dc39ba84b0ded",
+    "file19_focus_PRJNA1322038_ast_triage.csv": "0834b8a762f75603fc29025fa8994c7ed7e277decb12bc048353b1c352098388",
+    "file19_summary.json": "30a32bbb7e7409611140d4fb68c1438c24be5795e776b7e6caacb9b653a6bf7b",
+    "file19_reporting_guardrails.md": "2680feb6d806a6e84b543d1aecf981e1d9534cf92f1b9889a09c439341f2f175"
+  }
+}

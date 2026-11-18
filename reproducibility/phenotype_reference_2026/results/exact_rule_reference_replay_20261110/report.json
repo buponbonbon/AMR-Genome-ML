@@ -1,0 +1,29 @@
+{
+  "scope": "Fixed-threshold reference-dependent metrics, not clinical safety validation",
+  "reference_crosswalk_sha256": "f2983db5a1d4c2300fdba90dde888262f1bb96a9e357856746c942d48409ad5a",
+  "no_training_or_new_rule_selection": true,
+  "status": "EXACT_COUNT_REPLAY_COMPLETE",
+  "source_counts_sha256": "da55199bfa745118d7ec8837ea1380ca0398436f2f738f9a1f413f53da859b5d",
+  "contrasts": [
+    {
+      "reference": "historical",
+      "rule_minus_ML_sensitivity": 0.17791411042944782,
+      "rule_minus_ML_specificity": -0.08011049723756913,
+      "rule_minus_ML_balanced_accuracy": 0.048901806595939346,
+      "rule_minus_ML_mcc": 0.0955738576402419,
+      "rule_minus_ML_error_n": 0,
+      "rule_minus_ML_auroc": 0.02115886520014909,
+      "rule_minus_ML_average_precision": 0.015470019452153594
+    },
+    {
+      "reference": "october",
+      "rule_minus_ML_sensitivity": 0.09774436090225569,
+      "rule_minus_ML_specificity": -0.12355212355212353,
+      "rule_minus_ML_balanced_accuracy": -0.012903881324933919,
+      "rule_minus_ML_mcc": -0.014344124751449416,
+      "rule_minus_ML_error_n": 6,
+      "rule_minus_ML_auroc": -0.06523064417801261,
+      "rule_minus_ML_average_precision": -0.12873142487275213
+    }
+  ]
+}

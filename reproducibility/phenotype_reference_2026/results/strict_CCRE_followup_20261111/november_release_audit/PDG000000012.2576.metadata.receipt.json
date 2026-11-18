@@ -1,0 +1,9 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Klebsiella/PDG000000012.2576/Metadata/PDG000000012.2576.metadata.tsv",
+  "http_status": 200,
+  "bytes": 196305109,
+  "sha256": "362f015127f4c89c4e47de46c31095d19eb45500374f7d8cd40ebd6e69e46aec",
+  "retrieved_utc": "2026-11-11T09:53:03.779779+00:00",
+  "last_modified": null,
+  "file": "PDG000000012.2576.metadata.tsv"
+}

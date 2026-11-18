@@ -1,0 +1,158 @@
+{
+  "status": "COMPLETE_BOUNDED_RELEASE_ANNOTATION_AUDIT",
+  "protocol_sha256": "9aa59d01d6802769a4461e82d11da6ab994db20bfbafae08bddf005306d000ca",
+  "targets": [
+    {
+      "species": "Klebsiella pneumoniae",
+      "old_build": "PDG000000012.2559",
+      "new_build": "PDG000000012.2576",
+      "old_inventory": {
+        "all_rows": 178448,
+        "source_species_rows": 167169,
+        "source_species_AST_rows_with_BioSample": 2403
+      },
+      "new_inventory": {
+        "all_rows": 180758,
+        "source_species_rows": 169416,
+        "source_species_AST_rows_with_BioSample": 2404
+      },
+      "excluded_focal_BioSamples": 267,
+      "aggregated": {
+        "counts": {
+          "NON_SIR_OR_MISSING_INVOLVED": 3670,
+          "SAME_SIR_SET": 22180
+        },
+        "paired_keys": 25850,
+        "BioSamples": 2148
+      },
+      "secondary_target": {
+        "counts": {
+          "SAME_SIR_SET": 19264,
+          "NON_SIR_OR_MISSING_INVOLVED": 3681
+        },
+        "paired_keys": 22945,
+        "BioSamples": 2050
+      },
+      "primary_meropenem_counts": {
+        "NON_SIR_OR_MISSING_INVOLVED": 76,
+        "SAME_SIR_SET": 1009
+      }
+    },
+    {
+      "species": "Escherichia coli",
+      "old_build": "PDG000000004.6380",
+      "new_build": "PDG000000004.6430",
+      "old_inventory": {
+        "all_rows": 591212,
+        "source_species_rows": 520115,
+        "source_species_AST_rows_with_BioSample": 10937
+      },
+      "new_inventory": {
+        "all_rows": 594842,
+        "source_species_rows": 523330,
+        "source_species_AST_rows_with_BioSample": 10985
+      },
+      "excluded_focal_BioSamples": 137,
+      "aggregated": {
+        "counts": {
+          "NON_SIR_OR_MISSING_INVOLVED": 36886,
+          "SAME_SIR_SET": 129879
+        },
+        "paired_keys": 166765,
+        "BioSamples": 10800
+      },
+      "secondary_target": {
+        "counts": {
+          "NON_SIR_OR_MISSING_INVOLVED": 36886,
+          "SAME_SIR_SET": 129879
+        },
+        "paired_keys": 166765,
+        "BioSamples": 10800
+      },
+      "primary_meropenem_counts": {
+        "NON_SIR_OR_MISSING_INVOLVED": 725,
+        "SAME_SIR_SET": 6469
+      }
+    },
+    {
+      "species": "Acinetobacter baumannii",
+      "old_build": "PDG000000010.1983",
+      "new_build": "PDG000000010.1999",
+      "old_inventory": {
+        "all_rows": 64692,
+        "source_species_rows": 62791,
+        "source_species_AST_rows_with_BioSample": 1143
+      },
+      "new_inventory": {
+        "all_rows": 65998,
+        "source_species_rows": 64023,
+        "source_species_AST_rows_with_BioSample": 1143
+      },
+      "excluded_focal_BioSamples": 85,
+      "aggregated": {
+        "counts": {
+          "SAME_SIR_SET": 16966,
+          "NON_SIR_OR_MISSING_INVOLVED": 392
+        },
+        "paired_keys": 17358,
+        "BioSamples": 1061
+      },
+      "secondary_target": {
+        "counts": {
+          "SAME_SIR_SET": 16984,
+          "NON_SIR_OR_MISSING_INVOLVED": 399
+        },
+        "paired_keys": 17383,
+        "BioSamples": 1061
+      },
+      "primary_meropenem_counts": {
+        "SAME_SIR_SET": 668
+      }
+    },
+    {
+      "species": "Pseudomonas aeruginosa",
+      "old_build": "PDG000000036.1820",
+      "new_build": "PDG000000036.1834",
+      "old_inventory": {
+        "all_rows": 66971,
+        "source_species_rows": 66963,
+        "source_species_AST_rows_with_BioSample": 979
+      },
+      "new_inventory": {
+        "all_rows": 67372,
+        "source_species_rows": 67364,
+        "source_species_AST_rows_with_BioSample": 979
+      },
+      "excluded_focal_BioSamples": 65,
+      "aggregated": {
+        "counts": {
+          "SAME_SIR_SET": 7373,
+          "NON_SIR_OR_MISSING_INVOLVED": 574
+        },
+        "paired_keys": 7947,
+        "BioSamples": 915
+      },
+      "secondary_target": {
+        "counts": {
+          "SAME_SIR_SET": 7373,
+          "NON_SIR_OR_MISSING_INVOLVED": 574
+        },
+        "paired_keys": 7947,
+        "BioSamples": 915
+      },
+      "primary_meropenem_counts": {
+        "SAME_SIR_SET": 492,
+        "NON_SIR_OR_MISSING_INVOLVED": 7
+      }
+    }
+  ],
+  "total_primary_aggregated_keys": 217920,
+  "unopposed_RS_candidates": 0,
+  "other_SIR_change_candidates": 0,
+  "limitations": [
+    "Metadata release annotations, not independently repeated AST.",
+    "No observed reversal does not prove absence in unpaired records or other windows.",
+    "Species labels are source annotations; one project is not one laboratory.",
+    "No historical MIC series is supplied by these metadata."
+  ]
+}

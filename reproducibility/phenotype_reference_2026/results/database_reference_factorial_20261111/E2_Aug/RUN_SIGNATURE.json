@@ -1,0 +1,9 @@
+{
+  "manifest_sha256": "27161a73eebc149cf48514db25a7872f96b784e2e7b910360381c0045766063e",
+  "model_sha256": "1f55620cbd4b1dfd946ff37977e9a851b6aeaad8a5466eb553323331613cdcdd",
+  "caller_exe_sha256": "91afefff09d115c8547a2cbb5ce4d1fb25bfc74f06b63b7a8e69c4236099fd5f",
+  "database_version": "2026-08-07.1",
+  "database_manifest_sha256": "f616ffa62cfa2cb6c6f3e6baa84aff6acac880bea8b9d68951804e270e91063e",
+  "label_column": "historical_label",
+  "runner_sha256": "afcac8b5bc67e9294c96c600bba887ee064bc4732e132fecb0adb66cbc829599"
+}

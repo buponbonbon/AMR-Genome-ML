@@ -1,0 +1,12 @@
+{
+  "sample_accession": "SAMN41558497",
+  "fasta_path": "/workspace/AMR-Genome-ML/results/database_reference_factorial_20261111/E2_recovery/fastas/SAMN41558497.fna",
+  "fasta_sha256": "d9a4a42d92f16740955cb0a0a6d3641f83a86758b16a472fa788b7e690b52cc8",
+  "caller_exe_sha256": "91afefff09d115c8547a2cbb5ce4d1fb25bfc74f06b63b7a8e69c4236099fd5f",
+  "database_manifest_sha256": "d4606bec9b6d4756bbe721efb0420e785eb3b064d802364c5a2bce2db450c0cc",
+  "started_utc": "2026-11-11T18:02:41.752078+00:00",
+  "status": "PASS",
+  "execution": "PASS",
+  "output_sha256": "a8b0a600fe22f0e8df247af5a38196f325756c89c77f7656e48c58ca6bb91802",
+  "seconds": 64.98813933999918
+}

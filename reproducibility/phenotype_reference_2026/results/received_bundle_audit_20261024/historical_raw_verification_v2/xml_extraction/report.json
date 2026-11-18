@@ -1,0 +1,17 @@
+{
+  "status": "EXTRACTED_WITH_EXPLICIT_SELECTORS",
+  "records": 4427,
+  "disclaimer": "Reference-record audit only; not clinical adjudication, causal attribution, or independent validation.",
+  "inputs": {
+    "xml": {
+      "path": "/workspace/AMR-Genome-ML/results/received_bundle_audit_20261024/historical_raw_verification_v2/inputs/PRJNA1322038_biosample_efetch.xml",
+      "sha256": "f472ab0f6129170d152048017e7dccfd758fb1e5f7bade8076d545b14d35503e"
+    },
+    "config": {
+      "path": "/workspace/AMR-Genome-ML/results/received_bundle_audit_20261024/historical_raw_verification_v2/config.json",
+      "sha256": "d66c430f57377d1ffd18c323242705b21c8248255975592f16f3bf9fe1cd5f4d"
+    }
+  },
+  "audit_version": "1.0.0",
+  "completed_utc": "2026-10-24T08:26:59.309146+00:00"
+}

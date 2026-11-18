@@ -1,0 +1,22 @@
+genome_id,genome_name,taxon_id,antibiotic,resistant_phenotype,measurement,measurement_sign,measurement_value,measurement_unit,laboratory_typing_method,laboratory_typing_method_version,laboratory_typing_platform,vendor,testing_standard,testing_standard_year,source,screen_species_annotation,screen_drug
+470.7515,Acinetobacter baumannii strain MRSN11825,470,imipenem,Resistant,16,>=,16,mg/L,MIC,,Vitek,Biom�rieux,CLSI,,,Acinetobacter baumannii,imipenem
+470.7515,Acinetobacter baumannii strain MRSN11825,470,imipenem,Susceptible,1,<=,1,mg/L,MIC,,Phoenix,Becton Dickinson,CLSI,,,Acinetobacter baumannii,imipenem
+470.7632,Acinetobacter baumannii strain MRSN7147,470,imipenem,Resistant,8,>,8,mg/L,MIC,,Phoenix,Becton Dickinson,CLSI,,,Acinetobacter baumannii,imipenem
+470.7632,Acinetobacter baumannii strain MRSN7147,470,imipenem,Susceptible,1,<=,1,mg/L,MIC,,Vitek,Biom�rieux,CLSI,,,Acinetobacter baumannii,imipenem
+470.7718,Acinetobacter baumannii strain MRSN7271,470,imipenem,Resistant,8,>,8,mg/L,MIC,,Phoenix,Becton Dickinson,CLSI,,,Acinetobacter baumannii,imipenem
+470.7718,Acinetobacter baumannii strain MRSN7271,470,imipenem,Susceptible,4,==,4,mg/L,MIC,,Vitek,Biom�rieux,CLSI,,,Acinetobacter baumannii,imipenem
+470.7807,Acinetobacter baumannii strain MRSN7388,470,imipenem,Susceptible,4,==,4,mg/L,MIC,,Vitek,Biom�rieux,CLSI,,,Acinetobacter baumannii,imipenem
+470.7807,Acinetobacter baumannii strain MRSN7388,470,imipenem,Resistant,8,>,8,mg/L,MIC,,Phoenix,Becton Dickinson,CLSI,,,Acinetobacter baumannii,imipenem
+470.7920,Acinetobacter baumannii strain MRSN7560,470,imipenem,Resistant,8,>,8,mg/L,MIC,,Phoenix,Becton Dickinson,CLSI,,,Acinetobacter baumannii,imipenem
+470.7920,Acinetobacter baumannii strain MRSN7560,470,imipenem,Susceptible,4,==,4,mg/L,MIC,,Vitek,Biom�rieux,CLSI,,,Acinetobacter baumannii,imipenem
+470.7960,Acinetobacter baumannii strain MRSN7629,470,imipenem,Susceptible,1,<=,1,mg/L,MIC,,Vitek,Biom�rieux,CLSI,,,Acinetobacter baumannii,imipenem
+470.7960,Acinetobacter baumannii strain MRSN7629,470,imipenem,Resistant,8,>,8,mg/L,MIC,,Microscan,Siemens,CLSI,,,Acinetobacter baumannii,imipenem
+470.7960,Acinetobacter baumannii strain MRSN7629,470,imipenem,Susceptible,1,<=,1,mg/L,MIC,,Phoenix,Becton Dickinson,CLSI,,,Acinetobacter baumannii,imipenem
+470.8124,Acinetobacter baumannii strain not applicable,470,meropenem,Resistant,8,==,8,mg/L,MIC,,Vitek,,,,,Acinetobacter baumannii,meropenem
+470.8124,Acinetobacter baumannii strain not applicable,470,meropenem,Susceptible,2,==,2,mg/L,MIC,,Vitek,,,,,Acinetobacter baumannii,meropenem
+562.65781,Escherichia coli strain CFS0344,562,imipenem,,4,,4,mg/L,broth_microdilution,,,,,,,Escherichia coli,imipenem
+562.65781,Escherichia coli strain CFS0344,562,imipenem,Resistant,,,,,,,,,clsi,2018,,Escherichia coli,imipenem
+562.65781,Escherichia coli strain CFS0344,562,imipenem,Susceptible,,,,,disk_diffusion,,,,clsi,2018,,Escherichia coli,imipenem
+562.65785,Escherichia coli strain CFS0345,562,imipenem,Resistant,,,,,,,,,clsi,2018,,Escherichia coli,imipenem
+562.65785,Escherichia coli strain CFS0345,562,imipenem,,4,,4,mg/L,broth_microdilution,,,,,,,Escherichia coli,imipenem
+562.65785,Escherichia coli strain CFS0345,562,imipenem,Susceptible,,,,,disk_diffusion,,,,clsi,2018,,Escherichia coli,imipenem

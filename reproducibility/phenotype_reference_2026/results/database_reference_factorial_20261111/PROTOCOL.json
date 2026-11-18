@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-11-11T14:07:54.172212+00:00",
+  "status": "FIXED_BEFORE_NEW_DATABASE_CALLS_OR_SCORE_INSPECTION",
+  "question": "Separate reference-version effects from annotation-database effects with assemblies/model/schema/threshold/rule code held fixed.",
+  "primary_CCRE": {
+    "fixed_target": 355,
+    "available_verified_assemblies": 354,
+    "selection_manifest_sha256": "fc4f6ce8217fba1107f506997953d860a1c454c9d5cf5ac872a0f6b2bcf11b20",
+    "assembly_snapshot": "results/strict_CCRE_followup_20261111/native355_input_snapshot",
+    "reference": "OriginalPHASmeropenemS/R; EUCASTv9.0(2019)study-level interpretation",
+    "August_arm": "Existingverifiednative354run, DB2026-08-07.1",
+    "January_arm": "Same354DNAbytes, AMRFinderPlus4.2.7 DB2026-01-21.1",
+    "remaining_unscored": "SAMEA8264037 retained; no replacement or checksumoverride"
+  },
+  "secondary_E2": {
+    "target": 525,
+    "assembly_gate": "Attempt originalaccessions; require exact frozenfasta_sha256 before database-factor comparison. If unavailable retain technical failures and restrict both arms identically. No outcome-based selection.",
+    "August_model_arm": "Originalfrozen525probabilities/schema; freshnativeAugustverification only where needed",
+    "references": [
+      "OriginalSeptemberS/R",
+      "Existingpartial-sourceOctober175labelsubstitution"
+    ],
+    "rule_arm": "OriginalpairedprojectaggregateAugust counts only if cohort unchanged; no invented per-isolate calls. Otherwise freshlyverifiednative botharms or markunavailable."
+  },
+  "immutable": [
+    "fittedmodelhash1f55620cbd4b1dfd946ff37977e9a851b6aeaad8a5466eb553323331613cdcdd",
+    "668featureorder",
+    "threshold0.5",
+    "originalFile11Cparserandnucleotideoptions",
+    "originalFile11Erules",
+    "sourcephenotypesandeligibility"
+  ],
+  "outcomes": [
+    "featurecells/sampleschanged",
+    "pairedprobabilityandhardcallchanges",
+    "TP/FN/TN/FP,AUROC,BA,MCC,APforeacharm/reference/method",
+    "pairedPDSandcountrycompositionpercentilesCCRE; BioProjectE2 wherecomplete",
+    "methodbyreferencebydatabasecontrastswhenidentifiable",
+    "auditchangedhitswithoutclaiminggeneticcausality"
+  ],
+  "interpretation": "ControlledcomputationaldatabaseeffectonlywhenexactDNAandcallerfixed. Referenceeffectdoesnotadjudicateclinicaltruth. No newtraining/tuning/genericclinicalutilityclaim. Negativefindingsretained."
+}

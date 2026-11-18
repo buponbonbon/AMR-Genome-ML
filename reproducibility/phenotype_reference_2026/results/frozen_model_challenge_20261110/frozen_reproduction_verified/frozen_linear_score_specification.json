@@ -1,0 +1,11 @@
+{
+  "intercept": -3.095888498749164,
+  "threshold": 0.5,
+  "feature_schema_sha256": "9ca9c8c89a6bb2c1a97d85b9b5906efbf9aee0fca7eedb0328915063212c132f",
+  "model_sha256": "1f55620cbd4b1dfd946ff37977e9a851b6aeaad8a5466eb553323331613cdcdd",
+  "classes": [
+    0,
+    1
+  ],
+  "feature_count": 668
+}

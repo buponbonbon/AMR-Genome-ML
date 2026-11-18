@@ -1,0 +1,59 @@
+{
+  "created_utc": "2026-11-11T09:51:48.214106+00:00",
+  "status": "FIXED_AFTER_BUILD_DISCOVERY_BEFORE_NEW_AST_RETRIEVAL_OR_COMPARISON",
+  "targets": [
+    {
+      "species": "Klebsiella pneumoniae",
+      "genus": "Klebsiella",
+      "old_build": "PDG000000012.2559",
+      "old_file": "results/novelty_followup_20261110/retained_metadata_additional/PDG000000012.2559.metadata.tsv",
+      "old_sha256": "0c0452413e3eae8558486061b655a0cc1c3c152ec69cf0c14ac7692486870ecc",
+      "new_build": "PDG000000012.2576",
+      "new_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Klebsiella/PDG000000012.2576/Metadata/PDG000000012.2576.metadata.tsv"
+    },
+    {
+      "species": "Escherichia coli",
+      "genus": "Escherichia_coli_Shigella",
+      "old_build": "PDG000000004.6380",
+      "old_file": "results/novelty_followup_20261110/retained_metadata_additional/PDG000000004.6380.metadata.tsv",
+      "old_sha256": "2e731e8c911d122030ee2b64d3aa38b9a71924527a7520243a3ce070186eb8d5",
+      "new_build": "PDG000000004.6430",
+      "new_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6430/Metadata/PDG000000004.6430.metadata.tsv"
+    },
+    {
+      "species": "Acinetobacter baumannii",
+      "genus": "Acinetobacter",
+      "old_build": "PDG000000010.1983",
+      "old_file": "results/novelty_followup_20261110/retained_metadata/PDG000000010.1983.metadata.tsv",
+      "old_sha256": "71a23d785752c8106f9c60ca5898a1e26e619f5e92b89cd8c24ed3c27108a962",
+      "new_build": "PDG000000010.1999",
+      "new_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Acinetobacter/PDG000000010.1999/Metadata/PDG000000010.1999.metadata.tsv"
+    },
+    {
+      "species": "Pseudomonas aeruginosa",
+      "genus": "Pseudomonas_aeruginosa",
+      "old_build": "PDG000000036.1820",
+      "old_file": "results/novelty_followup_20261110/retained_metadata/PDG000000036.1820.metadata.tsv",
+      "old_sha256": "a4c37440264136da1096152027d140f4a9958308d039fe5bb811e42ce772d990",
+      "new_build": "PDG000000036.1834",
+      "new_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Pseudomonas_aeruginosa/PDG000000036.1834/Metadata/PDG000000036.1834.metadata.tsv"
+    }
+  ],
+  "primary_drugs": [
+    "meropenem"
+  ],
+  "primary_key": [
+    "canonical_BioSample",
+    "drug"
+  ],
+  "secondary_key": [
+    "target_acc",
+    "BioSample",
+    "drug"
+  ],
+  "category_policy": "Aggregate raw categories per BioSample/drug within release, intersect S/I/R; primary reversal requires singleton S versus singleton R. I and other categories retained. Opposed duplicates never silently collapsed.",
+  "exclude": "Any BioSample with PRJNA1322038 in either retained release, even on an AST-missing row.",
+  "secondary": "Other drug comparisons described; multiple drugs/isolates sharing a source are not independent events.",
+  "stopping_rule": "These four pinned latest available metadata builds only. Keep negative findings; do not advance windows until a positive appears.",
+  "interpretation": "Database annotation change candidates, not laboratory errors or proof of MIC revision. No author contact."
+}

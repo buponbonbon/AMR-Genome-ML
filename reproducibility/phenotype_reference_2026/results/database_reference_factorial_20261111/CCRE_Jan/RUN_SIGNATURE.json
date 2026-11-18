@@ -1,0 +1,9 @@
+{
+  "manifest_sha256": "fc4f6ce8217fba1107f506997953d860a1c454c9d5cf5ac872a0f6b2bcf11b20",
+  "model_sha256": "1f55620cbd4b1dfd946ff37977e9a851b6aeaad8a5466eb553323331613cdcdd",
+  "caller_exe_sha256": "91afefff09d115c8547a2cbb5ce4d1fb25bfc74f06b63b7a8e69c4236099fd5f",
+  "database_version": "2026-01-21.1",
+  "database_manifest_sha256": "d4606bec9b6d4756bbe721efb0420e785eb3b064d802364c5a2bce2db450c0cc",
+  "label_column": "S/I/R (PHAS interpretation)_Meropenem",
+  "runner_sha256": "afcac8b5bc67e9294c96c600bba887ee064bc4732e132fecb0adb66cbc829599"
+}

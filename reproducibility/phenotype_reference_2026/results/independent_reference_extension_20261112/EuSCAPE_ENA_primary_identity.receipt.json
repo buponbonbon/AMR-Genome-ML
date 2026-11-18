@@ -1,0 +1,7 @@
+{
+  "url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=PRJEB10018&result=read_run&fields=run_accession,sample_accession,secondary_sample_accession,scientific_name,study_accession&format=tsv",
+  "retrieved_utc": "2026-11-12T09:05:01.189976+00:00",
+  "status": 200,
+  "bytes": 180177,
+  "sha256": "b52c0c6af5946ffd987abea67914594c6156b8c1388ae2e36d79635f32cc6a55"
+}

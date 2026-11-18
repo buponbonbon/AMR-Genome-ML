@@ -1,0 +1,5 @@
+species_source_annotation,focal_shared_raw_AST_keys,focal_shared_SIR_keys,R_S_reversal_keys,S_to_R,R_to_S,stable_I_keys,changed_unique_BioSamples,changed_drug_names,outside_shared_SIR_keys,outside_SIR_changes
+Acinetobacter baumannii,985,825,815,655,160,10,81,13,16980,0
+Escherichia coli,3476,3476,3281,1717,1564,195,137,28,129575,0
+Klebsiella pneumoniae,6402,6402,6115,5005,1110,287,253,27,22182,0
+Pseudomonas aeruginosa,917,917,876,593,283,41,64,17,7362,0

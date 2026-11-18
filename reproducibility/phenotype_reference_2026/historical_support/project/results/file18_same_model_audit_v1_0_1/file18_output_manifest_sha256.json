@@ -1,0 +1,14 @@
+{
+  "file": "FILE18",
+  "version": "1.0.1",
+  "outputs_sha256": {
+    "file18_cross_scored_E2_reproduction.csv": "62667d9c067abce9fafad4ed517b12f844bb937856acd4081240dc103ee05b92",
+    "file18_cross_scored_E3_posthoc.csv": "4b48cd21fc4cd606fbb5c0958ac5fb231730a026761b5bff96ec876b3b1e6dc3",
+    "file18_input_sha256.json": "f4bc8cb308fadff5d4f6c77bd19914dec38e834221c713a4cfa914bed8ac17a0",
+    "file18_model_identity_and_schema_audit.json": "ba4ae7b3b7035c4f4c1854fcdbb9ad84baaf621e8ab660bae3b826a938b297ee",
+    "file18_reporting_guardrails.md": "cf6d45482f8399696f869b4e811371e3ae560c8d9dc206e4348206b72133e01e",
+    "file18_same_model_comparison.csv": "6c52e0464a8f0dcc30c6221382e631818e4b27160ab2d91d262edbc19031b29a",
+    "file18_summary.json": "d7b2eb3d5614f881f45ab5626d8d24d76d0c5d48b380f78c822fa9d344e9ac8c"
+  },
+  "source_inputs_verified_unchanged": true
+}

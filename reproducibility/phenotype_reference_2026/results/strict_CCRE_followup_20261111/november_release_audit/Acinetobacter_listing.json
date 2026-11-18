@@ -1,0 +1,14 @@
+{
+  "genus": "Acinetobacter",
+  "prefix": "PDG000000010",
+  "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Acinetobacter/",
+  "retrieved_utc": "2026-11-11T09:50:41.146846+00:00",
+  "sha256": "165d09a653c2114d663ce2d97c6b3bb986f636574a0ee4cfb074ae82d0dfda8e",
+  "last_builds": [
+    "1995",
+    "1996",
+    "1997",
+    "1998",
+    "1999"
+  ]
+}

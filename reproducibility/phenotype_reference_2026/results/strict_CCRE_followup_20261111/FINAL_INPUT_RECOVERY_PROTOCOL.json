@@ -1,0 +1,6 @@
+{
+  "created_utc": "2026-11-11T10:05:46.160939+00:00",
+  "purpose": "One final spaced retry of the same two failed publicURLs, against unchanged expectedMD5/bytes, without sample replacement. No access to predicted correctness for missing cases.",
+  "active_native_input_snapshot": "Not modified while355caller is active. Recoveredinputs can enter a separatelyverified catch-up/resume onlyafter thatrun finishes.",
+  "retry_limit": "One attemptperstillfailedURL, workers1, timeout20seconds. Retainfailuresifstillunresolved."
+}

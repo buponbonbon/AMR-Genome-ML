@@ -1,0 +1,15 @@
+{
+  "scope": "Ordering of continuous frozen ML scores versus the documented fixed binary rule score (0/1), under each common reference",
+  "historical_ML_auroc": 0.6673473884011796,
+  "historical_binary_rule_auroc": 0.6885062536013287,
+  "october_ML_auroc": 0.9689087583824426,
+  "october_binary_rule_auroc_upper_bound": 0.9189189189189189,
+  "historical_ML_AP": 0.4114813522844942,
+  "historical_binary_rule_AP": 0.42695137173664777,
+  "october_ML_AP": 0.9742081035825135,
+  "october_binary_rule_AP_upper_bound": 0.8636363636363636,
+  "AUROC_order_reversal_proven": true,
+  "AP_order_reversal_proven": true,
+  "bound_derivation": "Rule has 308 fixed positive calls. October reference has 266 R and 259 S, so TP<=266 and FP>=42. Binary-score AUROC=(TPR+TNR)/2 <=(1+217/259)/2=0.9189189189. The complete feasible count enumeration also bounds binary-score AP at 266/308=0.8636363636.",
+  "limits": "New rule point metrics and FN/FP are not recovered. Hard-decision BA/MCC/safety ordering is not certified. AP depends on reference prevalence. This is an established score-format identity applied to the documented comparator, not a new algorithm or clinical superiority claim."
+}

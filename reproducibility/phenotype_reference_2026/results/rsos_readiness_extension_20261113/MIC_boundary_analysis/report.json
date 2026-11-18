@@ -1,0 +1,565 @@
+{
+  "status": "COMPLETE_POSTHOC_MIC_BOUNDARY_FIXED_PREDICTION_SENSITIVITY",
+  "protocol_sha256": "4be565f7c97738f6c1f59ce28eb440b8db37c2ed42e0a780678a828e669cf98c",
+  "cohorts": {
+    "CCRE": {
+      "input_sha256": "67802955da56aa680acca6d0a4cfbd879aee57ea72151e51cd0dd158132310ee",
+      "fixed_cases": 354,
+      "MIC_category_checks": {
+        "UNIQUE_AGREEMENT": 350,
+        "NOT_DETERMINABLE": 3,
+        "INTERVAL_COMPATIBLE_NOT_UNIQUE": 1
+      },
+      "boundary_status_counts": {
+        "BOUNDARY_ROBUST": 283,
+        "BOUNDARY_SENSITIVE": 67,
+        "UNSUPPORTED_MIC": 3,
+        "OBSERVED_INTERVAL_OR_CATEGORY_UNCERTAIN": 1
+      },
+      "strata": {
+        "all_fixed_cases": {
+          "n": 354,
+          "methods": {
+            "frozen_ML": {
+              "n": 354,
+              "R": 164,
+              "S": 190,
+              "TP": 149,
+              "FN": 15,
+              "TN": 176,
+              "FP": 14,
+              "sensitivity": 0.9085365853658537,
+              "specificity": 0.9263157894736842,
+              "balanced_accuracy": 0.9174261874197689,
+              "MCC": 0.8352143079825396,
+              "AUROC": 0.968084082156611,
+              "average_precision": 0.9625151396810814
+            },
+            "broad_rule": {
+              "n": 354,
+              "R": 164,
+              "S": 190,
+              "TP": 162,
+              "FN": 2,
+              "TN": 122,
+              "FP": 68,
+              "sensitivity": 0.9878048780487805,
+              "specificity": 0.6421052631578947,
+              "balanced_accuracy": 0.8149550706033376,
+              "MCC": 0.6584193174579898,
+              "AUROC": 0.8149550706033376,
+              "average_precision": 0.7014079359658741
+            },
+            "KPC_rule": {
+              "n": 354,
+              "R": 164,
+              "S": 190,
+              "TP": 60,
+              "FN": 104,
+              "TN": 187,
+              "FP": 3,
+              "sensitivity": 0.36585365853658536,
+              "specificity": 0.9842105263157894,
+              "balanced_accuracy": 0.6750320924261874,
+              "MCC": 0.45638318570575415,
+              "AUROC": 0.6750320924261874,
+              "average_precision": 0.6422173664835922
+            },
+            "source_CP_presence": {
+              "n": 354,
+              "R": 164,
+              "S": 190,
+              "TP": 160,
+              "FN": 4,
+              "TN": 133,
+              "FP": 57,
+              "sensitivity": 0.975609756097561,
+              "specificity": 0.7,
+              "balanced_accuracy": 0.8378048780487805,
+              "MCC": 0.6916788344232435,
+              "AUROC": 0.8378048780487805,
+              "average_precision": 0.7306430339941922
+            }
+          },
+          "paired_country_composition": {
+            "seed": 20261114,
+            "draws": 10000,
+            "source_countries": 29,
+            "valid_draws": 10000,
+            "ML_minus_broad_BA": 0.10247111681643128,
+            "percentile_2_5": 0.04100528786157166,
+            "percentile_97_5": 0.14672450072214746
+          }
+        },
+        "boundary_robust": {
+          "n": 283,
+          "methods": {
+            "frozen_ML": {
+              "n": 283,
+              "R": 116,
+              "S": 167,
+              "TP": 107,
+              "FN": 9,
+              "TN": 154,
+              "FP": 13,
+              "sensitivity": 0.9224137931034483,
+              "specificity": 0.9221556886227545,
+              "balanced_accuracy": 0.9222847408631014,
+              "MCC": 0.8405009124141621,
+              "AUROC": 0.9743444146190378,
+              "average_precision": 0.9624509220400258
+            },
+            "broad_rule": {
+              "n": 283,
+              "R": 116,
+              "S": 167,
+              "TP": 115,
+              "FN": 1,
+              "TN": 115,
+              "FP": 52,
+              "sensitivity": 0.9913793103448276,
+              "specificity": 0.688622754491018,
+              "balanced_accuracy": 0.8400010324179228,
+              "MCC": 0.6800020648358456,
+              "AUROC": 0.8400010324179228,
+              "average_precision": 0.6862199203396545
+            },
+            "KPC_rule": {
+              "n": 283,
+              "R": 116,
+              "S": 167,
+              "TP": 43,
+              "FN": 73,
+              "TN": 164,
+              "FP": 3,
+              "sensitivity": 0.3706896551724138,
+              "specificity": 0.9820359281437125,
+              "balanced_accuracy": 0.6763627916580632,
+              "MCC": 0.470187524388063,
+              "AUROC": 0.6763627916580632,
+              "average_precision": 0.6044647729138964
+            },
+            "source_CP_presence": {
+              "n": 283,
+              "R": 116,
+              "S": 167,
+              "TP": 115,
+              "FN": 1,
+              "TN": 125,
+              "FP": 42,
+              "sensitivity": 0.9913793103448276,
+              "specificity": 0.7485029940119761,
+              "balanced_accuracy": 0.8699411521784018,
+              "MCC": 0.7321747910133161,
+              "AUROC": 0.8699411521784018,
+              "average_precision": 0.7297031274374292
+            }
+          },
+          "paired_country_composition": {
+            "seed": 20261114,
+            "draws": 10000,
+            "source_countries": 29,
+            "valid_draws": 10000,
+            "ML_minus_broad_BA": 0.08228370844517863,
+            "percentile_2_5": 0.03524284441404001,
+            "percentile_97_5": 0.11815241479563734
+          }
+        },
+        "boundary_sensitive": {
+          "n": 67,
+          "methods": {
+            "frozen_ML": {
+              "n": 67,
+              "R": 47,
+              "S": 20,
+              "TP": 41,
+              "FN": 6,
+              "TN": 19,
+              "FP": 1,
+              "sensitivity": 0.8723404255319149,
+              "specificity": 0.95,
+              "balanced_accuracy": 0.9111702127659574,
+              "MCC": 0.778074025696154,
+              "AUROC": 0.924468085106383,
+              "average_precision": 0.9724559751274744
+            },
+            "broad_rule": {
+              "n": 67,
+              "R": 47,
+              "S": 20,
+              "TP": 46,
+              "FN": 1,
+              "TN": 4,
+              "FP": 16,
+              "sensitivity": 0.9787234042553191,
+              "specificity": 0.2,
+              "balanced_accuracy": 0.5893617021276596,
+              "MCC": 0.31121785707792055,
+              "AUROC": 0.5893617021276596,
+              "average_precision": 0.7410749956463395
+            },
+            "KPC_rule": {
+              "n": 67,
+              "R": 47,
+              "S": 20,
+              "TP": 16,
+              "FN": 31,
+              "TN": 20,
+              "FP": 0,
+              "sensitivity": 0.3404255319148936,
+              "specificity": 1.0,
+              "balanced_accuracy": 0.6702127659574468,
+              "MCC": 0.3653768035796415,
+              "AUROC": 0.6702127659574468,
+              "average_precision": 0.8031120990790727
+            },
+            "source_CP_presence": {
+              "n": 67,
+              "R": 47,
+              "S": 20,
+              "TP": 44,
+              "FN": 3,
+              "TN": 5,
+              "FP": 15,
+              "sensitivity": 0.9361702127659575,
+              "specificity": 0.25,
+              "balanced_accuracy": 0.5930851063829787,
+              "MCC": 0.2627260416355409,
+              "AUROC": 0.5930851063829787,
+              "average_precision": 0.7429369560420042
+            }
+          },
+          "paired_country_composition": {
+            "seed": 20261114,
+            "draws": 10000,
+            "source_countries": 29,
+            "valid_draws": 10000,
+            "ML_minus_broad_BA": 0.32180851063829785,
+            "percentile_2_5": 0.15162800492451242,
+            "percentile_97_5": 0.4232960513750955
+          }
+        },
+        "uncertain_or_unsupported": {
+          "n": 4,
+          "methods": {
+            "frozen_ML": {
+              "n": 4,
+              "R": 1,
+              "S": 3,
+              "TP": 1,
+              "FN": 0,
+              "TN": 3,
+              "FP": 0,
+              "sensitivity": 1.0,
+              "specificity": 1.0,
+              "balanced_accuracy": 1.0,
+              "MCC": 1.0,
+              "AUROC": 1.0,
+              "average_precision": 1.0
+            },
+            "broad_rule": {
+              "n": 4,
+              "R": 1,
+              "S": 3,
+              "TP": 1,
+              "FN": 0,
+              "TN": 3,
+              "FP": 0,
+              "sensitivity": 1.0,
+              "specificity": 1.0,
+              "balanced_accuracy": 1.0,
+              "MCC": 1.0,
+              "AUROC": 1.0,
+              "average_precision": 1.0
+            },
+            "KPC_rule": {
+              "n": 4,
+              "R": 1,
+              "S": 3,
+              "TP": 1,
+              "FN": 0,
+              "TN": 3,
+              "FP": 0,
+              "sensitivity": 1.0,
+              "specificity": 1.0,
+              "balanced_accuracy": 1.0,
+              "MCC": 1.0,
+              "AUROC": 1.0,
+              "average_precision": 1.0
+            },
+            "source_CP_presence": {
+              "n": 4,
+              "R": 1,
+              "S": 3,
+              "TP": 1,
+              "FN": 0,
+              "TN": 3,
+              "FP": 0,
+              "sensitivity": 1.0,
+              "specificity": 1.0,
+              "balanced_accuracy": 1.0,
+              "MCC": 1.0,
+              "AUROC": 1.0,
+              "average_precision": 1.0
+            }
+          },
+          "paired_country_composition": {
+            "seed": 20261114,
+            "draws": 10000,
+            "source_countries": 29,
+            "valid_draws": 4030,
+            "ML_minus_broad_BA": 0.0,
+            "percentile_2_5": 0.0,
+            "percentile_97_5": 0.0
+          }
+        }
+      }
+    },
+    "EuSCAPE": {
+      "input_sha256": "35269d707f3713bfba571f2dea5ece15d7126d0c1bbdf60f0d814f13827f755b",
+      "fixed_cases": 170,
+      "MIC_category_checks": {
+        "UNIQUE_AGREEMENT": 170
+      },
+      "boundary_status_counts": {
+        "BOUNDARY_ROBUST": 137,
+        "BOUNDARY_SENSITIVE": 33
+      },
+      "strata": {
+        "all_fixed_cases": {
+          "n": 170,
+          "methods": {
+            "frozen_ML": {
+              "n": 170,
+              "R": 40,
+              "S": 130,
+              "TP": 35,
+              "FN": 5,
+              "TN": 114,
+              "FP": 16,
+              "sensitivity": 0.875,
+              "specificity": 0.8769230769230769,
+              "balanced_accuracy": 0.8759615384615385,
+              "MCC": 0.6960116625691228,
+              "AUROC": 0.9546153846153846,
+              "average_precision": 0.8907458201381171
+            },
+            "broad_rule": {
+              "n": 170,
+              "R": 40,
+              "S": 130,
+              "TP": 40,
+              "FN": 0,
+              "TN": 84,
+              "FP": 46,
+              "sensitivity": 1.0,
+              "specificity": 0.6461538461538462,
+              "balanced_accuracy": 0.823076923076923,
+              "MCC": 0.5482122514407133,
+              "AUROC": 0.823076923076923,
+              "average_precision": 0.4651162790697675
+            },
+            "KPC_rule": {
+              "n": 170,
+              "R": 40,
+              "S": 130,
+              "TP": 19,
+              "FN": 21,
+              "TN": 127,
+              "FP": 3,
+              "sensitivity": 0.475,
+              "specificity": 0.9769230769230769,
+              "balanced_accuracy": 0.7259615384615384,
+              "MCC": 0.5711155596050439,
+              "AUROC": 0.7259615384615384,
+              "average_precision": 0.5337566844919787
+            },
+            "source_CP_presence": {
+              "n": 170,
+              "R": 40,
+              "S": 130,
+              "TP": 39,
+              "FN": 1,
+              "TN": 93,
+              "FP": 37,
+              "sensitivity": 0.975,
+              "specificity": 0.7153846153846154,
+              "balanced_accuracy": 0.8451923076923077,
+              "MCC": 0.5890091668255519,
+              "AUROC": 0.8451923076923077,
+              "average_precision": 0.5062113003095975
+            }
+          },
+          "paired_country_composition": {
+            "seed": 20261114,
+            "draws": 10000,
+            "source_countries": 26,
+            "valid_draws": 10000,
+            "ML_minus_broad_BA": 0.05288461538461542,
+            "percentile_2_5": -0.015127137713771437,
+            "percentile_97_5": 0.12891830294530154
+          }
+        },
+        "boundary_robust": {
+          "n": 137,
+          "methods": {
+            "frozen_ML": {
+              "n": 137,
+              "R": 29,
+              "S": 108,
+              "TP": 25,
+              "FN": 4,
+              "TN": 98,
+              "FP": 10,
+              "sensitivity": 0.8620689655172413,
+              "specificity": 0.9074074074074074,
+              "balanced_accuracy": 0.8847381864623244,
+              "MCC": 0.7207291007196829,
+              "AUROC": 0.969029374201788,
+              "average_precision": 0.9068579746986984
+            },
+            "broad_rule": {
+              "n": 137,
+              "R": 29,
+              "S": 108,
+              "TP": 29,
+              "FN": 0,
+              "TN": 82,
+              "FP": 26,
+              "sensitivity": 1.0,
+              "specificity": 0.7592592592592593,
+              "balanced_accuracy": 0.8796296296296297,
+              "MCC": 0.6327216610301091,
+              "AUROC": 0.8796296296296297,
+              "average_precision": 0.5272727272727272
+            },
+            "KPC_rule": {
+              "n": 137,
+              "R": 29,
+              "S": 108,
+              "TP": 15,
+              "FN": 14,
+              "TN": 107,
+              "FP": 1,
+              "sensitivity": 0.5172413793103449,
+              "specificity": 0.9907407407407407,
+              "balanced_accuracy": 0.7539910600255428,
+              "MCC": 0.6461102435329286,
+              "AUROC": 0.7539910600255428,
+              "average_precision": 0.5871035741253461
+            },
+            "source_CP_presence": {
+              "n": 137,
+              "R": 29,
+              "S": 108,
+              "TP": 29,
+              "FN": 0,
+              "TN": 88,
+              "FP": 20,
+              "sensitivity": 1.0,
+              "specificity": 0.8148148148148148,
+              "balanced_accuracy": 0.9074074074074074,
+              "MCC": 0.6944331064834082,
+              "AUROC": 0.9074074074074074,
+              "average_precision": 0.5918367346938775
+            }
+          },
+          "paired_country_composition": {
+            "seed": 20261114,
+            "draws": 10000,
+            "source_countries": 26,
+            "valid_draws": 9999,
+            "ML_minus_broad_BA": 0.005108556832694733,
+            "percentile_2_5": -0.08031000797448168,
+            "percentile_97_5": 0.07971014492753614
+          }
+        },
+        "boundary_sensitive": {
+          "n": 33,
+          "methods": {
+            "frozen_ML": {
+              "n": 33,
+              "R": 11,
+              "S": 22,
+              "TP": 10,
+              "FN": 1,
+              "TN": 16,
+              "FP": 6,
+              "sensitivity": 0.9090909090909091,
+              "specificity": 0.7272727272727273,
+              "balanced_accuracy": 0.8181818181818181,
+              "MCC": 0.600245047998781,
+              "AUROC": 0.8966942148760331,
+              "average_precision": 0.8584333030257796
+            },
+            "broad_rule": {
+              "n": 33,
+              "R": 11,
+              "S": 22,
+              "TP": 11,
+              "FN": 0,
+              "TN": 2,
+              "FP": 20,
+              "sensitivity": 1.0,
+              "specificity": 0.09090909090909091,
+              "balanced_accuracy": 0.5454545454545454,
+              "MCC": 0.17960530202677488,
+              "AUROC": 0.5454545454545454,
+              "average_precision": 0.3548387096774194
+            },
+            "KPC_rule": {
+              "n": 33,
+              "R": 11,
+              "S": 22,
+              "TP": 4,
+              "FN": 7,
+              "TN": 20,
+              "FP": 2,
+              "sensitivity": 0.36363636363636365,
+              "specificity": 0.9090909090909091,
+              "balanced_accuracy": 0.6363636363636364,
+              "MCC": 0.3333333333333333,
+              "AUROC": 0.6363636363636364,
+              "average_precision": 0.45454545454545453
+            },
+            "source_CP_presence": {
+              "n": 33,
+              "R": 11,
+              "S": 22,
+              "TP": 10,
+              "FN": 1,
+              "TN": 5,
+              "FP": 17,
+              "sensitivity": 0.9090909090909091,
+              "specificity": 0.22727272727272727,
+              "balanced_accuracy": 0.5681818181818181,
+              "MCC": 0.16666666666666666,
+              "AUROC": 0.5681818181818182,
+              "average_precision": 0.36700336700336694
+            }
+          },
+          "paired_country_composition": {
+            "seed": 20261114,
+            "draws": 10000,
+            "source_countries": 26,
+            "valid_draws": 9998,
+            "ML_minus_broad_BA": 0.2727272727272727,
+            "percentile_2_5": 0.1428571428571429,
+            "percentile_97_5": 0.3846153846153847
+          }
+        },
+        "uncertain_or_unsupported": {
+          "n": 0
+        }
+      }
+    }
+  },
+  "independent_interval_and_metric_checks": 582,
+  "limits": [
+    "No new independent temporal event or historical AST adjudication.",
+    "No inference that MIC uncertainty actually equals one dilution or that exclusions improve real clinical utility.",
+    "Stratification conditions on measured phenotype; core performance is not representative of all infections.",
+    "CCRE mixed assays are not newly remeasured BMD; EuSCAPE and CCRE share related surveillance origins."
+  ],
+  "no_labels_or_predictions_changed": true
+}

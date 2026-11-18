@@ -1,0 +1,12 @@
+{
+  "sample_accession": "SAMN51434571",
+  "asm_acc": "GCA_060294285.1",
+  "expected_fasta_sha256": "bb226aac167f6f5bd0dafaa8ed869a3643b3fcb5270c76fcea26a986f1452a60",
+  "batch_zip": "results/database_reference_factorial_20261111/E2_recovery/batch_zips/ab1493cff489453c.zip",
+  "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCA_060294475.1,GCA_060294465.1,GCA_060294445.1,GCA_060294415.1,GCA_060294405.1,GCA_060294385.1,GCA_060294365.1,GCA_060294285.1,GCA_060294295.1,GCA_060294265.1,GCA_060294245.1,GCA_060294225.1,GCA_060294205.1,GCA_060294175.1,GCA_060294165.1,GCA_060294145.1,GCA_060294125.1,GCA_060294105.1,GCA_060294085.1,GCA_060294065.1,GCA_060294045.1,GCA_060294025.1,GCA_060294005.1,GCA_060293925.1,GCA_060293945.1/download?include_annotation_type=GENOME_FASTA",
+  "actual_fasta_sha256": "bb226aac167f6f5bd0dafaa8ed869a3643b3fcb5270c76fcea26a986f1452a60",
+  "bytes": 5491877,
+  "zip_member": "ncbi_dataset/data/GCA_060294285.1/GCA_060294285.1_ASM6029428v1_genomic.fna",
+  "status": "PASS_EXACT_FROZEN_FASTA_BYTES",
+  "completed_utc": "2026-11-11T14:17:48.499557+00:00"
+}

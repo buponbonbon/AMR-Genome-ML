@@ -1,0 +1,5 @@
+species_source_annotation,antibiotic,is_primary_drug,shared_raw_AST_keys,same_SIR_set,unopposed_R_S_reversal_candidates,other_SIR_set_changes,non_SIR_or_missing_involved,drug_only_in_old_AST,drug_only_in_new_AST,unique_BioSamples_shared_keys,BioProject_ids_shared_keys
+Klebsiella pneumoniae,imipenem,True,1168,816,213,0,139,0,0,1166,158
+Klebsiella pneumoniae,meropenem,True,1321,1000,244,0,77,0,0,1319,202
+Escherichia coli,imipenem,True,4957,3292,131,0,1534,0,0,4957,61
+Escherichia coli,meropenem,True,7291,6448,131,0,712,0,0,7291,86

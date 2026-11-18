@@ -1,0 +1,31 @@
+{
+  "scope": "Fixed-threshold reference-dependent metrics, not clinical safety validation",
+  "reference_crosswalk_sha256": "f2983db5a1d4c2300fdba90dde888262f1bb96a9e357856746c942d48409ad5a",
+  "no_training_or_new_rule_selection": true,
+  "status": "EXACT_RULE_REPLAY_BLOCKED_MISSING_SOURCE_COUNTS",
+  "feasible_aggregate_matrices": 165,
+  "feasible_metric_bounds": {
+    "sensitivity": {
+      "min": 0.38345864661654133,
+      "max": 1.0
+    },
+    "specificity": {
+      "min": 0.20463320463320464,
+      "max": 0.8378378378378378
+    },
+    "balanced_accuracy": {
+      "min": 0.294045925624873,
+      "max": 0.9189189189189189
+    },
+    "mcc": {
+      "min": -0.4182017625315465,
+      "max": 0.8506393028700376
+    },
+    "error_n": {
+      "min": 42,
+      "max": 370
+    }
+  },
+  "bounds_interpretation": "Ranges over unknown rule calls consistent with archived margins only; not confidence intervals, actual replay or a new algorithm.",
+  "minimum_missing_input": "results/file16i_evidence_lock_v1/file16i_E2_paired_by_bioproject.csv (4030 bytes in preserved inventory)"
+}

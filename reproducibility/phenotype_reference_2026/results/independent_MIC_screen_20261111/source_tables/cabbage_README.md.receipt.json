@@ -1,0 +1,13 @@
+{
+  "file": "cabbage_README.md",
+  "url": "https://raw.githubusercontent.com/Leonardini/CABBAGE/f1728c39d6e4baa3da78cc7183ab592dbdbaf528/README.md",
+  "started_utc": "2026-11-11T07:18:59.413772+00:00",
+  "http_status": 200,
+  "final_url": "https://raw.githubusercontent.com/Leonardini/CABBAGE/f1728c39d6e4baa3da78cc7183ab592dbdbaf528/README.md",
+  "content_type": "text/plain; charset=utf-8",
+  "content_range": null,
+  "bytes": 2538,
+  "sha256": "da02b22c4555afd920ced9aaecf2f9c7cd316ab9798950a2cfe302c535706f6d",
+  "signature_hex": "546869732069732074686520",
+  "completed_utc": "2026-11-11T07:18:59.805083+00:00"
+}

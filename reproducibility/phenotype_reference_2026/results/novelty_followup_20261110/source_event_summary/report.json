@@ -1,0 +1,115 @@
+{
+  "status": "DESCRIPTIVE_SOURCE_EVENT_SUMMARY_NOT_CLINICAL_ADJUDICATION",
+  "all_shared_raw_AST_keys": 229243,
+  "all_shared_SIR_keys": 187719,
+  "focal_raw_AST_keys": 11780,
+  "focal_category_transitions": {
+    "S->R": 7970,
+    "R->S": 3117,
+    "I->I": 533,
+    "ND->ND": 160
+  },
+  "R_S_reversal_keys": 11087,
+  "changed_unique_BioSamples": 535,
+  "changed_drug_names": [
+    "amikacin",
+    "amoxicillin-clavulanic acid",
+    "ampicillin",
+    "aztreonam",
+    "cefalexin",
+    "cefalotin",
+    "cefepime",
+    "cefoperazone",
+    "cefoxitin",
+    "ceftazidime",
+    "ceftiofur",
+    "ceftolozane-tazobactam",
+    "ceftriaxone",
+    "ciprofloxacin",
+    "enrofloxacin",
+    "ertapenem",
+    "florfenicol",
+    "gentamicin",
+    "imipenem",
+    "marbofloxacin",
+    "meropenem",
+    "neomycin",
+    "piperacillin-tazobactam",
+    "polymyxin b",
+    "tetracycline",
+    "ticarcillin-clavulanic acid",
+    "tobramycin",
+    "trimethoprim-sulfamethoxazole"
+  ],
+  "changed_project_ids": [
+    "PRJNA1322038"
+  ],
+  "outside_shared_SIR_keys": 176099,
+  "outside_changed_SIR_keys": 0,
+  "outside_unique_BioSamples_with_shared_SIR": 12336,
+  "outside_BioProject_ids_with_shared_SIR": 223,
+  "known_event_anchor_counts": {
+    "old/AGREE": 525,
+    "new/AGREE": 525
+  },
+  "species": [
+    {
+      "species_source_annotation": "Acinetobacter baumannii",
+      "focal_shared_raw_AST_keys": 985,
+      "focal_shared_SIR_keys": 825,
+      "R_S_reversal_keys": 815,
+      "S_to_R": 655,
+      "R_to_S": 160,
+      "stable_I_keys": 10,
+      "changed_unique_BioSamples": 81,
+      "changed_drug_names": 13,
+      "outside_shared_SIR_keys": 16980,
+      "outside_SIR_changes": 0
+    },
+    {
+      "species_source_annotation": "Escherichia coli",
+      "focal_shared_raw_AST_keys": 3476,
+      "focal_shared_SIR_keys": 3476,
+      "R_S_reversal_keys": 3281,
+      "S_to_R": 1717,
+      "R_to_S": 1564,
+      "stable_I_keys": 195,
+      "changed_unique_BioSamples": 137,
+      "changed_drug_names": 28,
+      "outside_shared_SIR_keys": 129575,
+      "outside_SIR_changes": 0
+    },
+    {
+      "species_source_annotation": "Klebsiella pneumoniae",
+      "focal_shared_raw_AST_keys": 6402,
+      "focal_shared_SIR_keys": 6402,
+      "R_S_reversal_keys": 6115,
+      "S_to_R": 5005,
+      "R_to_S": 1110,
+      "stable_I_keys": 287,
+      "changed_unique_BioSamples": 253,
+      "changed_drug_names": 27,
+      "outside_shared_SIR_keys": 22182,
+      "outside_SIR_changes": 0
+    },
+    {
+      "species_source_annotation": "Pseudomonas aeruginosa",
+      "focal_shared_raw_AST_keys": 917,
+      "focal_shared_SIR_keys": 917,
+      "R_S_reversal_keys": 876,
+      "S_to_R": 593,
+      "R_to_S": 283,
+      "stable_I_keys": 41,
+      "changed_unique_BioSamples": 64,
+      "changed_drug_names": 17,
+      "outside_shared_SIR_keys": 7362,
+      "outside_SIR_changes": 0
+    }
+  ],
+  "limitations": [
+    "One observed source event, not four independent events or 11087 independent patients.",
+    "Full-antibiogram expansion is exploratory; meropenem/imipenem were the primary screening drugs.",
+    "Source taxonomy annotations are not genomic species adjudication.",
+    "AST correctness and root cause are unresolved; do not equate the newest category with truth."
+  ]
+}

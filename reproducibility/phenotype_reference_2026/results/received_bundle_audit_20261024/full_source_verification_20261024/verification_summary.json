@@ -1,0 +1,64 @@
+{
+  "historical_input_sha256": "3f619f1d58d2c39e16a016e05a2fd060dbed1494ec87acc21aedc86c73ca6346",
+  "current_input_sha256": "86a0eba3be71c512d0a130ab5fda7f50392959c67a22827c36675a0e1ad1c4ec",
+  "historical_rows": 3039,
+  "historical_unique": 3033,
+  "historical_identical_duplicate_rows": 6,
+  "current_rows": 3058,
+  "current_unique": 3052,
+  "current_identical_duplicate_rows": 6,
+  "matched_exact_target_biosample_drug": 3033,
+  "historical_only": 0,
+  "current_only": 19,
+  "current_only_meropenem_outside_focal": 19,
+  "matched_source_groups": {
+    "other": {
+      "matched": 2256,
+      "phenotype_unchanged": 2256,
+      "intermediate_unchanged": 80
+    },
+    "focal": {
+      "matched": 777,
+      "phenotype_changed": 726,
+      "R_S_reversals": 726,
+      "phenotype_unchanged": 51,
+      "intermediate_unchanged": 51
+    }
+  },
+  "changed_nonphenotype_fields": {
+    "erd_group": 415
+  },
+  "erd_group_changes_by_project_group": {
+    "other": 145,
+    "focal": 270
+  },
+  "original_grouping_replaced": false,
+  "new_bootstrap_or_CI_performed": false,
+  "earlier_175_sample_query_vs_full_current_label_agreements": 525,
+  "frozen_E2_records_matched_to_current": 525,
+  "E2_nonfocal_labels_confirmed_unchanged": 350,
+  "current_snapshot_all_525_reference_equals_prior_partial_substitution_vector": true,
+  "current_snapshot_metrics_DESCRIPTIVE_POSTHOC_NOT_INDEPENDENT_VALIDATION": {
+    "n": 525,
+    "R": 266,
+    "S": 259,
+    "threshold": 0.5,
+    "TP": 236,
+    "FN": 30,
+    "TN": 245,
+    "FP": 14,
+    "roc_auc": 0.9689087583824426,
+    "average_precision": 0.9742081035825133,
+    "sensitivity": 0.8872180451127819,
+    "specificity": 0.9459459459459459,
+    "balanced_accuracy": 0.9165819955293639,
+    "mcc": 0.8340360845629118,
+    "brier": 0.06650456510336132,
+    "undefined_reason": null
+  },
+  "clinical_adjudication": false,
+  "training_performed": false,
+  "causal_origin_and_edit_timestamp": "NOT_ESTABLISHED",
+  "original_SQL_export_chain": "NOT_YET_VERIFIED",
+  "interpretation": "All 525 E2 record labels have now been matched to the supplied full October export. This is record-level contemporaneous-reference concordance, not independent AST adjudication, a new holdout test, or a prespecified protocol change. Frozen historical results remain unchanged."
+}

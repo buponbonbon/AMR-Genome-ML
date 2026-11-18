@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-11-12T08:33:20.620432+00:00",
+  "purpose": "Bounded independent-source temporal screen of four previously inventoried but not yet paired-audited taxa",
+  "targets": [
+    {
+      "directory": "Enterococcus_faecium",
+      "species": "Enterococcus faecium",
+      "old_build": "PDG000000071.827",
+      "new_build": "PDG000000071.956",
+      "old_directory_date": "2026-01-02",
+      "new_directory_date": "2026-09-20"
+    },
+    {
+      "directory": "Staphylococcus_aureus",
+      "species": "Staphylococcus aureus",
+      "old_build": "PDG000000073.1114",
+      "new_build": "PDG000000073.1288",
+      "old_directory_date": "2026-01-05",
+      "new_directory_date": "2026-09-20"
+    },
+    {
+      "directory": "Enterobacter_cloacae",
+      "species": "Enterobacter cloacae",
+      "old_build": "PDG000000028.1320",
+      "new_build": "PDG000000028.1432",
+      "old_directory_date": "2026-01-01",
+      "new_directory_date": "2026-09-20"
+    },
+    {
+      "directory": "Enterobacter_hormaechei",
+      "species": "Enterobacter hormaechei",
+      "old_build": "PDG000000105.656",
+      "new_build": "PDG000000105.855",
+      "old_directory_date": "2026-01-01",
+      "new_directory_date": "2026-09-21"
+    }
+  ],
+  "file_size_guard_bytes": 209715200,
+  "primary_drugs": [
+    "meropenem",
+    "imipenem",
+    "vancomycin",
+    "oxacillin"
+  ],
+  "exclude_any_BioSample_in_project": "PRJNA1322038",
+  "known_source_excluded_from_both_dates": true,
+  "all_drugs_reported": true,
+  "selection_fixed_before_new_metadata_AST_read": true,
+  "no_cross_species_application_of_Kp_classifier": true,
+  "no_frequency_or_AST_truth_claim": true
+}

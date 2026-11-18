@@ -1,0 +1,12 @@
+{
+  "build": "PDG000000012.2576",
+  "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Klebsiella/PDG000000012.2576/",
+  "sha256": "9b6222b3ee3dd4c163224f18a1e0d439ab85d96fbfbdb09c2a3fbf5414e59561",
+  "links": [
+    "/pathogen/Results/Klebsiella/",
+    "Metadata/",
+    "PDG000000012.2576.kmer.descriptor.xml",
+    "https://www.hhs.gov/vulnerability-disclosure-policy/index.html"
+  ],
+  "retrieved_utc": "2026-11-11T09:59:08.731048+00:00"
+}

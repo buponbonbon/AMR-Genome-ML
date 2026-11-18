@@ -1,0 +1,381 @@
+{
+  "files": [
+    {
+      "path": "AMR_Genome_ML_key_metrics_summary.csv",
+      "sha256": "e7304ab62082db3f976028c9a54e754dce38257086ad3155086fb9853cbd0ca6"
+    },
+    {
+      "path": "checkpoints/external_validation_file11c/file11c_final_summary.json",
+      "sha256": "85912e9806b07a6c4c779db766f2981d66028e1abf685a6548089e2a6caab0e5"
+    },
+    {
+      "path": "data/external_validation/ncbi_pathogen_detection/file11c/file11c_blind_predictions.csv",
+      "sha256": "6b56e1eeb60421261d6933bf89897d0a10faae4ba7cea8399787b76008db9ef1"
+    },
+    {
+      "path": "file19_bigquery_current_175_3drugs.csv",
+      "sha256": "4746eac12ac82aa9d384bc7b816c52bb6d5c08c41e23ede5c25ac3a0bcc46403"
+    },
+    {
+      "path": "results/file17_discovered_candidates.json",
+      "sha256": "05269028df4ed05f0a2478db73a5ee3f4513bdd775247bcbf106982536779834"
+    },
+    {
+      "path": "results/file17_frozen_neighbour_sensitivity_v1/file17_ANI_evidence_qualified_pairs.csv",
+      "sha256": "974c02982c2dbbeb030f5b54b73b8a27bdc22fd12b5e69b504f39c65360f6c6c"
+    },
+    {
+      "path": "results/file17_frozen_neighbour_sensitivity_v1/file17_descriptive_sensitivity_panels.csv",
+      "sha256": "f89b5263c4e3d83cd228438bafd8971923f525e8e7c34fe413c7e8cd04abab23"
+    },
+    {
+      "path": "results/file17_frozen_neighbour_sensitivity_v1/file17_output_manifest_sha256.json",
+      "sha256": "a90f928e7ee6f6bdfe15ed0803cb555429fdbfb10e6c6b45d429cc0ec0dccae0"
+    },
+    {
+      "path": "results/file17_frozen_neighbour_sensitivity_v1/file17_per_genome_neighbour_flags.csv",
+      "sha256": "cc37ecf0b620cc552a9bf03868e8b73ea1559a74713f831435ba47d01f2cb4fb"
+    },
+    {
+      "path": "results/file17_frozen_neighbour_sensitivity_v1/file17_reporting_guardrails.md",
+      "sha256": "8389709846e0d4d5941bd79fe955b753cecd23fc141e7a91e8dc341405dbac92"
+    },
+    {
+      "path": "results/file17_frozen_neighbour_sensitivity_v1/file17_summary.json",
+      "sha256": "8476105f1779f27a7f3b82584e9210133d1ba848e5f043a2715aea4ba9939200"
+    },
+    {
+      "path": "results/file18_same_model_audit_v1_0_1/file18_cross_scored_E2_reproduction.csv",
+      "sha256": "62667d9c067abce9fafad4ed517b12f844bb937856acd4081240dc103ee05b92"
+    },
+    {
+      "path": "results/file18_same_model_audit_v1_0_1/file18_cross_scored_E3_posthoc.csv",
+      "sha256": "4b48cd21fc4cd606fbb5c0958ac5fb231730a026761b5bff96ec876b3b1e6dc3"
+    },
+    {
+      "path": "results/file18_same_model_audit_v1_0_1/file18_input_sha256.json",
+      "sha256": "f4bc8cb308fadff5d4f6c77bd19914dec38e834221c713a4cfa914bed8ac17a0"
+    },
+    {
+      "path": "results/file18_same_model_audit_v1_0_1/file18_model_identity_and_schema_audit.json",
+      "sha256": "ba4ae7b3b7035c4f4c1854fcdbb9ad84baaf621e8ab660bae3b826a938b297ee"
+    },
+    {
+      "path": "results/file18_same_model_audit_v1_0_1/file18_output_manifest_sha256.json",
+      "sha256": "e89707397287eb5ff855e463b71c900bb9e25d5280621791627848257a36091b"
+    },
+    {
+      "path": "results/file18_same_model_audit_v1_0_1/file18_reporting_guardrails.md",
+      "sha256": "cf6d45482f8399696f869b4e811371e3ae560c8d9dc206e4348206b72133e01e"
+    },
+    {
+      "path": "results/file18_same_model_audit_v1_0_1/file18_same_model_comparison.csv",
+      "sha256": "6c52e0464a8f0dcc30c6221382e631818e4b27160ab2d91d262edbc19031b29a"
+    },
+    {
+      "path": "results/file18_same_model_audit_v1_0_1/file18_summary.json",
+      "sha256": "d7b2eb3d5614f881f45ab5626d8d24d76d0c5d48b380f78c822fa9d344e9ac8c"
+    },
+    {
+      "path": "results/file18_same_model_discovery_v1/file18_discovered_inputs.json",
+      "sha256": "d41651f95dd9bf2c1a5b367773ade70e1f770802b7b391a0b0e0d29e8d480734"
+    },
+    {
+      "path": "results/file18_schema_diagnostic_v1_0_1/file18_schema_diagnostic.json",
+      "sha256": "5a228bbe7ef81e8a35804db9fe22bfdb45b1fde44cd6349843a0c9b6670f7459"
+    },
+    {
+      "path": "results/file19_ast_provenance_audit_v1_0_1/file19_all_E2_ast_crosswalk.csv",
+      "sha256": "e8cf3c62aadc266935fe682d9c9611066a1ddcd1081942dc639dc39ba84b0ded"
+    },
+    {
+      "path": "results/file19_ast_provenance_audit_v1_0_1/file19_focus_PRJNA1322038_ast_triage.csv",
+      "sha256": "0834b8a762f75603fc29025fa8994c7ed7e277decb12bc048353b1c352098388"
+    },
+    {
+      "path": "results/file19_ast_provenance_audit_v1_0_1/file19_output_manifest_sha256.json",
+      "sha256": "ada1681b2cbb03cddd88b9daef252eb631de440e41e82273cb145e5e7e630c07"
+    },
+    {
+      "path": "results/file19_ast_provenance_audit_v1_0_1/file19_reporting_guardrails.md",
+      "sha256": "2680feb6d806a6e84b543d1aecf981e1d9534cf92f1b9889a09c439341f2f175"
+    },
+    {
+      "path": "results/file19_ast_provenance_audit_v1_0_1/file19_summary.json",
+      "sha256": "30a32bbb7e7409611140d4fb68c1438c24be5795e776b7e6caacb9b653a6bf7b"
+    },
+    {
+      "path": "results/file19_ast_provenance_audit_v1_0_2/file19_all_E2_ast_crosswalk.csv",
+      "sha256": "77031996fac2f7631ee006cf9565d21576632ce4145546c6ccb9feaa52d026ba"
+    },
+    {
+      "path": "results/file19_ast_provenance_audit_v1_0_2/file19_focus_PRJNA1322038_ast_triage.csv",
+      "sha256": "275e19bbe913936dff4fa75fd2fa060796f05f07445d304de9c5baa17e91015e"
+    },
+    {
+      "path": "results/file19_ast_provenance_audit_v1_0_2/file19_ncbi_meropenem_rows.csv",
+      "sha256": "63d22e44cad3271ce7cca2aee9f1e1e1b039c63d35c34c44ff8cf004d7983561"
+    },
+    {
+      "path": "results/file19_ast_provenance_audit_v1_0_2/file19_output_manifest_sha256.json",
+      "sha256": "7f4a53fb6b5d3e2ee89d19c8bcfdfb5d752736d8774a1c3d5db824685ed42d63"
+    },
+    {
+      "path": "results/file19_ast_provenance_audit_v1_0_2/file19_reporting_guardrails.md",
+      "sha256": "2680feb6d806a6e84b543d1aecf981e1d9534cf92f1b9889a09c439341f2f175"
+    },
+    {
+      "path": "results/file19_ast_provenance_audit_v1_0_2/file19_summary.json",
+      "sha256": "6f55be755ea204449bec761a3039e0770d615fb1cde8fb9b64736bbfe85e828d"
+    },
+    {
+      "path": "results/file19_discovery_v1/file19_discovered_inputs.json",
+      "sha256": "730701c304c057cc9673fd42743d480cacbdcb45ac15d89007c0cab2b0780d84"
+    },
+    {
+      "path": "results/file19_ncbi_evidence_cache_v1_0_1/PRJNA1322038_biosample_efetch.xml",
+      "sha256": "f472ab0f6129170d152048017e7dccfd758fb1e5f7bade8076d545b14d35503e"
+    },
+    {
+      "path": "results/file19_ncbi_evidence_cache_v1_0_1/file19_ncbi_fetch_manifest.json",
+      "sha256": "3bfe4f7f03f6ae403ab946f1deb933c9e64f85bcce78808002e18783b7866d42"
+    },
+    {
+      "path": "results/file19_temporal_ast_source_reconciliation_v1_0_3/file19_temporal_175_three_drug_crosswalk.csv",
+      "sha256": "f0746ca3a6ee48cc6b1593a064d4b0efd7b9351cc5927fc6860dce67fb2cd4af"
+    },
+    {
+      "path": "results/file19_temporal_ast_source_reconciliation_v1_0_3/file19_temporal_output_sha256.json",
+      "sha256": "b793326e259a0b82f46734af1c9b301103474026dc07c0ee9bce266d3c35849f"
+    },
+    {
+      "path": "results/file19_temporal_ast_source_reconciliation_v1_0_3/file19_temporal_reporting_guardrails.md",
+      "sha256": "3b4f7e98991a7c0e94f89b130652491cb7fbbbb869267743ecd18925cf30b564"
+    },
+    {
+      "path": "results/file19_temporal_ast_source_reconciliation_v1_0_3/file19_temporal_summary.json",
+      "sha256": "e1dce0cf4dc50ef90bfa4fc07b7c7ab5b4ee58e67a8299a5c37c399f3a820ef5"
+    },
+    {
+      "path": "scripts/file17_frozen_neighbour_sensitivity_audit.py",
+      "sha256": "06be091ac2d1999a1bed545e415043fc020db6a19c16f8b49d9f174a5e13fcaf"
+    },
+    {
+      "path": "scripts/file18_same_frozen_model_cross_cohort_audit.py",
+      "sha256": "3eaf93bf6bc7ef938316ff7f0a65c48aa226905197e88e5529984715ca8cbe01"
+    },
+    {
+      "path": "scripts/file19_ast_provenance_audit.py",
+      "sha256": "5014f3ca16db86cdd0cb7dac7028a583b4b1c15dd7f7ad300d2d53d6abaf72c2"
+    },
+    {
+      "path": "scripts/file19_temporal_ast_reconcile_v1_0_3.py",
+      "sha256": "31a341c826e90143aa4cc912c20deab6a2c5afe7c2c7e373b0e577b833fa6581"
+    },
+    {
+      "path": "scripts/tests_file17.py",
+      "sha256": "da0b8a7a4a5cf2275912702b4f8b45801cd9d3ec965b66ef9d980751ac4645ce"
+    }
+  ],
+  "skipped_size_limit": [],
+  "directory_index": {
+    ".": [
+      ".git",
+      ".gitattributes",
+      ".gitignore",
+      ".idea",
+      "AMR_Genome_ML_key_metrics_summary.csv",
+      "BVBRC_genome_amr.csv",
+      "checkpoints",
+      "data",
+      "environment",
+      "figure",
+      "file19_bigquery_current_175_3drugs.csv",
+      "LICENSE",
+      "logs",
+      "models",
+      "notebooks",
+      "README.md",
+      "results",
+      "scripts"
+    ],
+    "scripts": [
+      "07a_mlst_typing.py",
+      "07_population_structure_and_validation_design.py",
+      "08_model_training_and_feature_selection.py",
+      "09b_sensitivity_and_reviewer_defense.py",
+      "09c_nonlinear_incremental_reviewer_defense.py",
+      "09_model_evaluation_and_robustness.py",
+      "10i_biological_annotation_prep.py",
+      "10j_external_biological_annotation.py",
+      "10_explainability_and_biological_validation.py",
+      "archive",
+      "build_unitig_bitpack",
+      "build_unitig_bitpack.cpp",
+      "build_unitig_bitpack_benchmark_pass",
+      "build_unitig_bitpack_benchmark_pass.cpp",
+      "build_unitig_bitpack_resume",
+      "build_unitig_bitpack_resume.cpp",
+      "check_key_metrics_summary.py",
+      "dl01_regularized_mlp_feasibility.py",
+      "dl01_regularized_mlp_resumable.py",
+      "dl01_regularized_mlp_resumable_v2.py",
+      "file10k_tn4401_sequence_validation.py",
+      "file11b_complete_snp_cluster_firewall.py",
+      "file11c_blind_external_validation.py",
+      "file11d_external_robustness_analysis.py",
+      "file11e_external_simple_baseline_comparators.py",
+      "file11f_feature_source_shift.py",
+      "file11_external_cohort_leakage_firewall.py",
+      "file12_manuscript_assets.py",
+      "file13_drive_legacy_audit.py",
+      "file13_full_harmonized_amrfinder_development.py",
+      "file14_build_strict_E3_cohort.py",
+      "file14_freeze_development_qc_envelope.py",
+      "file14_independent_E3_blind_validation.py",
+      "file14_independent_E3_blind_validation.py.bak_before_bootstrap_cluster_fix",
+      "file14_independent_E3_blind_validation.py.bak_before_numeric_score_lock_fix",
+      "file14_independent_E3_blind_validation.py.bak_before_stable_fasta_lock",
+      "file15_integrity_reporting.py",
+      "file16b_prepare_mechanism_annotations.py",
+      "file16c_discordance_audit.py",
+      "file16d_source_phenotype_audit.py",
+      "file16e_label_free_source_shift.py",
+      "file16f_ast_anchor_sentinel_benchmark.py",
+      "file16g_applied_transportability_audit.py",
+      "file16h_fixed_rule_E3_transfer.py",
+      "file16i_external_evidence_lock.py",
+      "file16j_external_independence_provenance.py",
+      "file16_external_reliability_audit.py",
+      "file16_prepare_frozen_inputs.py",
+      "file17_frozen_neighbour_sensitivity_audit.py",
+      "file18_same_frozen_model_cross_cohort_audit.py",
+      "file19_ast_provenance_audit.py",
+      "file19_temporal_ast_reconcile_v1_0_3.py",
+      "repair_key_metrics_summary.py",
+      "run_full_unitig.py",
+      "tests_file17.py",
+      "__pycache__"
+    ],
+    "results": [
+      "DL01_FULL_RESULTS",
+      "dl01_mlp_resumable_v1",
+      "dl01_smoke_resumable_v3",
+      "file12_manuscript_assets",
+      "file13_legacy_drive_audit",
+      "file14_build_audit_bvbrc_before_dedup.csv",
+      "file14_build_audit_bvbrc_dedup.csv",
+      "file14_build_audit_combined_dedup.csv",
+      "file14_build_audit_ncbi_missing_assembly.csv",
+      "file14_build_audit_ncbi_v2.csv",
+      "file14_bvbrc_ncbi_pathogen_map.sql",
+      "file14_development_firewall_bigquery.sql",
+      "file14_development_metadata_broad_search.csv",
+      "file14_duplicate_biosample_recovery_PREVIEW.csv",
+      "file14_e3_missing_assembly_recovery_bigquery.sql",
+      "file14_e3_v2_strict_firewall_diagnosis.csv",
+      "file14_e3_v2_strict_survivors_PREVIEW.csv",
+      "file14_e3_vs_e2_overlap_diagnosis.csv",
+      "FILE14_FINAL_RUN.log",
+      "FILE14_FINAL_SUMMARY.log",
+      "file14_firewall_source_discovery.csv",
+      "file14_missing_assembly_preassembly_firewall_audit.csv",
+      "file14_missing_assembly_preassembly_survivors_PREVIEW.csv",
+      "FILE14_OVERNIGHT_STDOUT.log",
+      "file14_pds_version_only_exclusions_e3v2.csv",
+      "file14_pds_version_only_exclusions_missing_assembly.csv",
+      "FILE14_SRR10383451_ENA_RECOVERY.json",
+      "FILE15_FINAL_RUN.log",
+      "file15_reporting",
+      "file16b_annotation_v1",
+      "file16c_discordance_v1",
+      "file16d_source_audit_v1",
+      "file16e_label_free_v1",
+      "file16f_anchor_benchmark_v1",
+      "file16g_applied_v1",
+      "file16h_exact_rule_transfer_v1",
+      "file16i_evidence_lock_v1",
+      "file16j_mash_v1",
+      "file16j_mash_verified_v2",
+      "file16j_ncbi_metadata_cache",
+      "file16_audit_mechanisms_v1",
+      "file16_audit_v1",
+      "file16_discovery_v1",
+      "file16_inputs_v1",
+      "file17_discovered_candidates.json",
+      "file17_frozen_neighbour_sensitivity_v1",
+      "file18_same_model_audit_v1_0_1",
+      "file18_same_model_discovery_v1",
+      "file18_schema_diagnostic_v1_0_1",
+      "file19_ast_provenance_audit_v1_0_1",
+      "file19_ast_provenance_audit_v1_0_2",
+      "file19_discovery_v1",
+      "file19_ncbi_evidence_cache_v1_0_1",
+      "file19_temporal_ast_source_reconciliation_v1_0_3",
+      "novelty_gate_A1_AST"
+    ],
+    "checkpoints": [
+      "explainability_biology",
+      "explainability_biology_annotation_prep",
+      "explainability_biology_annotation_prep_smoke",
+      "explainability_biology_external_annotation",
+      "explainability_biology_external_annotation_smoke",
+      "explainability_biology_smoke",
+      "explainability_biology_tn4401_validation",
+      "external_validation_file11c",
+      "external_validation_file11d",
+      "external_validation_file11e",
+      "external_validation_file11f",
+      "external_validation_ncbi_pathogen_detection_file11",
+      "file13_harmonized_amrfinder",
+      "file14_e3_validation",
+      "file14_final_e3_validation",
+      "file15_integrity_reporting",
+      "key_metrics_verification",
+      "mlst_typing",
+      "model_evaluation",
+      "model_evaluation_reviewer_defense",
+      "model_evaluation_reviewer_defense_nonlinear",
+      "model_evaluation_reviewer_defense_nonlinear_smoke",
+      "model_evaluation_reviewer_defense_nonlinear_v102",
+      "model_evaluation_reviewer_defense_nonlinear_v102_smoke",
+      "model_evaluation_reviewer_defense_smoke",
+      "model_training",
+      "model_training_smoke",
+      "population_structure",
+      "sequence_variation"
+    ],
+    "data/external_validation/ncbi_pathogen_detection": [
+      "file11c",
+      "file11d",
+      "file11e",
+      "file11f",
+      "final",
+      "intermediate",
+      "raw"
+    ],
+    "data/external_validation/ncbi_pathogen_detection/file11c": [
+      "assemblies",
+      "file11c_analysis_design.json",
+      "file11c_blind_predictions.csv",
+      "file11c_bridge_audit.csv",
+      "file11c_cluster_bootstrap_ci.csv",
+      "file11c_external_known_amr_668.csv",
+      "file11c_external_meropenem_manifest.csv",
+      "file11c_external_metrics.csv",
+      "file11c_external_out_of_schema_determinants.csv",
+      "file11c_feature_prevalence_shift.csv",
+      "file11c_mlst_subgroup_metrics.csv",
+      "file11c_model_coefficients.csv"
+    ],
+    "checkpoints/external_validation_file11c": [
+      "amrfinder",
+      "file11c_external_assembly_accessions.txt",
+      "file11c_final_model.joblib",
+      "file11c_final_summary.json",
+      "file11c_model_lock.json",
+      "mlst"
+    ]
+  },
+  "status": "PARTIAL_COLLECTION_NOT_VALIDATION"
+}

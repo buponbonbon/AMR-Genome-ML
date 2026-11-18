@@ -1,0 +1,12 @@
+{
+  "sample_accession": "SAMEA3729869",
+  "fasta_path": "/workspace/AMR-Genome-ML/results/independent_reference_extension_20261112/EuSCAPE_assemblies/fastas/SAMEA3729869.fna",
+  "fasta_sha256": "b92706760ac7411bf97b302e6ecf46e549953da360b72956e9c6def6758a3c7b",
+  "caller_exe_sha256": "91afefff09d115c8547a2cbb5ce4d1fb25bfc74f06b63b7a8e69c4236099fd5f",
+  "database_manifest_sha256": "f616ffa62cfa2cb6c6f3e6baa84aff6acac880bea8b9d68951804e270e91063e",
+  "started_utc": "2026-11-12T09:42:20.356525+00:00",
+  "status": "PASS",
+  "execution": "PASS",
+  "output_sha256": "fd1303dcb74a1428d094661dabd642e1c282dce3518e4709fbe127fff7ee26bf",
+  "seconds": 44.811361686000055
+}

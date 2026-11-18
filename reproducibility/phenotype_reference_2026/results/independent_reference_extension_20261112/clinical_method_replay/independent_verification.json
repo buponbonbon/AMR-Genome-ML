@@ -1,0 +1,8 @@
+{
+  "status": "PASS_INDEPENDENT_DOCX_LIBRARY_AND_SKLEARN_RECONSTRUCTION",
+  "source_rows": 289,
+  "cell_checks": 288,
+  "eligible_pair_strata": 15,
+  "point_order_reversals": 0,
+  "source_sha256": "f76c4b8823ec11109585d193a5fbdde78c8fe22d08446260edd0112c26d5a2ac"
+}

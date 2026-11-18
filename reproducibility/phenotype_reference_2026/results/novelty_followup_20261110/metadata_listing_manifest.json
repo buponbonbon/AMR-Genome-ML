@@ -1,0 +1,34 @@
+[
+  {
+    "build": "PDG000000036.1792",
+    "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Pseudomonas_aeruginosa/PDG000000036.1792/Metadata/",
+    "utc": "2026-11-10T02:46:23.752242+00:00",
+    "sha256": "7e80de07f63ea33e3e2664bd861c99bb4b46d26ad362dd64d644f855d461e038",
+    "bytes": 899,
+    "text": " \n \n  \n   Index of /pathogen/Results/Pseudomonas_aeruginosa/PDG000000036.1792/Metadata \n  \n  \n Index of /pathogen/Results/Pseudomonas_aeruginosa/PDG000000036.1792/Metadata \n Name                                                        Last modified      Size    Parent Directory                                                                  -   \n PDG000000036.1792.metadata.tsv                               2026-09-20 04:13   57M  \n PDG000000036.1792.metadata.xml                               2026-09-20 04:13  467M  \n  \n HHS Vulnerability Disclosure \n"
+  },
+  {
+    "build": "PDG000000036.1820",
+    "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Pseudomonas_aeruginosa/PDG000000036.1820/Metadata/",
+    "utc": "2026-11-10T02:46:23.752859+00:00",
+    "sha256": "45be22c41f4d9cfb4711828d805eededc370190a99fae40edb14f6d56927addb",
+    "bytes": 899,
+    "text": " \n \n  \n   Index of /pathogen/Results/Pseudomonas_aeruginosa/PDG000000036.1820/Metadata \n  \n  \n Index of /pathogen/Results/Pseudomonas_aeruginosa/PDG000000036.1820/Metadata \n Name                                                        Last modified      Size    Parent Directory                                                                  -   \n PDG000000036.1820.metadata.tsv                               2026-10-22 05:36   59M  \n PDG000000036.1820.metadata.xml                               2026-10-22 05:36  477M  \n  \n HHS Vulnerability Disclosure \n"
+  },
+  {
+    "build": "PDG000000010.1957",
+    "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Acinetobacter/PDG000000010.1957/Metadata/",
+    "utc": "2026-11-10T02:46:24.669940+00:00",
+    "sha256": "ce342b8778b1f8a95fc344997b0a2fe7ba982c1c6d631d108593bcfaa5d853e5",
+    "bytes": 836,
+    "text": " \n \n  \n   Index of /pathogen/Results/Acinetobacter/PDG000000010.1957/Metadata \n  \n  \n Index of /pathogen/Results/Acinetobacter/PDG000000010.1957/Metadata \n Name                                               Last modified      Size    Parent Directory                                                         -   \n PDG000000010.1957.metadata.tsv                      2026-09-21 05:30   58M  \n PDG000000010.1957.metadata.xml                      2026-09-21 05:30  470M  \n  \n HHS Vulnerability Disclosure \n"
+  },
+  {
+    "build": "PDG000000010.1983",
+    "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Acinetobacter/PDG000000010.1983/Metadata/",
+    "utc": "2026-11-10T02:46:24.722508+00:00",
+    "sha256": "2c2c7e6e1c89be937533997538a13dced2f9aff0c2e791b47f26e35907dd14e0",
+    "bytes": 836,
+    "text": " \n \n  \n   Index of /pathogen/Results/Acinetobacter/PDG000000010.1983/Metadata \n  \n  \n Index of /pathogen/Results/Acinetobacter/PDG000000010.1983/Metadata \n Name                                               Last modified      Size    Parent Directory                                                         -   \n PDG000000010.1983.metadata.tsv                      2026-10-22 05:01   60M  \n PDG000000010.1983.metadata.xml                      2026-10-22 05:01  480M  \n  \n HHS Vulnerability Disclosure \n"
+  }
+]

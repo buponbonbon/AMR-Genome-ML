@@ -1,0 +1,66 @@
+{
+  "protocol_sha256": "1f58d05e34b76e80b0f466fe440d089240cfd5b6d361b6865223ed1481722d7f",
+  "responses": [
+    {
+      "build": "PDG000000010.1957",
+      "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Acinetobacter/PDG000000010.1957/Metadata/PDG000000010.1957.metadata.tsv",
+      "started_utc": "2026-11-10T02:48:49.664428+00:00",
+      "http_status": 200,
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Acinetobacter/PDG000000010.1957/Metadata/PDG000000010.1957.metadata.tsv",
+      "http_last_modified": "Mon, 21 Sep 2026 09:30:54 GMT",
+      "content_type": "text/tab-separated-values",
+      "status": "COMPLETE",
+      "file": "PDG000000010.1957.metadata.tsv",
+      "bytes": 61256369,
+      "sha256": "00d82822211039b4af5a96aafb34cbb302cd0ad834177f13c6d4d05803c32f8a",
+      "completed_utc": "2026-11-10T02:48:51.993647+00:00",
+      "column_count": 67
+    },
+    {
+      "build": "PDG000000010.1983",
+      "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Acinetobacter/PDG000000010.1983/Metadata/PDG000000010.1983.metadata.tsv",
+      "started_utc": "2026-11-10T02:48:49.786190+00:00",
+      "http_status": 200,
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Acinetobacter/PDG000000010.1983/Metadata/PDG000000010.1983.metadata.tsv",
+      "http_last_modified": "Thu, 22 Oct 2026 09:01:25 GMT",
+      "content_type": "text/tab-separated-values",
+      "status": "COMPLETE",
+      "file": "PDG000000010.1983.metadata.tsv",
+      "bytes": 62608155,
+      "sha256": "71a23d785752c8106f9c60ca5898a1e26e619f5e92b89cd8c24ed3c27108a962",
+      "completed_utc": "2026-11-10T02:48:52.505611+00:00",
+      "column_count": 67
+    },
+    {
+      "build": "PDG000000036.1792",
+      "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Pseudomonas_aeruginosa/PDG000000036.1792/Metadata/PDG000000036.1792.metadata.tsv",
+      "started_utc": "2026-11-10T02:48:46.910753+00:00",
+      "http_status": 200,
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Pseudomonas_aeruginosa/PDG000000036.1792/Metadata/PDG000000036.1792.metadata.tsv",
+      "http_last_modified": "Sun, 20 Sep 2026 08:13:00 GMT",
+      "content_type": "text/tab-separated-values",
+      "status": "COMPLETE",
+      "file": "PDG000000036.1792.metadata.tsv",
+      "bytes": 60047578,
+      "sha256": "622a905f893d29128c35bfb7bdf6071736dd782eafd4a67a3c8b7e60440de354",
+      "completed_utc": "2026-11-10T02:48:49.786108+00:00",
+      "column_count": 67
+    },
+    {
+      "build": "PDG000000036.1820",
+      "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Pseudomonas_aeruginosa/PDG000000036.1820/Metadata/PDG000000036.1820.metadata.tsv",
+      "started_utc": "2026-11-10T02:48:46.911575+00:00",
+      "http_status": 200,
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Pseudomonas_aeruginosa/PDG000000036.1820/Metadata/PDG000000036.1820.metadata.tsv",
+      "http_last_modified": "Thu, 22 Oct 2026 09:36:28 GMT",
+      "content_type": "text/tab-separated-values",
+      "status": "COMPLETE",
+      "file": "PDG000000036.1820.metadata.tsv",
+      "bytes": 61361354,
+      "sha256": "a4c37440264136da1096152027d140f4a9958308d039fe5bb811e42ce772d990",
+      "completed_utc": "2026-11-10T02:48:49.664338+00:00",
+      "column_count": 67
+    }
+  ],
+  "all_complete": true
+}
