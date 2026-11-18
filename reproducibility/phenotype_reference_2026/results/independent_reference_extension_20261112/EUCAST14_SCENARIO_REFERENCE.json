@@ -1,0 +1,8 @@
+{
+  "interpretation": "Explicit analysis scenario, not inferred historical author standard",
+  "reference_pdf": "results/reference_validation_20261109/eucast_v14.pdf",
+  "sha256": "96ae10a35929bb2ea4d305ec817150460e25b028fce98ee5ba25fd6781f3d1b7",
+  "table": "Enterobacterales: meropenem indications other than meningitis, S<=2mg/L R>8mg/L; Ibetween",
+  "source_receipt": "results/reference_validation_20261109/breakpoints_and_comparators_manifest.json",
+  "url": "https://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/Breakpoint_tables/v_14.0_Breakpoint_Tables.pdf"
+}

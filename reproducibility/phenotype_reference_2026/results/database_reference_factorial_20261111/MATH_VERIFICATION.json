@@ -1,0 +1,7 @@
+{
+  "status": "PASS_CLOSED_FORM_AXES_AND_UNCHANGED_DATABASE_NEGATIVE_CONTROLS",
+  "independent_sklearn_weighted_scenarios": 228,
+  "controls_are_analytical_examples_not_observed_AMR_results": true,
+  "hand_computed_triple_interaction_BA": -0.3333333333333333,
+  "hand_computed_triple_interaction_MCC": -0.6666666666666666
+}

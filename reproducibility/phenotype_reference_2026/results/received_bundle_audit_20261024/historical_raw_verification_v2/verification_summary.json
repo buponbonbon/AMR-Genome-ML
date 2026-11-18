@@ -1,0 +1,121 @@
+{
+  "historical_csv_sha256": "3f619f1d58d2c39e16a016e05a2fd060dbed1494ec87acc21aedc86c73ca6346",
+  "historical_rows": 3039,
+  "historical_unique_records": 3033,
+  "historical_identical_duplicate_rows": 6,
+  "direct_raw_to_crosswalk_historical_labels_agree": 525,
+  "crosswalk_mic_fields_verified_against_xml": {
+    "mic_sign": 525,
+    "mic_value": 525,
+    "mic_units": 525,
+    "mic_method": 525,
+    "mic_platform": 525,
+    "testing_standard": 525
+  },
+  "current_BQ_vs_XML": {
+    "agree": 525
+  },
+  "current_focal_rows_matched_to_historical_raw": 525,
+  "historical_records_without_current_counterpart_in_received_focal_export": 2508,
+  "historical_E2_recomputed": {
+    "n": 525,
+    "R": 163,
+    "S": 362,
+    "threshold": 0.5,
+    "TP": 109,
+    "FN": 54,
+    "TN": 221,
+    "FP": 141,
+    "roc_auc": 0.6673473884011796,
+    "average_precision": 0.41148135228449434,
+    "sensitivity": 0.6687116564417178,
+    "specificity": 0.6104972375690608,
+    "balanced_accuracy": 0.6396044470053893,
+    "mcc": 0.25866697519334364,
+    "brier": 0.31564776717781046,
+    "undefined_reason": null
+  },
+  "posthoc_partial_reference_recomputed": {
+    "n": 525,
+    "R": 266,
+    "S": 259,
+    "threshold": 0.5,
+    "TP": 236,
+    "FN": 30,
+    "TN": 245,
+    "FP": 14,
+    "roc_auc": 0.9689087583824426,
+    "average_precision": 0.9742081035825133,
+    "sensitivity": 0.8872180451127819,
+    "specificity": 0.9459459459459459,
+    "balanced_accuracy": 0.9165819955293639,
+    "mcc": 0.8340360845629118,
+    "brier": 0.06650456510336132,
+    "undefined_reason": null
+  },
+  "transitions": [
+    {
+      "group": "focal",
+      "drug": "ertapenem",
+      "historical_label": "I",
+      "current_label": "I",
+      "n": "1"
+    },
+    {
+      "group": "focal",
+      "drug": "ertapenem",
+      "historical_label": "R",
+      "current_label": "S",
+      "n": "30"
+    },
+    {
+      "group": "focal",
+      "drug": "ertapenem",
+      "historical_label": "S",
+      "current_label": "R",
+      "n": "144"
+    },
+    {
+      "group": "focal",
+      "drug": "imipenem",
+      "historical_label": "I",
+      "current_label": "I",
+      "n": "27"
+    },
+    {
+      "group": "focal",
+      "drug": "imipenem",
+      "historical_label": "R",
+      "current_label": "S",
+      "n": "43"
+    },
+    {
+      "group": "focal",
+      "drug": "imipenem",
+      "historical_label": "S",
+      "current_label": "R",
+      "n": "105"
+    },
+    {
+      "group": "focal",
+      "drug": "meropenem",
+      "historical_label": "R",
+      "current_label": "S",
+      "n": "36"
+    },
+    {
+      "group": "focal",
+      "drug": "meropenem",
+      "historical_label": "S",
+      "current_label": "R",
+      "n": "139"
+    }
+  ],
+  "mic_statuses": {
+    "INCOMPLETE_METADATA": 525
+  },
+  "no_retraining": true,
+  "no_clinical_adjudication": true,
+  "full_source_current_reconciliation": "NOT_RUN: full October export absent",
+  "historical_query_export_chain": "MANUAL_REVIEW_REQUIRED"
+}

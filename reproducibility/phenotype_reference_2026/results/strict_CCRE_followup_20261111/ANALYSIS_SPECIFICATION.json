@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-11-11T09:54:06.658305+00:00",
+  "status": "POST_HOC_ANALYSIS_SPECIFICATION_AFTER_NATIVE40_BEFORE_COMPLETE_NATIVE355_OUTPUT",
+  "primary_set": "All existing355 one-per-PDS representatives, including unscored2; available-case353 primary output plus full-target worst/best missing-input bounds.",
+  "native_methods": [
+    "Frozen668-feature logistic regression, threshold0.5",
+    "UnchangedFile11E broad annotation rule",
+    "UnchangedFile11E KPC-family rule"
+  ],
+  "additional_source_comparator": "Exploratory author Kleborate Bla_Carb_acquired presence baseline: original workbook dash means no reported acquired carbapenemase; nonempty non-dash means present; empty/unknown is missing. No allele list or threshold optimized. Distinct assembly/annotation source from native File11E, reported separately.",
+  "reference": "Unchanged author PHAS meropenem S/R and MIC; no clinical or breakpoint adjudication inferred.",
+  "outcomes": [
+    "paired confusion counts, BA,MCC,AUROC,AP",
+    "decision discordance table; no E2 nesting assumption",
+    "source-composition sensitivity byPDS and separatelycountry,10000draws each seed20261111",
+    "STseen/unseendescriptive",
+    "missingcaseextremes full355",
+    "samecase comparison with olderJanDB+NCBIassembly projected features; never DB-only causal attribution"
+  ],
+  "clinical_interpretation": "False-susceptible/false-resistant versus source phenotype, not reference-AST VME/ME or patient utility. No unconditional model superiority.",
+  "no_outcome_selection_or_tuning": true
+}

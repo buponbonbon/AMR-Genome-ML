@@ -1,0 +1,61 @@
+{
+  "file": "FILE18",
+  "version": "1.0.0",
+  "project_root": "/mnt/c/Users/ASUS/Desktop/AMR-Genome-ML",
+  "all_required_present": true,
+  "required_inputs": {
+    "e2_model": {
+      "relative_path": "checkpoints/external_validation_file11c/file11c_final_model.joblib",
+      "exists": true,
+      "bytes": 15901
+    },
+    "e2_lock": {
+      "relative_path": "checkpoints/external_validation_file11c/file11c_model_lock.json",
+      "exists": true,
+      "bytes": 1534
+    },
+    "e2_matrix": {
+      "relative_path": "data/external_validation/ncbi_pathogen_detection/file11c/file11c_external_known_amr_668.csv",
+      "exists": true,
+      "bytes": 717736
+    },
+    "e2_predictions": {
+      "relative_path": "data/external_validation/ncbi_pathogen_detection/file11c/file11c_blind_predictions.csv",
+      "exists": true,
+      "bytes": 181054
+    },
+    "file13_manifest": {
+      "relative_path": "models/file13/file13_freeze_manifest.json",
+      "exists": true,
+      "bytes": 10015
+    },
+    "file13_668_schema": {
+      "relative_path": "models/file13/file13_harmonized_original668_sensitivity_feature_schema.csv",
+      "exists": true,
+      "bytes": 18455
+    },
+    "file13_freeze_flag": {
+      "relative_path": "checkpoints/file13_harmonized_amrfinder/FREEZE_COMPLETE.flag",
+      "exists": true,
+      "bytes": 579
+    },
+    "e3_668_matrix": {
+      "relative_path": "data/external_validation/e3/file14_final/file14_e3_sensitivity_668_matrix.csv.gz",
+      "exists": true,
+      "bytes": 9370
+    },
+    "e3_primary_predictions": {
+      "relative_path": "data/evaluation/file14/file14_E3_primary_predictions_labeled.csv",
+      "exists": true,
+      "bytes": 24561
+    },
+    "file14_summary": {
+      "relative_path": "checkpoints/file14_final_e3_validation/file14_final_summary.json",
+      "exists": true,
+      "bytes": 6082
+    }
+  },
+  "scope": "ONE original 668-feature FILE11C model, independently scored on E2 and E3",
+  "preprocessing_limitation": "E3 FILE14 harmonized 668 projection and E2 FILE11C original annotations may differ",
+  "note": "Discover only inventories paths, does NOT score the model or modify frozen inputs."
+}

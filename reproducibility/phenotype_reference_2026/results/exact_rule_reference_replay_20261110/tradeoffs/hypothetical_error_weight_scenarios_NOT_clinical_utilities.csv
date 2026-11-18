@@ -1,0 +1,15 @@
+reference,hypothetical_FN_to_FP_weight_ratio,rule_minus_ML_weighted_error,lower_weighted_error
+historical,0.5,14.5,ML
+historical,1.0,0.0,tie
+historical,1.1,-2.9,rule
+historical,1.2307692307692308,-6.6923076923076925,rule
+historical,2.0,-29.0,rule
+historical,5.0,-116.0,rule
+historical,10.0,-261.0,rule
+october,0.5,19.0,ML
+october,1.0,6.0,ML
+october,1.1,3.4,ML
+october,1.2307692307692308,0.0,tie
+october,2.0,-20.0,rule
+october,5.0,-98.0,rule
+october,10.0,-228.0,rule

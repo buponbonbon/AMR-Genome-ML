@@ -1,0 +1,13 @@
+{
+  "file": "CCRE_microreact_page.html",
+  "url": "https://microreact.org/project/klebsiella-ccre-survey",
+  "started_utc": "2026-11-11T07:18:59.807057+00:00",
+  "http_status": 200,
+  "final_url": "https://microreact.org/project/klebsiella-ccre-survey",
+  "content_type": "text/html; charset=utf-8",
+  "content_range": null,
+  "bytes": 11941,
+  "sha256": "7f71de2b256d8241d29c9c3747b67347560fef6391b49566397f9b4d359d36c5",
+  "signature_hex": "3c21444f4354595045206874",
+  "completed_utc": "2026-11-11T07:19:00.028264+00:00"
+}

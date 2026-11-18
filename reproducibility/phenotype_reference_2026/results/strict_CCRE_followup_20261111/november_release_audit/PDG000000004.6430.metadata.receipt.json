@@ -1,0 +1,9 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6430/Metadata/PDG000000004.6430.metadata.tsv",
+  "http_status": 200,
+  "bytes": 556653638,
+  "sha256": "e33e4690194b15b6a09e363519523d1f9ce430c3f7ba4f7e2c5476ec5a2b9a64",
+  "retrieved_utc": "2026-11-11T09:53:09.239973+00:00",
+  "last_modified": null,
+  "file": "PDG000000004.6430.metadata.tsv"
+}

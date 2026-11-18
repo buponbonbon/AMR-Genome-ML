@@ -1,0 +1,2467 @@
+{
+  "status": "COMPLETE_PUBLISHED_PHENOTYPIC_METHOD_REFERENCE_REPLAY",
+  "source_doi": "10.1128/spectrum.03956-25",
+  "source_sha256": "f76c4b8823ec11109585d193a5fbdde78c8fe22d08446260edd0112c26d5a2ac",
+  "amendment_sha256": "514ca25a029ed4058a31616790a38780b5323c93244491193c09da6530f94c94",
+  "source_rows": 289,
+  "isolate_count": 101,
+  "strata_count": 12,
+  "primary_pair": [
+    {
+      "species": "A. baumannii",
+      "drug": "MER",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 30,
+      "complete_n": 24,
+      "excluded_n": 6,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 30
+      },
+      "original_QM_category_counts": {
+        "-": 5,
+        "R": 24,
+        "I": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTA",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 24,
+      "complete_n": 24,
+      "excluded_n": 0,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 24
+      },
+      "original_QM_category_counts": {
+        "R": 24
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTV",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 24,
+      "complete_n": 20,
+      "excluded_n": 4,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 13,
+        "S": 11
+      },
+      "original_QM_category_counts": {
+        "R": 12,
+        "S": 11,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": 0.05555555555555558,
+      "QM_method1_minus_method2_BA": 0.05555555555555558,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.18181818181818188
+        },
+        "QM_method_contrast": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.18181818181818188
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTZ",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 24,
+      "complete_n": 20,
+      "excluded_n": 4,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 21,
+        "I": 3
+      },
+      "original_QM_category_counts": {
+        "R": 22,
+        "S": 1,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "MER",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 24,
+      "complete_n": 9,
+      "excluded_n": 15,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 1,
+      "original_BMD_category_counts": {
+        "R": 10,
+        "S": 11,
+        "I": 3
+      },
+      "original_QM_category_counts": {
+        "I": 8,
+        "S": 15,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTA",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 22,
+      "complete_n": 20,
+      "excluded_n": 2,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 22
+      },
+      "original_QM_category_counts": {
+        "R": 20,
+        "-": 2
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTV",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 22,
+      "complete_n": 21,
+      "excluded_n": 1,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "S": 16,
+        "R": 6
+      },
+      "original_QM_category_counts": {
+        "-": 1,
+        "S": 15,
+        "R": 6
+      },
+      "BMD_method1_minus_method2_BA": -0.033333333333333326,
+      "QM_method1_minus_method2_BA": -0.033333333333333326,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 9995,
+          "percentile_2_5": -0.1071428571428572,
+          "percentile_97_5": 0.0
+        },
+        "QM_method_contrast": {
+          "valid_draws": 9995,
+          "percentile_2_5": -0.1071428571428572,
+          "percentile_97_5": 0.0
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 9995,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTZ",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 22,
+      "complete_n": 22,
+      "excluded_n": 0,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 22
+      },
+      "original_QM_category_counts": {
+        "R": 22
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "MER",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 22,
+      "complete_n": 12,
+      "excluded_n": 10,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "I": 3,
+        "R": 18,
+        "S": 1
+      },
+      "original_QM_category_counts": {
+        "R": 14,
+        "I": 6,
+        "S": 1,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "CTV",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 25,
+      "complete_n": 15,
+      "excluded_n": 10,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 6,
+      "original_BMD_category_counts": {
+        "S": 12,
+        "R": 13
+      },
+      "original_QM_category_counts": {
+        "R": 20,
+        "S": 4,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": 0.0,
+      "QM_method1_minus_method2_BA": 0.0,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 9977,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        },
+        "QM_method_contrast": {
+          "valid_draws": 6545,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 6527,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "CTZ",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 25,
+      "complete_n": 11,
+      "excluded_n": 14,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 20,
+        "I": 5
+      },
+      "original_QM_category_counts": {
+        "R": 21,
+        "-": 3,
+        "I": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "MER",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 25,
+      "complete_n": 14,
+      "excluded_n": 11,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 25
+      },
+      "original_QM_category_counts": {
+        "R": 22,
+        "I": 1,
+        "-": 2
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    }
+  ],
+  "all_pairs": [
+    {
+      "species": "A. baumannii",
+      "drug": "MER",
+      "method1": "RAST4h",
+      "method2": "RAST6h",
+      "primary_pair": false,
+      "source_n": 30,
+      "complete_n": 23,
+      "excluded_n": 7,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 30
+      },
+      "original_QM_category_counts": {
+        "-": 5,
+        "R": 24,
+        "I": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "A. baumannii",
+      "drug": "MER",
+      "method1": "RAST4h",
+      "method2": "RAST8h",
+      "primary_pair": false,
+      "source_n": 30,
+      "complete_n": 23,
+      "excluded_n": 7,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 30
+      },
+      "original_QM_category_counts": {
+        "-": 5,
+        "R": 24,
+        "I": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "A. baumannii",
+      "drug": "MER",
+      "method1": "RAST4h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 30,
+      "complete_n": 23,
+      "excluded_n": 7,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 30
+      },
+      "original_QM_category_counts": {
+        "-": 5,
+        "R": 24,
+        "I": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "A. baumannii",
+      "drug": "MER",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 30,
+      "complete_n": 24,
+      "excluded_n": 6,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 30
+      },
+      "original_QM_category_counts": {
+        "-": 5,
+        "R": 24,
+        "I": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "A. baumannii",
+      "drug": "MER",
+      "method1": "RAST6h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 30,
+      "complete_n": 24,
+      "excluded_n": 6,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 30
+      },
+      "original_QM_category_counts": {
+        "-": 5,
+        "R": 24,
+        "I": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "A. baumannii",
+      "drug": "MER",
+      "method1": "RAST8h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 30,
+      "complete_n": 24,
+      "excluded_n": 6,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 30
+      },
+      "original_QM_category_counts": {
+        "-": 5,
+        "R": 24,
+        "I": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTA",
+      "method1": "RAST4h",
+      "method2": "RAST6h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 23,
+      "excluded_n": 1,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 24
+      },
+      "original_QM_category_counts": {
+        "R": 24
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTA",
+      "method1": "RAST4h",
+      "method2": "RAST8h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 23,
+      "excluded_n": 1,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 24
+      },
+      "original_QM_category_counts": {
+        "R": 24
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTA",
+      "method1": "RAST4h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 23,
+      "excluded_n": 1,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 24
+      },
+      "original_QM_category_counts": {
+        "R": 24
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTA",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 24,
+      "complete_n": 24,
+      "excluded_n": 0,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 24
+      },
+      "original_QM_category_counts": {
+        "R": 24
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTA",
+      "method1": "RAST6h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 24,
+      "excluded_n": 0,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 24
+      },
+      "original_QM_category_counts": {
+        "R": 24
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTA",
+      "method1": "RAST8h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 24,
+      "excluded_n": 0,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 24
+      },
+      "original_QM_category_counts": {
+        "R": 24
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTV",
+      "method1": "RAST4h",
+      "method2": "RAST6h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 20,
+      "excluded_n": 4,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 13,
+        "S": 11
+      },
+      "original_QM_category_counts": {
+        "R": 12,
+        "S": 11,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": 0.0,
+      "QM_method1_minus_method2_BA": 0.0,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        },
+        "QM_method_contrast": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTV",
+      "method1": "RAST4h",
+      "method2": "RAST8h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 19,
+      "excluded_n": 5,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 13,
+        "S": 11
+      },
+      "original_QM_category_counts": {
+        "R": 12,
+        "S": 11,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": 0.05555555555555558,
+      "QM_method1_minus_method2_BA": 0.05555555555555558,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.1875
+        },
+        "QM_method_contrast": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.1875
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTV",
+      "method1": "RAST4h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 21,
+      "excluded_n": 3,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 13,
+        "S": 11
+      },
+      "original_QM_category_counts": {
+        "R": 12,
+        "S": 11,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": 0.0,
+      "QM_method1_minus_method2_BA": 0.0,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        },
+        "QM_method_contrast": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTV",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 24,
+      "complete_n": 20,
+      "excluded_n": 4,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 13,
+        "S": 11
+      },
+      "original_QM_category_counts": {
+        "R": 12,
+        "S": 11,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": 0.05555555555555558,
+      "QM_method1_minus_method2_BA": 0.05555555555555558,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.18181818181818188
+        },
+        "QM_method_contrast": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.18181818181818188
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTV",
+      "method1": "RAST6h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 21,
+      "excluded_n": 3,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 13,
+        "S": 11
+      },
+      "original_QM_category_counts": {
+        "R": 12,
+        "S": 11,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": 0.0,
+      "QM_method1_minus_method2_BA": 0.0,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        },
+        "QM_method_contrast": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTV",
+      "method1": "RAST8h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 20,
+      "excluded_n": 4,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 13,
+        "S": 11
+      },
+      "original_QM_category_counts": {
+        "R": 12,
+        "S": 11,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": -0.05555555555555558,
+      "QM_method1_minus_method2_BA": -0.05555555555555558,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 10000,
+          "percentile_2_5": -0.18181818181818188,
+          "percentile_97_5": 0.0
+        },
+        "QM_method_contrast": {
+          "valid_draws": 10000,
+          "percentile_2_5": -0.18181818181818188,
+          "percentile_97_5": 0.0
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 10000,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTZ",
+      "method1": "RAST4h",
+      "method2": "RAST6h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 19,
+      "excluded_n": 5,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 21,
+        "I": 3
+      },
+      "original_QM_category_counts": {
+        "R": 22,
+        "S": 1,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTZ",
+      "method1": "RAST4h",
+      "method2": "RAST8h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 19,
+      "excluded_n": 5,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 21,
+        "I": 3
+      },
+      "original_QM_category_counts": {
+        "R": 22,
+        "S": 1,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTZ",
+      "method1": "RAST4h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 19,
+      "excluded_n": 5,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 21,
+        "I": 3
+      },
+      "original_QM_category_counts": {
+        "R": 22,
+        "S": 1,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTZ",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 24,
+      "complete_n": 20,
+      "excluded_n": 4,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 21,
+        "I": 3
+      },
+      "original_QM_category_counts": {
+        "R": 22,
+        "S": 1,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTZ",
+      "method1": "RAST6h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 20,
+      "excluded_n": 4,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 21,
+        "I": 3
+      },
+      "original_QM_category_counts": {
+        "R": 22,
+        "S": 1,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "CTZ",
+      "method1": "RAST8h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 20,
+      "excluded_n": 4,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 21,
+        "I": 3
+      },
+      "original_QM_category_counts": {
+        "R": 22,
+        "S": 1,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "MER",
+      "method1": "RAST4h",
+      "method2": "RAST6h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 7,
+      "excluded_n": 17,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 1,
+      "original_BMD_category_counts": {
+        "R": 10,
+        "S": 11,
+        "I": 3
+      },
+      "original_QM_category_counts": {
+        "I": 8,
+        "S": 15,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "MER",
+      "method1": "RAST4h",
+      "method2": "RAST8h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 6,
+      "excluded_n": 18,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 1,
+      "original_BMD_category_counts": {
+        "R": 10,
+        "S": 11,
+        "I": 3
+      },
+      "original_QM_category_counts": {
+        "I": 8,
+        "S": 15,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "MER",
+      "method1": "RAST4h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 8,
+      "excluded_n": 16,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 1,
+      "original_BMD_category_counts": {
+        "R": 10,
+        "S": 11,
+        "I": 3
+      },
+      "original_QM_category_counts": {
+        "I": 8,
+        "S": 15,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "MER",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 24,
+      "complete_n": 9,
+      "excluded_n": 15,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 1,
+      "original_BMD_category_counts": {
+        "R": 10,
+        "S": 11,
+        "I": 3
+      },
+      "original_QM_category_counts": {
+        "I": 8,
+        "S": 15,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "MER",
+      "method1": "RAST6h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 10,
+      "excluded_n": 14,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 1,
+      "original_BMD_category_counts": {
+        "R": 10,
+        "S": 11,
+        "I": 3
+      },
+      "original_QM_category_counts": {
+        "I": 8,
+        "S": 15,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "E. coli",
+      "drug": "MER",
+      "method1": "RAST8h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 24,
+      "complete_n": 9,
+      "excluded_n": 15,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 1,
+      "original_BMD_category_counts": {
+        "R": 10,
+        "S": 11,
+        "I": 3
+      },
+      "original_QM_category_counts": {
+        "I": 8,
+        "S": 15,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTA",
+      "method1": "RAST4h",
+      "method2": "RAST6h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 20,
+      "excluded_n": 2,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 22
+      },
+      "original_QM_category_counts": {
+        "R": 20,
+        "-": 2
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTA",
+      "method1": "RAST4h",
+      "method2": "RAST8h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 20,
+      "excluded_n": 2,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 22
+      },
+      "original_QM_category_counts": {
+        "R": 20,
+        "-": 2
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTA",
+      "method1": "RAST4h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 20,
+      "excluded_n": 2,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 22
+      },
+      "original_QM_category_counts": {
+        "R": 20,
+        "-": 2
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTA",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 22,
+      "complete_n": 20,
+      "excluded_n": 2,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 22
+      },
+      "original_QM_category_counts": {
+        "R": 20,
+        "-": 2
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTA",
+      "method1": "RAST6h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 20,
+      "excluded_n": 2,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 22
+      },
+      "original_QM_category_counts": {
+        "R": 20,
+        "-": 2
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTA",
+      "method1": "RAST8h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 20,
+      "excluded_n": 2,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 22
+      },
+      "original_QM_category_counts": {
+        "R": 20,
+        "-": 2
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTV",
+      "method1": "RAST4h",
+      "method2": "RAST6h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 19,
+      "excluded_n": 3,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "S": 16,
+        "R": 6
+      },
+      "original_QM_category_counts": {
+        "-": 1,
+        "S": 15,
+        "R": 6
+      },
+      "BMD_method1_minus_method2_BA": 0.0,
+      "QM_method1_minus_method2_BA": 0.0,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 9987,
+          "percentile_2_5": -0.11111111111111116,
+          "percentile_97_5": 0.11111111111111116
+        },
+        "QM_method_contrast": {
+          "valid_draws": 9987,
+          "percentile_2_5": -0.11111111111111116,
+          "percentile_97_5": 0.11111111111111116
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 9987,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTV",
+      "method1": "RAST4h",
+      "method2": "RAST8h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 19,
+      "excluded_n": 3,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "S": 16,
+        "R": 6
+      },
+      "original_QM_category_counts": {
+        "-": 1,
+        "S": 15,
+        "R": 6
+      },
+      "BMD_method1_minus_method2_BA": -0.038461538461538436,
+      "QM_method1_minus_method2_BA": -0.038461538461538436,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 9997,
+          "percentile_2_5": -0.125,
+          "percentile_97_5": 0.0
+        },
+        "QM_method_contrast": {
+          "valid_draws": 9997,
+          "percentile_2_5": -0.125,
+          "percentile_97_5": 0.0
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 9997,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTV",
+      "method1": "RAST4h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 18,
+      "excluded_n": 4,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "S": 16,
+        "R": 6
+      },
+      "original_QM_category_counts": {
+        "-": 1,
+        "S": 15,
+        "R": 6
+      },
+      "BMD_method1_minus_method2_BA": -0.08333333333333326,
+      "QM_method1_minus_method2_BA": -0.08333333333333326,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 9991,
+          "percentile_2_5": -0.19999999999999996,
+          "percentile_97_5": 0.0
+        },
+        "QM_method_contrast": {
+          "valid_draws": 9991,
+          "percentile_2_5": -0.19999999999999996,
+          "percentile_97_5": 0.0
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 9991,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTV",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 22,
+      "complete_n": 21,
+      "excluded_n": 1,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "S": 16,
+        "R": 6
+      },
+      "original_QM_category_counts": {
+        "-": 1,
+        "S": 15,
+        "R": 6
+      },
+      "BMD_method1_minus_method2_BA": -0.033333333333333326,
+      "QM_method1_minus_method2_BA": -0.033333333333333326,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 9995,
+          "percentile_2_5": -0.1071428571428572,
+          "percentile_97_5": 0.0
+        },
+        "QM_method_contrast": {
+          "valid_draws": 9995,
+          "percentile_2_5": -0.1071428571428572,
+          "percentile_97_5": 0.0
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 9995,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTV",
+      "method1": "RAST6h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 20,
+      "excluded_n": 2,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "S": 16,
+        "R": 6
+      },
+      "original_QM_category_counts": {
+        "-": 1,
+        "S": 15,
+        "R": 6
+      },
+      "BMD_method1_minus_method2_BA": -0.0357142857142857,
+      "QM_method1_minus_method2_BA": -0.0357142857142857,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 9990,
+          "percentile_2_5": -0.11538461538461542,
+          "percentile_97_5": 0.0
+        },
+        "QM_method_contrast": {
+          "valid_draws": 9990,
+          "percentile_2_5": -0.11538461538461542,
+          "percentile_97_5": 0.0
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 9990,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTV",
+      "method1": "RAST8h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 20,
+      "excluded_n": 2,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "S": 16,
+        "R": 6
+      },
+      "original_QM_category_counts": {
+        "-": 1,
+        "S": 15,
+        "R": 6
+      },
+      "BMD_method1_minus_method2_BA": -0.0357142857142857,
+      "QM_method1_minus_method2_BA": -0.0357142857142857,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 9994,
+          "percentile_2_5": -0.11538461538461542,
+          "percentile_97_5": 0.0
+        },
+        "QM_method_contrast": {
+          "valid_draws": 9994,
+          "percentile_2_5": -0.11538461538461542,
+          "percentile_97_5": 0.0
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 9994,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTZ",
+      "method1": "RAST4h",
+      "method2": "RAST6h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 22,
+      "excluded_n": 0,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 22
+      },
+      "original_QM_category_counts": {
+        "R": 22
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTZ",
+      "method1": "RAST4h",
+      "method2": "RAST8h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 22,
+      "excluded_n": 0,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 22
+      },
+      "original_QM_category_counts": {
+        "R": 22
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTZ",
+      "method1": "RAST4h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 22,
+      "excluded_n": 0,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 22
+      },
+      "original_QM_category_counts": {
+        "R": 22
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTZ",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 22,
+      "complete_n": 22,
+      "excluded_n": 0,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 22
+      },
+      "original_QM_category_counts": {
+        "R": 22
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTZ",
+      "method1": "RAST6h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 22,
+      "excluded_n": 0,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 22
+      },
+      "original_QM_category_counts": {
+        "R": 22
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "CTZ",
+      "method1": "RAST8h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 22,
+      "excluded_n": 0,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 22
+      },
+      "original_QM_category_counts": {
+        "R": 22
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "MER",
+      "method1": "RAST4h",
+      "method2": "RAST6h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 12,
+      "excluded_n": 10,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "I": 3,
+        "R": 18,
+        "S": 1
+      },
+      "original_QM_category_counts": {
+        "R": 14,
+        "I": 6,
+        "S": 1,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "MER",
+      "method1": "RAST4h",
+      "method2": "RAST8h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 12,
+      "excluded_n": 10,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "I": 3,
+        "R": 18,
+        "S": 1
+      },
+      "original_QM_category_counts": {
+        "R": 14,
+        "I": 6,
+        "S": 1,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "MER",
+      "method1": "RAST4h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 12,
+      "excluded_n": 10,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "I": 3,
+        "R": 18,
+        "S": 1
+      },
+      "original_QM_category_counts": {
+        "R": 14,
+        "I": 6,
+        "S": 1,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "MER",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 22,
+      "complete_n": 12,
+      "excluded_n": 10,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "I": 3,
+        "R": 18,
+        "S": 1
+      },
+      "original_QM_category_counts": {
+        "R": 14,
+        "I": 6,
+        "S": 1,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "MER",
+      "method1": "RAST6h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 12,
+      "excluded_n": 10,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "I": 3,
+        "R": 18,
+        "S": 1
+      },
+      "original_QM_category_counts": {
+        "R": 14,
+        "I": 6,
+        "S": 1,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "K. pneumoniae",
+      "drug": "MER",
+      "method1": "RAST8h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 22,
+      "complete_n": 12,
+      "excluded_n": 10,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "I": 3,
+        "R": 18,
+        "S": 1
+      },
+      "original_QM_category_counts": {
+        "R": 14,
+        "I": 6,
+        "S": 1,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "CTV",
+      "method1": "RAST4h",
+      "method2": "RAST6h",
+      "primary_pair": false,
+      "source_n": 25,
+      "complete_n": 0,
+      "excluded_n": 25,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "S": 12,
+        "R": 13
+      },
+      "original_QM_category_counts": {
+        "R": 20,
+        "S": 4,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "CTV",
+      "method1": "RAST4h",
+      "method2": "RAST8h",
+      "primary_pair": false,
+      "source_n": 25,
+      "complete_n": 0,
+      "excluded_n": 25,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "S": 12,
+        "R": 13
+      },
+      "original_QM_category_counts": {
+        "R": 20,
+        "S": 4,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "CTV",
+      "method1": "RAST4h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 25,
+      "complete_n": 0,
+      "excluded_n": 25,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "S": 12,
+        "R": 13
+      },
+      "original_QM_category_counts": {
+        "R": 20,
+        "S": 4,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "CTV",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 25,
+      "complete_n": 15,
+      "excluded_n": 10,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 6,
+      "original_BMD_category_counts": {
+        "S": 12,
+        "R": 13
+      },
+      "original_QM_category_counts": {
+        "R": 20,
+        "S": 4,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": 0.0,
+      "QM_method1_minus_method2_BA": 0.0,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 9977,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        },
+        "QM_method_contrast": {
+          "valid_draws": 6545,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 6527,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "CTV",
+      "method1": "RAST6h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 25,
+      "complete_n": 14,
+      "excluded_n": 11,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 6,
+      "original_BMD_category_counts": {
+        "S": 12,
+        "R": 13
+      },
+      "original_QM_category_counts": {
+        "R": 20,
+        "S": 4,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": 0.0,
+      "QM_method1_minus_method2_BA": 0.0,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 9981,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        },
+        "QM_method_contrast": {
+          "valid_draws": 6431,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 6414,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "CTV",
+      "method1": "RAST8h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 25,
+      "complete_n": 17,
+      "excluded_n": 8,
+      "both_references_two_class": true,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 9,
+      "original_BMD_category_counts": {
+        "S": 12,
+        "R": 13
+      },
+      "original_QM_category_counts": {
+        "R": 20,
+        "S": 4,
+        "-": 1
+      },
+      "BMD_method1_minus_method2_BA": 0.0,
+      "QM_method1_minus_method2_BA": 0.0,
+      "reference_change_in_method_contrast_BA": 0.0,
+      "point_order_reverses": false,
+      "paired_composition_percentiles": {
+        "BMD_method_contrast": {
+          "valid_draws": 9999,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        },
+        "QM_method_contrast": {
+          "valid_draws": 6477,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        },
+        "reference_by_method_interaction": {
+          "valid_draws": 6476,
+          "percentile_2_5": 0.0,
+          "percentile_97_5": 0.0
+        }
+      }
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "CTZ",
+      "method1": "RAST4h",
+      "method2": "RAST6h",
+      "primary_pair": false,
+      "source_n": 25,
+      "complete_n": 0,
+      "excluded_n": 25,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 20,
+        "I": 5
+      },
+      "original_QM_category_counts": {
+        "R": 21,
+        "-": 3,
+        "I": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "CTZ",
+      "method1": "RAST4h",
+      "method2": "RAST8h",
+      "primary_pair": false,
+      "source_n": 25,
+      "complete_n": 0,
+      "excluded_n": 25,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 20,
+        "I": 5
+      },
+      "original_QM_category_counts": {
+        "R": 21,
+        "-": 3,
+        "I": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "CTZ",
+      "method1": "RAST4h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 25,
+      "complete_n": 0,
+      "excluded_n": 25,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 20,
+        "I": 5
+      },
+      "original_QM_category_counts": {
+        "R": 21,
+        "-": 3,
+        "I": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "CTZ",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 25,
+      "complete_n": 11,
+      "excluded_n": 14,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 20,
+        "I": 5
+      },
+      "original_QM_category_counts": {
+        "R": 21,
+        "-": 3,
+        "I": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "CTZ",
+      "method1": "RAST6h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 25,
+      "complete_n": 10,
+      "excluded_n": 15,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 20,
+        "I": 5
+      },
+      "original_QM_category_counts": {
+        "R": 21,
+        "-": 3,
+        "I": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "CTZ",
+      "method1": "RAST8h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 25,
+      "complete_n": 13,
+      "excluded_n": 12,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 20,
+        "I": 5
+      },
+      "original_QM_category_counts": {
+        "R": 21,
+        "-": 3,
+        "I": 1
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "MER",
+      "method1": "RAST4h",
+      "method2": "RAST6h",
+      "primary_pair": false,
+      "source_n": 25,
+      "complete_n": 0,
+      "excluded_n": 25,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 25
+      },
+      "original_QM_category_counts": {
+        "R": 22,
+        "I": 1,
+        "-": 2
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "MER",
+      "method1": "RAST4h",
+      "method2": "RAST8h",
+      "primary_pair": false,
+      "source_n": 25,
+      "complete_n": 0,
+      "excluded_n": 25,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 25
+      },
+      "original_QM_category_counts": {
+        "R": 22,
+        "I": 1,
+        "-": 2
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "MER",
+      "method1": "RAST4h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 25,
+      "complete_n": 0,
+      "excluded_n": 25,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 25
+      },
+      "original_QM_category_counts": {
+        "R": 22,
+        "I": 1,
+        "-": 2
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "MER",
+      "method1": "RAST6h",
+      "method2": "RAST8h",
+      "primary_pair": true,
+      "source_n": 25,
+      "complete_n": 14,
+      "excluded_n": 11,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 25
+      },
+      "original_QM_category_counts": {
+        "R": 22,
+        "I": 1,
+        "-": 2
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "MER",
+      "method1": "RAST6h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 25,
+      "complete_n": 14,
+      "excluded_n": 11,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 25
+      },
+      "original_QM_category_counts": {
+        "R": 22,
+        "I": 1,
+        "-": 2
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    },
+    {
+      "species": "P. aeruginosa",
+      "drug": "MER",
+      "method1": "RAST8h",
+      "method2": "RAST16_20h",
+      "primary_pair": false,
+      "source_n": 25,
+      "complete_n": 20,
+      "excluded_n": 5,
+      "both_references_two_class": false,
+      "same_cases_for_both_references": true,
+      "reference_RS_disagreements": 0,
+      "original_BMD_category_counts": {
+        "R": 25
+      },
+      "original_QM_category_counts": {
+        "R": 22,
+        "I": 1,
+        "-": 2
+      },
+      "BMD_method1_minus_method2_BA": null,
+      "QM_method1_minus_method2_BA": null,
+      "reference_change_in_method_contrast_BA": null,
+      "point_order_reverses": false
+    }
+  ],
+  "total_eligible_pair_strata": 15,
+  "point_order_reversal_pair_strata": 0,
+  "limits": [
+    "BMD is the documented reference method; QuickMIC is a deliberately substituted non-reference assay for the sensitivity analysis.",
+    "A ranking change demonstrates measured assay-reference sensitivity, not a second temporal repository-label event.",
+    "Different drugs/species/RAST times from the same study are correlated and not separate independent studies.",
+    "An effect in phenotypic diagnostics does not independently replicate the genomic classifier result.",
+    "Publish zero effects and undefined metrics; do not select a stratum because its results are favorable.",
+    "No new score-fitting, threshold tuning or clinical superiority claim.",
+    "Index tests and substitute reference were developed/evaluated in the source study. This replay is post-hoc reuse, not a new clinical trial.",
+    "One measured clinical study supplies all strata; drugs/organisms/timepoints are not independent source studies.",
+    "No original genomic model scores were generated for this secondary phenotypic-method analysis."
+  ]
+}

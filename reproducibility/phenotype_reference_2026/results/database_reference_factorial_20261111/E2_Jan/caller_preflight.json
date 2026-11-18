@@ -1,0 +1,8 @@
+{
+  "amrfinder_executable": "/workspace/AMR-Genome-ML/.tools/amrfinder427/bin/amrfinder",
+  "amrfinder_version": "4.2.7",
+  "database_version": "2026-01-21.1",
+  "organism": "Klebsiella_pneumoniae",
+  "mode": "nucleotide",
+  "database_path": "/workspace/AMR-Genome-ML/.tools/amrfinder_db/2026-01-21.1"
+}

@@ -1,0 +1,7 @@
+{
+  "created_utc": "2026-11-11T09:58:51.371783+00:00",
+  "status": "FIXED_BEFORE_RETRIEVING_NEW_CLUSTER_MEMBERSHIP",
+  "build": "PDG000000012.2576",
+  "analysis": "Map all4218fittingBioSamples and fixed355cases to latestavailableclusterlist. Preserve355primarymanifest. Report new missing/shared/groupmerges; knownsharedorunmappedexclusion only posthocdescriptivesensitivity. Do not replace cases.",
+  "no_label_or_native_score_used_for_membership": true
+}

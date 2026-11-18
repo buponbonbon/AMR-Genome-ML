@@ -1,0 +1,29 @@
+{
+  "file": "FILE19",
+  "version": "1.0.0",
+  "project_root": "/mnt/c/Users/ASUS/Desktop/AMR-Genome-ML",
+  "timestamp": "2026-10-22T12:04:32.375042+00:00",
+  "inputs": {
+    "E2_frozen": {
+      "exists": true,
+      "path": "/mnt/c/Users/ASUS/Desktop/AMR-Genome-ML/data/external_validation/ncbi_pathogen_detection/final/file11_external_strict_E2_FROZEN.csv",
+      "bytes": 288857
+    },
+    "FILE16_predictions": {
+      "exists": true,
+      "path": "/mnt/c/Users/ASUS/Desktop/AMR-Genome-ML/results/file16_audit_mechanisms_v1/file16_per_genome_prediction_error_audit.csv",
+      "bytes": 77162
+    },
+    "NCBI_cached_XML": {
+      "exists": false,
+      "path": "",
+      "bytes": null
+    },
+    "FILE16D_triage": {
+      "exists": true,
+      "path": "/mnt/c/Users/ASUS/Desktop/AMR-Genome-ML/results/file16d_source_audit_v1/file16d_manual_review_priority.csv",
+      "bytes": 303429
+    }
+  },
+  "suggested_command": "python scripts/file19_ast_provenance_audit.py fetch --project-root . --email your@email.com"
+}

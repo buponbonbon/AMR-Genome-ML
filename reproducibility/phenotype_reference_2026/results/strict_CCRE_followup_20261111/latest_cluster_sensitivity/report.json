@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE_FIXED_COHORT_LATEST_COMPLETED_PDS_SENSITIVITY",
+  "build": "PDG000000012.2575",
+  "fitting_unique_BioSamples": 4218,
+  "fitting_BioSamples_mapped": 2944,
+  "fitting_PDS_bases": 671,
+  "case_gate_counts": {
+    "NO_SHARED_WITH_MAPPED_FITTING": 355
+  },
+  "unique_case_PDS_bases": 355,
+  "multi_PDS_cases": 0,
+  "case_membership_changed_from_original": 1,
+  "original_manifest_unchanged": true,
+  "limit": "Absence of sharing only concerns mapped fitting BioSamples; source-defined PDS is not a universal pairwise genomic-independence certificate."
+}

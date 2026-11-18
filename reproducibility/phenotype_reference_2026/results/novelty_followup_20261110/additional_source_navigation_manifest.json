@@ -1,0 +1,74 @@
+[
+  {
+    "file": "klebsiella_old_metadata_listing.html",
+    "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Klebsiella/PDG000000012.2530/Metadata/",
+    "utc": "2026-11-10T02:52:17.434974+00:00",
+    "status": 200,
+    "final_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Klebsiella/PDG000000012.2530/Metadata/",
+    "bytes": 815,
+    "sha256": "b2e1382824bc2f1a76a86802e9c03e9085c65a79f26642c908177c78a22b4eeb",
+    "listing": " \n \n  \n   Index of /pathogen/Results/Klebsiella/PDG000000012.2530/Metadata \n  \n  \n Index of /pathogen/Results/Klebsiella/PDG000000012.2530/Metadata \n Name                                            Last modified      Size    Parent Directory                                                      -   \n PDG000000012.2530.metadata.tsv                   2026-09-20 04:12  182M  \n PDG000000012.2530.metadata.xml                   2026-09-20 04:12  1.5G  \n  \n HHS Vulnerability Disclosure \n"
+  },
+  {
+    "file": "klebsiella_new_metadata_listing.html",
+    "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Klebsiella/PDG000000012.2559/Metadata/",
+    "utc": "2026-11-10T02:52:17.435601+00:00",
+    "status": 200,
+    "final_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Klebsiella/PDG000000012.2559/Metadata/",
+    "bytes": 815,
+    "sha256": "321971493f287f0250fa278cf490e491f7bf420cc7f0340d43df61ed7e26c779",
+    "listing": " \n \n  \n   Index of /pathogen/Results/Klebsiella/PDG000000012.2559/Metadata \n  \n  \n Index of /pathogen/Results/Klebsiella/PDG000000012.2559/Metadata \n Name                                            Last modified      Size    Parent Directory                                                      -   \n PDG000000012.2559.metadata.tsv                   2026-10-22 05:21  185M  \n PDG000000012.2559.metadata.xml                   2026-10-22 05:21  1.5G  \n  \n HHS Vulnerability Disclosure \n"
+  },
+  {
+    "file": "ecoli_old_metadata_listing.html",
+    "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6313/Metadata/",
+    "utc": "2026-11-10T02:52:17.785773+00:00",
+    "status": 200,
+    "final_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6313/Metadata/",
+    "bytes": 920,
+    "sha256": "20ae7daca5b4ed249972afb4811315549ba37c178053e2cc70d5ccfc8bf99ebf",
+    "listing": " \n \n  \n   Index of /pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6313/Metadata \n  \n  \n Index of /pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6313/Metadata \n Name                                                           Last modified      Size    Parent Directory                                                                     -   \n PDG000000004.6313.metadata.tsv                                  2026-09-18 20:07  519M  \n PDG000000004.6313.metadata.xml                                  2026-09-18 20:07  4.4G  \n  \n HHS Vulnerability Disclosure \n"
+  },
+  {
+    "file": "ecoli_new_metadata_listing.html",
+    "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6380/Metadata/",
+    "utc": "2026-11-10T02:52:17.925801+00:00",
+    "status": 200,
+    "final_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6380/Metadata/",
+    "bytes": 920,
+    "sha256": "c4d451dd98c92a62b84e115a088b636f6f7da946e2cac0174604250d31be432a",
+    "listing": " \n \n  \n   Index of /pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6380/Metadata \n  \n  \n Index of /pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6380/Metadata \n Name                                                           Last modified      Size    Parent Directory                                                                     -   \n PDG000000004.6380.metadata.tsv                                  2026-10-21 23:46  527M  \n PDG000000004.6380.metadata.xml                                  2026-10-21 23:46  4.4G  \n  \n HHS Vulnerability Disclosure \n"
+  },
+  {
+    "file": "eucast_document_archive.html",
+    "url": "https://www.eucast.org/bacteria/document-archive/",
+    "utc": "2026-11-10T02:52:18.046804+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "fda_ertapenem_correct.html",
+    "url": "https://www.fda.gov/drugs/development-resources/ertapenem-injection-products",
+    "utc": "2026-11-10T02:52:18.106742+00:00",
+    "status": 200,
+    "final_url": "https://www.fda.gov/drugs/development-resources/ertapenem-injection-products",
+    "bytes": 36641,
+    "sha256": "81cdc5415ac42d1790089feafea92b77f5d882a242d373f4cd8f4cf1bde42aea",
+    "relevant_links": [
+      "/drugs/development-resources/fda-recognized-antimicrobial-susceptibility-test-interpretive-criteria",
+      "/drugs/development-resources/fda-recognized-antimicrobial-susceptibility-test-interpretive-criteria"
+    ]
+  },
+  {
+    "file": "fda_imipenem_correct.html",
+    "url": "https://www.fda.gov/drugs/development-resources/imipenem-cilastatin-injection-products",
+    "utc": "2026-11-10T02:52:18.397927+00:00",
+    "status": 200,
+    "final_url": "https://www.fda.gov/drugs/development-resources/imipenem-cilastatin-injection-products",
+    "bytes": 35093,
+    "sha256": "a572651d5331ef9fa8bcd12b35837a72f11ca745fd809557679012d0356907fb",
+    "relevant_links": [
+      "/drugs/development-resources/fda-recognized-antimicrobial-susceptibility-test-interpretive-criteria",
+      "/drugs/development-resources/fda-recognized-antimicrobial-susceptibility-test-interpretive-criteria"
+    ]
+  }
+]

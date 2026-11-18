@@ -1,0 +1,28 @@
+[
+  {
+    "file": "amr_breakpoints_secondary.csv",
+    "url": "https://msberends.r-universe.dev/AMR/data/clinical_breakpoints/csv",
+    "utc": "2026-11-10T03:08:43.858619+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "amr_breakpoints_documentation.html",
+    "url": "https://amr-for-r.org/reference/clinical_breakpoints.html",
+    "utc": "2026-11-10T03:08:43.859183+00:00",
+    "status": 200,
+    "final_url": "https://amr-for-r.org/reference/clinical_breakpoints.html",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 24375,
+    "sha256": "84b6e6f1309106aa90cdcb931569e7f95cb1aa176c2b1c7fa61cf60c908ddff0"
+  },
+  {
+    "file": "amr_package_metadata.json",
+    "url": "https://msberends.r-universe.dev/api/packages/AMR",
+    "utc": "2026-11-10T03:08:44.142361+00:00",
+    "status": 200,
+    "final_url": "https://msberends.r-universe.dev/api/packages/AMR",
+    "content_type": "application/json; charset=utf-8",
+    "bytes": 51430,
+    "sha256": "a27d49e19cd4089fe99af0eb52f9b9d9457eea80071ac4562e426d2078f7afb2"
+  }
+]

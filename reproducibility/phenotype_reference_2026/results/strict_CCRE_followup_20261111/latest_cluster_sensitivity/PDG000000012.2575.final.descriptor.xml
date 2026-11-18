@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<PathogenGroupDescriptor>
+  <PathogenGroup accession="PDG000000012" version="2575" complete="1">PDG000000012.2575</PathogenGroup>
+  <Metadata complete="1" publication_date="2026-11-10T11:01Z"/>
+  <Clusters complete="1" publication_date="2026-11-10T16:57Z"/>
+  <SNP_Trees complete="1" publication_date="2026-11-10T16:57Z"/>
+</PathogenGroupDescriptor>

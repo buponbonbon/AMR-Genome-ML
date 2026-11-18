@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-11-12T09:15:26.520550+00:00",
+  "status": "FIXED_BEFORE_NEW_SOURCE_GENOME_SCORES",
+  "target": 170,
+  "analysis_category_counts": {
+    "S": 130,
+    "R": 40
+  },
+  "manifest_sha256": "31a3f099cc3f55bcdc9dac3a3dfc65cb7f8ccaabf63b5b5b21d30b1379a6eab3",
+  "label_column": "analysis_label_EUCAST14_nonmeningitis",
+  "labels_are_derived_scenario_not_author_reported_SIR": true,
+  "source": "EuSCAPE primary central BMD TableS4 DOI10.1038/s41564-019-0492-8",
+  "source_MIC_cells_retained": true,
+  "source_cohort_posthoc": true,
+  "selection": "One minimum SHA256 representative perPDS; exclude exact identifiers and PDS sharing with mapped fitting/E2/CCRE on completed2575build. No replacement of failed inputs.",
+  "model_sha256": "1f55620cbd4b1dfd946ff37977e9a851b6aeaad8a5466eb553323331613cdcdd",
+  "schema_count": 668,
+  "threshold": 0.5,
+  "caller": "AMRFinderPlus4.2.7",
+  "database": "2026-08-07.1",
+  "original_parsers_and_rule_code_unchanged": true,
+  "no_training_tuning_or_recalibration": true,
+  "software_run_script": "scripts/run_frozen_database_factor.py",
+  "analysis_plan": [
+    "Paired available-case errors and BA/MCC/AUROC/AP against explicit BMD-derived labels; report all170fixedtargets and technical missingness.",
+    "Original annotation rules unchanged; additional sourcecarbapenemasepresence control only if native source field unambiguous, labeled distinct provenance.",
+    "Country and PDS composition sensitivity10000resamples; no patient-population accuracy guarantee.",
+    "Retain both S/R and I/unsupported source data in the fullscreen; scoring manifest contains only170 eligibleS/Rcases.",
+    "No event replication claimed: this adds source-level BMD validation, not historical phenotype correction or a second source version event."
+  ]
+}

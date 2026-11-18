@@ -1,0 +1,8 @@
+{
+  "status": "COMPLETE_EXACT_FROZEN_INPUT_RECOVERY",
+  "target": 525,
+  "exact_byte_matches": 525,
+  "unverified": 0,
+  "original_manifest_sha256": "6b56e1eeb60421261d6933bf89897d0a10faae4ba7cea8399787b76008db9ef1",
+  "no_sequence_or_label_edited": true
+}

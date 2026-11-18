@@ -1,0 +1,9 @@
+{
+  "received_file": "file16i_E2_paired_by_bioproject.csv",
+  "bytes": 4030,
+  "sha256": "da55199bfa745118d7ec8837ea1380ca0398436f2f738f9a1f413f53da859b5d",
+  "preserved_repository_copy": "/workspace/AMR-Genome-ML/results/exact_rule_reference_replay_20261110/inputs/file16i_E2_paired_by_bioproject.csv",
+  "validated_source_projects": 32,
+  "validated_E2_samples": 525,
+  "status": "MISSING_COMPARATOR_INPUT_RESOLVED"
+}

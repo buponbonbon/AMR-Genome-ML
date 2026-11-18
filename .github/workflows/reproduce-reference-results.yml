@@ -1,0 +1,40 @@
+name: Reproduce phenotype-reference results
+
+on:
+  push:
+    paths:
+      - 'reproducibility/phenotype_reference_2026/**'
+      - '.github/workflows/reproduce-reference-results.yml'
+  pull_request:
+    paths:
+      - 'reproducibility/phenotype_reference_2026/**'
+      - '.github/workflows/reproduce-reference-results.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: reproducibility/phenotype_reference_2026
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: reproducibility/phenotype_reference_2026/requirements_review.txt
+      - name: Verify archive checksums
+        run: python verify_integrity.py
+      - name: Install recorded dependencies
+        run: python -m pip install -r requirements_review.txt
+      - name: Recompute fixed-model metrics and MIC resampling
+        run: |
+          python reproduce_review.py --out "$RUNNER_TEMP/amr_main"
+          python scripts/analyze_mic_boundary_sensitivity.py --root . --out "$RUNNER_TEMP/amr_mic"
+          python verify_reproduction.py --main-out "$RUNNER_TEMP/amr_main" --mic-out "$RUNNER_TEMP/amr_mic"
+          python reproduce_historical.py --out "$RUNNER_TEMP/amr_historical"

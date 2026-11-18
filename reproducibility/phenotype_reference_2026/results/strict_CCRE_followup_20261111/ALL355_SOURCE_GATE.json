@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "target_BioSamples": 355,
+  "exact_published_Run_links": 355,
+  "taxon_573": 355,
+  "ENA_source_projects": {
+    "PRJEB87787": 355
+  },
+  "ENA_study_titles": {
+    "AllTheBacteria release 0.2 set 3": 355
+  },
+  "source_original_representative_manifest_sha256": "88e2c25724cb32f7f8570d8bde8550ecc3d0ee5072c97267385134d948cd3182"
+}

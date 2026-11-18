@@ -1,0 +1,13 @@
+{
+  "file": "incredble_BetaLactams_AST.txt",
+  "url": "https://raw.githubusercontent.com/cnag-aat/incredble/8a240cf30602b48aaf0f6cf0c44124b01bb4bc89/queries/BetaLactams_AST.txt",
+  "started_utc": "2026-11-11T07:18:59.705973+00:00",
+  "http_status": 200,
+  "final_url": "https://raw.githubusercontent.com/cnag-aat/incredble/8a240cf30602b48aaf0f6cf0c44124b01bb4bc89/queries/BetaLactams_AST.txt",
+  "content_type": "text/plain; charset=utf-8",
+  "content_range": null,
+  "bytes": 7215,
+  "sha256": "69dd93f7efea86a0892d70e9a4c816d41ce06a341ee8d9242860ff99f2c8a773",
+  "signature_hex": "414932353833203120362038",
+  "completed_utc": "2026-11-11T07:18:59.944152+00:00"
+}

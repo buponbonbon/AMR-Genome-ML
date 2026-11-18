@@ -1,0 +1,14 @@
+{
+  "genus": "Escherichia_coli_Shigella",
+  "prefix": "PDG000000004",
+  "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Escherichia_coli_Shigella/",
+  "retrieved_utc": "2026-11-11T09:50:41.408767+00:00",
+  "sha256": "d7aa5ba4e49231f9525be10dfd2c0d482b6a9de8e9f9b75cfc54a273b1c27ad8",
+  "last_builds": [
+    "6426",
+    "6427",
+    "6428",
+    "6429",
+    "6430"
+  ]
+}

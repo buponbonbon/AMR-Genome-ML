@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "Gopel_project_linked_BioSamples": 105,
+  "Gopel_returned_unique_XML_records": 105,
+  "Meekes_returned_unique_XML_records": 19,
+  "Gopel_source_numeric_ID_set_matches_project_elink": true,
+  "bootstrap_numeric_validation": "PASS",
+  "software_boundary_tests_passed": 4
+}

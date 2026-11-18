@@ -1,0 +1,85 @@
+{
+  "status": "PRIMARY_MIC_COHORT_IDENTIFIED_EXACT_ID_SCREEN_PASSED_CLUSTER_GATE_PENDING",
+  "primary_source_DOI": "10.1016/j.lanmic.2025.101320",
+  "primary_workbook_sha256": "a486d288842447fed0d50d97ed9e78471b8a2c671fc6015f95bee230d5c2443a",
+  "primary_source_all_species_samples": 2973,
+  "primary_K_pneumoniae_samples": 2834,
+  "Kp_original_meropenem_category_counts": {
+    "S": 1519,
+    "R": 1032,
+    "I": 241,
+    "Missing": 42
+  },
+  "Kp_nonmissing_meropenem_MIC": 2450,
+  "Kp_MIC_original_category_counts": {
+    "S": 1280,
+    "R": 948,
+    "I": 221,
+    "Missing": 1
+  },
+  "frozen_fitting_genome_IDs": 4227,
+  "frozen_fitting_IDs_linked_to_BioSamples": 4227,
+  "frozen_fitting_unique_BioSamples": 4218,
+  "fitting_IDs_resolved_via_SRA_ENA_bridge": 73,
+  "fitting_IDs_with_secondary_ENA_sample_alias_resolved": 71,
+  "candidate_Kp_runs_linked_to_unique_BioSamples": 2834,
+  "candidate_Kp_exact_BioSample_overlap_fitting": 0,
+  "candidate_Kp_exact_BioSample_overlap_E2": 0,
+  "candidate_ENA_primary_species_annotation_agreement": 2834,
+  "eligible_primary_MIC_original_RS_no_detected_exact_overlap": 2228,
+  "eligible_original_RS_counts": {
+    "S": 1280,
+    "R": 948
+  },
+  "eligible_reporting_hospitals": 270,
+  "eligible_reporting_countries": 32,
+  "eligible_ST_seen_in_fitting_counts": {
+    "YES": 1915,
+    "NO": 262,
+    "UNKNOWN": 51
+  },
+  "eligible_unseen_ST_original_RS_counts": {
+    "S": 225,
+    "R": 37
+  },
+  "frozen_model_predictions_computed": false,
+  "new_model_training_or_threshold_tuning": false,
+  "I_missing_or_NS_recoded_to_binary_R_S": false,
+  "genomic_cluster_or_ERD_independence_established": false,
+  "MIC_breakpoint_reclassification_performed": false,
+  "key_limits": [
+    "No exact BioSample overlap was found after linking all fitting IDs; this does not establish genomic-cluster, patient or hospital independence.",
+    "This is an enriched surveillance collection with carbapenem-R/I and carbapenem-S sampling, not an unselected prevalence cohort.",
+    "The study used heterogeneous AST methods including disc diffusion, BMD, gradient tests and automated systems; the workbook does not give a method or breakpoint edition for each MIC.",
+    "The meropenem reference here is the original centrally validated PHAS S/I/R column; the broad carbapenem collection group and genotype are not labels.",
+    "The original Interpretation guideline used column is retained, including CLSI entries; do not assume these are all original EUCAST or BMD measurements.",
+    "Seen/unseen MLST is descriptive and is not a substitute for the original ERD/SNP-cluster firewall.",
+    "No model accuracy, advantage, clinical utility or new independent label-reversal event is established by this screening."
+  ],
+  "input_sha256": {
+    "identity/training_identity_00.json": "4cf0c24ad8147de70927f196cec2de1124af67fd0251d0fd223c6bd384840be2",
+    "identity/training_identity_01.json": "8abd2be5d70e81d90ec6f4c89209f4f84a4385fd7767a095f8bdedf4736f1366",
+    "identity/training_identity_02.json": "d2d92cb4d1960c69be12b890b6df7d28119f8eeab16c53c1af5661d2cf5f03d3",
+    "identity/training_identity_03.json": "a4400292503080032c4386a63e60595e3427faf6cd2b70c645cca96c2b4d4470",
+    "identity/training_identity_04.json": "2204e46ebe728e4b8fc7f3edb3826b1f3da1b272c2f21feaca9e7d832e3108d5",
+    "identity/training_identity_05.json": "f3ac52135080c5308028f45edea1e321afe500a7780cc64c0a7352e6d83a8752",
+    "identity/training_identity_06.json": "03fa559e2788ac8482be6edb7368abbfe06bbb97e973dfb66dfe87241c1cafaa",
+    "identity/training_identity_07.json": "2390dd6f1d52330b51bae2f1df0f654245157bc42112b1de03482c35e80ff8a5",
+    "identity/training_identity_08.json": "8515df26d9406afcc6af7fedec36731ad5a1f6f288d5304296d4956c6def8927",
+    "identity/training_identity_09.json": "164f14417158975bc5706901ad25a95c559b270bc8fa4900e216a73a2363c558",
+    "identity/training_identity_10.json": "73d12605a694ba575e56fb01430b5c3e0b4e898c6ab6745897dde292c2ffe036",
+    "identity/training_identity_11.json": "fc357950b8772902beaed19a549a4331870a829b662f1d1eda6843bbe320b67a",
+    "identity/training_identity_12.json": "bb37b17bd9bce16b3aabbef034cc475aca39fb9bf4b6e37434227755fb2b3ec8",
+    "identity/training_identity_13.json": "81ce85b425538402f35fdfd673f5dd30fec61ff7f0f98b3a017cf7a8e40dc8ee",
+    "identity/training_identity_14.json": "5e74262f04b5833cfb316c9a14c1a41fd2775b50f0860be9ec5649496052517c",
+    "unlinked_training/training_unlinked_full_records.json": "4f971b8af3869e6d52448db81942559970b6d7c3e72024171b235c124b2e2f9e",
+    "training_bridge/training_missing_biosample_ENA.tsv": "eb1d972f923acc1e082456d7259e3a944ef51c7dfecd942107fb1c0d714a03ca",
+    "secondary_resolution/training_secondary_full_records.json": "e1bbc2552ef1ae869d2b26e133aada5f34ffd54e24d5d9d68d4a8abc4a71c462",
+    "secondary_SRA/training_secondary_SRA_ENA.tsv": "1b28c51ccbfbb3207612889b7399c2ce864f232a5e2f3983342d28a2dd665b43",
+    "identity/PRJEB39943_ENA_runs.tsv": "9537b7bb27fd6050c47cb25cb925fa6ad6dd31347f76bf053399c0d6bcbc9b36",
+    "identity/PRJEB51224_ENA_runs.tsv": "c545d39d8571170a622e97b5b8a6e4667c7741c3773666584d888b0346a7baad",
+    "primary_workbook": "a486d288842447fed0d50d97ed9e78471b8a2c671fc6015f95bee230d5c2443a",
+    "File07": "3183e2b458fc089633fde779204e3957c7519f8b20651b4207dee9f7e10a21c4",
+    "original_E2_predictions": "6b56e1eeb60421261d6933bf89897d0a10faae4ba7cea8399787b76008db9ef1"
+  }
+}

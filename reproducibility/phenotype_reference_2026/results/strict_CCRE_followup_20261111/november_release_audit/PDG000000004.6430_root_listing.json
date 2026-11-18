@@ -1,0 +1,12 @@
+{
+  "build": "PDG000000004.6430",
+  "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6430/",
+  "sha256": "b260785c2f07e6760e8ff13ef7597c921d62ae084b7f6b524902514dd3ed370e",
+  "links": [
+    "/pathogen/Results/Escherichia_coli_Shigella/",
+    "Metadata/",
+    "PDG000000004.6430.kmer.descriptor.xml",
+    "https://www.hhs.gov/vulnerability-disclosure-policy/index.html"
+  ],
+  "retrieved_utc": "2026-11-11T09:59:08.644180+00:00"
+}

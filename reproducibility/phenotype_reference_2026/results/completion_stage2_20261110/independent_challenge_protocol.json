@@ -1,0 +1,60 @@
+{
+  "created_utc": "2026-11-10T11:29:04.300818+00:00",
+  "status": "PRECONDITIONS_PREPARED_BEFORE_NEW_MODEL_SCORING; PUBLIC_PILOT_LABELS_ALREADY_EXPOSED",
+  "purpose": "Independent-source clinical challenge of the same frozen K. pneumoniae meropenem predictor and its fixed rule; not a representative clinical deployment study",
+  "candidate_studies": [
+    {
+      "study": "Gopel_2025",
+      "project": "PRJNA1043438",
+      "public_sample_ids_verified": 105,
+      "assay": "BMD, EUCAST v13 per primary paper",
+      "limitations": "Selected carbapenem-resistant collection; the paper identifies two meropenem-susceptible carbapenemase-positive isolates, which does not establish the total S count. Confirm full S/I/R denominators from the primary matrix before performance claims."
+    },
+    {
+      "study": "Meekes_2025",
+      "project": "PRJNA1241873",
+      "clinical_genome_samples_verified": 15,
+      "engineered_mutants_excluded": 4,
+      "assay": "BMD, paper cites EUCAST 2024",
+      "limitations": "Selected for MIC/MLVA/carbapenemase diversity; 74 phenotyped isolates do not provide 74 linked genomes"
+    }
+  ],
+  "required_model_hash": "1f55620cbd4b1dfd946ff37977e9a851b6aeaad8a5466eb553323331613cdcdd",
+  "required_feature_schema_hash": "9ca9c8c89a6bb2c1a97d85b9b5906efbf9aee0fca7eedb0328915063212c132f",
+  "feature_pipeline": "Preserved FILE11C caller; AMRFinderPlus 4.2.7, DB 2026-08-07.1, nucleotide mode, Klebsiella_pneumoniae, same element naming/schema and emrD exclusion as original code",
+  "gates": [
+    "Verify model and schema hashes before reading/executing a supplied model artifact.",
+    "Reproduce preserved E2 probabilities from original external feature matrix before scoring any new genome; maximum absolute probability difference <=1e-8.",
+    "Obtain an original isolate-level MIC table and verify sample-to-genome/assay/drug/unit links; a genotype is never used as phenotypic truth.",
+    "Retain all raw MIC inequalities, original S/I/R and standards/context; ambiguous interval/category mappings remain ambiguous.",
+    "Confirm genome species with a documented taxonomic check; discordant source annotations are reported, not silently forced into K. pneumoniae.",
+    "Primary binary analysis includes explicit source S and R; retain and report I/ND separately, without forcing them into S or R.",
+    "If only quantitative MICs are available, require stated standard/edition and clinical interpretation context before deriving a labeled reference scenario; do not call it the author-reported category.",
+    "Check exact sample, assembly/genome and original grouping/firewall overlap with development and E2; unknown overlap prevents an independence claim.",
+    "Keep all model weights, probabilities, rule definition and threshold fixed; no threshold or feature tuning using challenge labels.",
+    "Report false-susceptible/false-resistant counts and denominators first, then discrimination metrics where both classes have enough support; describe patient/lineage dependence.",
+    "Treat the cohorts as selected challenge sets; do not infer population clinical utility, safety, or calibration from them."
+  ],
+  "actual_status": "ALL_NEW_MODEL_PREDICTIONS_BLOCKED_BY_MISSING_MODEL_ARTIFACTS; GOPel_Meekes_ALSO_REQUIRE_PRIMARY_MIC_TABLES",
+  "no_author_contact": true,
+  "no_training": true,
+  "existing_CDC_challenge_route": {
+    "existing_public_CDC_Kp_BioSamples": 28,
+    "BioSamples_with_retained_genome_links": 28,
+    "with_nonmissing_assembly_accession": 28,
+    "primary_MIC_status": "ALREADY_AVAILABLE_FROM_PREVIOUS_CDC_EXPORTS",
+    "training_overlap_status": "UNKNOWN_UNTIL_FROZEN_TRAINING_IDENTITIES_ARE_SUPPLIED",
+    "prediction_status": "NOT_RUN_FROZEN_MODEL_ARTIFACT_ABSENT",
+    "claim_limits": "Existing pilot labels were inspected; enriched panels and possible training overlap prevent presuming a new independent clinical validation.",
+    "NCBI_source_species_annotations": {
+      "Klebsiella pneumoniae": 27,
+      "Klebsiella variicola": 1
+    },
+    "provisional_matching_Kp_annotation_meropenem_category_counts": {
+      "R": 23,
+      "S": 2,
+      "I": 2
+    },
+    "provisional_matching_Kp_annotation_meropenem_samples": 27
+  }
+}

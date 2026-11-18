@@ -1,0 +1,14 @@
+{
+  "genus": "Klebsiella",
+  "prefix": "PDG000000012",
+  "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Klebsiella/",
+  "retrieved_utc": "2026-11-11T09:50:42.162295+00:00",
+  "sha256": "563840052f5befc93a62fa61316d62e117e45a25db4e13ebed97540905024a89",
+  "last_builds": [
+    "2572",
+    "2573",
+    "2574",
+    "2575",
+    "2576"
+  ]
+}

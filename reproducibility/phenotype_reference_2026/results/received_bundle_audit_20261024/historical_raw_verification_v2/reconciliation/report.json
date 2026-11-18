@@ -1,0 +1,165 @@
+{
+  "historical_rows": 3039,
+  "historical_unique": 3033,
+  "historical_duplicate_projected_rows": 6,
+  "current_rows": 525,
+  "current_unique": 525,
+  "current_duplicate_projected_rows": 0,
+  "matched_records": 525,
+  "historical_only": 2508,
+  "current_only": 0,
+  "source_chain_status": "MANUAL_REVIEW_REQUIRED: matching hashes do not establish the full SQL/export chain",
+  "clinical_adjudication": false,
+  "independent_validation": false,
+  "confidence_intervals": "NOT_ESTIMATED",
+  "disclaimer": "Reference-record audit only; not clinical adjudication, causal attribution, or independent validation.",
+  "current_vs_biosample": {
+    "agree": 525
+  },
+  "focal_current_vs_biosample": {
+    "agree": 525
+  },
+  "xml_review_required": false,
+  "biosample_is_independent_ast": false,
+  "historical_E2": {
+    "n": 525,
+    "R": 163,
+    "S": 362,
+    "threshold": 0.5,
+    "TP": 109,
+    "FN": 54,
+    "TN": 221,
+    "FP": 141,
+    "roc_auc": 0.6673473884011796,
+    "average_precision": 0.41148135228449434,
+    "sensitivity": 0.6687116564417178,
+    "specificity": 0.6104972375690608,
+    "balanced_accuracy": 0.6396044470053893,
+    "mcc": 0.25866697519334364,
+    "brier": 0.31564776717781046,
+    "undefined_reason": null
+  },
+  "partial_source_substitution_POSTHOC": {
+    "n": 525,
+    "R": 266,
+    "S": 259,
+    "threshold": 0.5,
+    "TP": 236,
+    "FN": 30,
+    "TN": 245,
+    "FP": 14,
+    "roc_auc": 0.9689087583824426,
+    "average_precision": 0.9742081035825133,
+    "sensitivity": 0.8872180451127819,
+    "specificity": 0.9459459459459459,
+    "balanced_accuracy": 0.9165819955293639,
+    "mcc": 0.8340360845629118,
+    "brier": 0.06650456510336132,
+    "undefined_reason": null
+  },
+  "substituted_records": 175,
+  "changed_labels": 175,
+  "frozen_score_vector_sha256": "44f57072c496c7c9c9d5a59926495369f72e4b334a84a57135c20a1eaf9646c7",
+  "subgroups_descriptive": {
+    "focal": {
+      "historical": {
+        "n": 175,
+        "R": 36,
+        "S": 139,
+        "threshold": 0.5,
+        "TP": 3,
+        "FN": 33,
+        "TN": 9,
+        "FP": 130,
+        "roc_auc": 0.026678657074340528,
+        "average_precision": 0.11584526780498555,
+        "sensitivity": 0.08333333333333333,
+        "specificity": 0.06474820143884892,
+        "balanced_accuracy": 0.07404076738609112,
+        "mcc": -0.8063177428351078,
+        "brier": 0.8109696201275667,
+        "undefined_reason": null
+      },
+      "scenario": {
+        "n": 175,
+        "R": 139,
+        "S": 36,
+        "threshold": 0.5,
+        "TP": 130,
+        "FN": 9,
+        "TN": 33,
+        "FP": 3,
+        "roc_auc": 0.9733213429256595,
+        "average_precision": 0.9933865379386015,
+        "sensitivity": 0.935251798561151,
+        "specificity": 0.9166666666666666,
+        "balanced_accuracy": 0.9259592326139088,
+        "mcc": 0.8063177428351078,
+        "brier": 0.06354001390421929,
+        "undefined_reason": null
+      }
+    },
+    "other": {
+      "historical": {
+        "n": 350,
+        "R": 127,
+        "S": 223,
+        "threshold": 0.5,
+        "TP": 106,
+        "FN": 21,
+        "TN": 212,
+        "FP": 11,
+        "roc_auc": 0.9589174111083648,
+        "average_precision": 0.9446912156872271,
+        "sensitivity": 0.8346456692913385,
+        "specificity": 0.9506726457399103,
+        "balanced_accuracy": 0.8926591575156244,
+        "mcc": 0.8004406329482883,
+        "brier": 0.06798684070293234,
+        "undefined_reason": null
+      },
+      "scenario": {
+        "n": 350,
+        "R": 127,
+        "S": 223,
+        "threshold": 0.5,
+        "TP": 106,
+        "FN": 21,
+        "TN": 212,
+        "FP": 11,
+        "roc_auc": 0.9589174111083648,
+        "average_precision": 0.9446912156872271,
+        "sensitivity": 0.8346456692913385,
+        "specificity": 0.9506726457399103,
+        "balanced_accuracy": 0.8926591575156244,
+        "mcc": 0.8004406329482883,
+        "brier": 0.06798684070293234,
+        "undefined_reason": null
+      }
+    }
+  },
+  "inputs": {
+    "historical": {
+      "path": "/workspace/attachments/3bb02029-e163-4b66-bae6-c481e656288d/file11_ncbi_ast_isolates_joined_raw.csv",
+      "sha256": "3f619f1d58d2c39e16a016e05a2fd060dbed1494ec87acc21aedc86c73ca6346"
+    },
+    "current": {
+      "path": "/workspace/AMR-Genome-ML/results/received_bundle_audit_20261024/historical_raw_verification_v2/inputs/current_focal_annotated_with_exact_historical_project.csv",
+      "sha256": "5859e3015f47272e46512b1155d3b10194106a53c36ecb74050beb3a88e36f82"
+    },
+    "predictions": {
+      "path": "/workspace/AMR-Genome-ML/results/received_bundle_audit_20261024/historical_raw_verification_v2/inputs/file11c_blind_predictions.csv",
+      "sha256": "6b56e1eeb60421261d6933bf89897d0a10faae4ba7cea8399787b76008db9ef1"
+    },
+    "biosample_table": {
+      "path": "/workspace/AMR-Genome-ML/results/received_bundle_audit_20261024/historical_raw_verification_v2/xml_extraction/biosample_records.csv",
+      "sha256": "2ad129218e179b81803e9fbc4665eb02794c059110731807871165629eda2b82"
+    },
+    "config": {
+      "path": "/workspace/AMR-Genome-ML/results/received_bundle_audit_20261024/historical_raw_verification_v2/config.json",
+      "sha256": "d66c430f57377d1ffd18c323242705b21c8248255975592f16f3bf9fe1cd5f4d"
+    }
+  },
+  "audit_version": "1.0.0",
+  "completed_utc": "2026-10-24T08:26:59.442320+00:00"
+}

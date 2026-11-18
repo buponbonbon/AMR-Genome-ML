@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-11-13T06:13:57.190224+00:00",
+  "status": "POSTHOC_PROTOCOL_FIXED_BEFORE_NEW_MIC_STRATIFIED_ANALYSIS",
+  "question": "Does performance and method ordering persist when observations close to the declared MIC cutoffs are excluded?",
+  "posthoc": true,
+  "prior_observation": "Full stage6 model predictions and metrics have already been seen; this is not preregistered confirmation.",
+  "inputs": [
+    "results/database_reference_factorial_20261111/final_analysis/CCRE/paired_case_audit.csv",
+    "results/independent_reference_extension_20261112/EuSCAPE_analysis/paired_case_audit.csv"
+  ],
+  "fixed": [
+    "No fitting, thresholds, model, rules, phenotype cells or cohort representatives altered.",
+    "Original CCRE PHAS reference remains the primary CCRE reference.",
+    "Original EuSCAPE EUCAST14-derived reference remains fixed."
+  ],
+  "scenario": "EUCAST14 Enterobacterales non-meningitis S<=2mg/L,R>8mg/L; I retained separately, never recoded to S/R.",
+  "analyses": [
+    "Inventory raw MIC/source-category compatibility with the declared scenario; do not call disagreement a laboratory error.",
+    "Represent exact and censored source MICs as intervals without imputing a point.",
+    "Whole-source-MIC-interval and hypothetical one-twofold-dilution envelope [MIC/2,2*MIC]: define boundary-robust S/R only when every value in the envelope lies in the same declared S/R category. This is a stress assumption, not an estimate of measurement error.",
+    "Report all-case and boundary-robust and remaining strata for ML/broad/KPC and author CP controls, preserving original labels; no subgroup selection by outcomes.",
+    "Within each cohort retain original full-cohort selected cases and resampling groups; use10000 paired country draws(seed20261114) projected into each stratum, not newly selected representatives.",
+    "Report ML-minus-broad BA and source-composition percentiles, confusion counts and no superiority claim when tradeoffs/intervals disagree.",
+    "Independent interval logic and sklearn metric checks; all outputs including null/negative findings."
+  ],
+  "limits": [
+    "No new independent temporal event or historical AST adjudication.",
+    "No inference that MIC uncertainty actually equals one dilution or that exclusions improve real clinical utility.",
+    "Stratification conditions on measured phenotype; core performance is not representative of all infections.",
+    "CCRE mixed assays are not newly remeasured BMD; EuSCAPE and CCRE share related surveillance origins."
+  ]
+}

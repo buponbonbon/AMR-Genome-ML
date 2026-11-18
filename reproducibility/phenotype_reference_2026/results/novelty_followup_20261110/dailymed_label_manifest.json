@@ -1,0 +1,29 @@
+[
+  {
+    "file": "ertapenem_invanz_label.xml",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/33f3b99b-fa82-42e0-26bf-f49891ae3d22.xml",
+    "setid": "33f3b99b-fa82-42e0-26bf-f49891ae3d22",
+    "utc": "2026-11-10T03:01:46.594557+00:00",
+    "bytes": 226815,
+    "sha256": "cbb117a60457698128eb3454dc89833fe5f945dd190e4e7bfc5fdd75f06d1d96",
+    "tables": []
+  },
+  {
+    "file": "imipenem_primaxin_label.xml",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/f41d8abd-7792-4918-1b93-bd83ea01955e.xml",
+    "setid": "f41d8abd-7792-4918-1b93-bd83ea01955e",
+    "utc": "2026-11-10T03:01:46.595103+00:00",
+    "bytes": 200606,
+    "sha256": "e6fc7de3962bd7d1df8fbaec2437ca2eb4def03fcd9612d2dfffd68f1e6b19f1",
+    "tables": []
+  },
+  {
+    "file": "imipenem_2022_generic_label.xml",
+    "url": "https://dailymed.nlm.nih.gov/dailymed/services/v2/spls/ce771566-c4f2-447e-944a-6b908925c90b.xml",
+    "setid": "ce771566-c4f2-447e-944a-6b908925c90b",
+    "utc": "2026-11-10T03:01:47.213921+00:00",
+    "bytes": 208836,
+    "sha256": "daf857e870ab8d612b64f1004568b6250d912c5a37b82c7b584c5578b0b70e7f",
+    "tables": []
+  }
+]

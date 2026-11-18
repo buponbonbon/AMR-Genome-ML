@@ -1,0 +1,21 @@
+{
+  "status": "UPLOADED_TEX_EXACTLY_MATCHES_BASES_USED_FOR_PREVIOUS_RESTRUCTURING",
+  "files": [
+    {
+      "file": "references.bib",
+      "bytes": 25819,
+      "sha256": "5e4d6dc57caf2deb8863db53b6b97bb27b71c7b243907aebfb444efaf447afc6"
+    },
+    {
+      "file": "main.tex",
+      "bytes": 37274,
+      "sha256": "067dfeb5737f9ce7e41f53037ec9b9775746f81c8ae4e3be71c3f629dab883c7"
+    },
+    {
+      "file": "supplementary.tex",
+      "bytes": 78680,
+      "sha256": "a32d66c8e22abd1b7a74e43d39bec0157a51f965f6c9a78667af83dcba675398"
+    }
+  ],
+  "original_bibliography_now_available": true
+}

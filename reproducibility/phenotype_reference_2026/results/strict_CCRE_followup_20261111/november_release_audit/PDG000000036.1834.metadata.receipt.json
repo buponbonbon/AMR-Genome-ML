@@ -1,0 +1,9 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Pseudomonas_aeruginosa/PDG000000036.1834/Metadata/PDG000000036.1834.metadata.tsv",
+  "http_status": 200,
+  "bytes": 61792638,
+  "sha256": "6fc8c3e94757e9fffcbae9cec78554d804137b5d31545a586f977371bf94647f",
+  "retrieved_utc": "2026-11-11T09:53:00.355611+00:00",
+  "last_modified": null,
+  "file": "PDG000000036.1834.metadata.tsv"
+}

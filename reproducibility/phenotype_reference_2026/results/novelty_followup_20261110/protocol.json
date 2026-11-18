@@ -1,0 +1,36 @@
+{
+  "frozen_utc": "2026-11-10T02:46:23.747057+00:00",
+  "scope": "Exploratory follow-up; original E2 event and previous archive probes have been examined",
+  "targets": [
+    {
+      "species": "Pseudomonas aeruginosa",
+      "directory": "Pseudomonas_aeruginosa",
+      "old_build": "PDG000000036.1792",
+      "new_build": "PDG000000036.1820"
+    },
+    {
+      "species": "Acinetobacter baumannii",
+      "directory": "Acinetobacter",
+      "old_build": "PDG000000010.1957",
+      "new_build": "PDG000000010.1983"
+    }
+  ],
+  "build_selection": "Latest retained numeric build dated on/before 22 September 2026 versus 22 October 2026 in previously cached directory listings; confirm dates and metadata listings",
+  "primary_drugs": [
+    "meropenem",
+    "imipenem"
+  ],
+  "primary_key": [
+    "target_acc",
+    "biosample_acc",
+    "antibiotic"
+  ],
+  "secondary_analysis": "All shared AST phenotype records may be described separately; no source selection by observed disagreement",
+  "taxonomy": "Report source annotation; require same named species in both builds for primary subset; retain exclusions",
+  "file_size_guard_bytes": 100663296,
+  "ecoli_deferred_reason": "Recent metadata listing is about 528 MB; this bounded pass prioritizes prechosen species below 96 MiB per TSV",
+  "reference_AST_truth": false,
+  "immutability_note": "Release paths and listing dates are evidence of retained builds, not cryptographic proof metadata was never retrospectively rewritten.",
+  "no_author_contact": true,
+  "comparator_input_note": "Exact FILE11E/FILE16H rule calls are not in uploaded fast bundle; mechanism labels do not reproduce published rule counts."
+}

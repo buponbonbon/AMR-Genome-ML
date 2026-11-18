@@ -1,0 +1,108 @@
+{
+  "amrfinder_runtime": {
+    "amrfinder_executable": "/home/khang/micromamba/envs/amrfinder-4.2.7/bin/amrfinder",
+    "amrfinder_version": "4.2.7",
+    "database_path": "/home/khang/amrfinder_db/2026-08-07.1",
+    "database_version": "2026-08-07.1",
+    "mode": "nucleotide",
+    "organism": "Klebsiella_pneumoniae"
+  },
+  "bridge_audit": {
+    "exact_row_matches": 382,
+    "local_training_genomes_audited": 382,
+    "mismatched_cells": 0,
+    "status": "PASS_EXACT"
+  },
+  "completed_utc": "2026-09-22T13:11:12+00:00",
+  "development": {
+    "R": 1601,
+    "S": 2626,
+    "n": 4227
+  },
+  "elapsed_seconds": 6558.537113666534,
+  "external_feature_matrix": {
+    "out_of_schema_determinants": 89,
+    "shape": [
+      525,
+      668
+    ],
+    "zero_feature_genomes": 0
+  },
+  "external_meropenem_E2": {
+    "R": 163,
+    "S": 362,
+    "n": 525,
+    "unique_erd_groups": 289
+  },
+  "feature_schema_sha256": "9ca9c8c89a6bb2c1a97d85b9b5906efbf9aee0fca7eedb0328915063212c132f",
+  "frozen_e2_sha256": "181ad34e9087234b28ee06e72ed59861a1b199b699be45c5549206b4f0555c19",
+  "frozen_model_sha256": "1f55620cbd4b1dfd946ff37977e9a851b6aeaad8a5466eb553323331613cdcdd",
+  "frozen_prediction_sha256": "6b56e1eeb60421261d6933bf89897d0a10faae4ba7cea8399787b76008db9ef1",
+  "metrics": {
+    "R": 163,
+    "S": 362,
+    "accuracy": 0.6285714285714286,
+    "average_precision": 0.41148135228449423,
+    "balanced_accuracy": 0.6396044470053893,
+    "brier": 0.3156477671778104,
+    "f1": 0.5278450363196125,
+    "fn": 54,
+    "fp": 141,
+    "log_loss": 1.442409328873806,
+    "mcc": 0.25866697519334364,
+    "n": 525,
+    "roc_auc": 0.6673473884011795,
+    "sensitivity": 0.6687116564417178,
+    "specificity": 0.6104972375690608,
+    "tn": 221,
+    "tp": 109
+  },
+  "mlst_runtime": {
+    "mlst_executable": "/home/khang/bin/mlst-file11c",
+    "mlst_version_output": "mlst 2.35.0"
+  },
+  "model": {
+    "C": 1.0,
+    "class_weight": null,
+    "decision_threshold": 0.5,
+    "estimator": "sklearn.linear_model.LogisticRegression",
+    "external_endpoint": "meropenem",
+    "external_labels_used_for_model_or_feature_selection": false,
+    "feature_count": 668,
+    "max_iter": 3000,
+    "random_state": 20260920,
+    "representation": "known_amr",
+    "selection_source": "pre-specified File08 primary known-AMR baseline",
+    "solver": "liblinear",
+    "threshold_source": "fixed estimator default; never tuned on E2"
+  },
+  "outputs": {
+    "X_external": "data/external_validation/ncbi_pathogen_detection/file11c/file11c_external_known_amr_668.csv",
+    "bootstrap": "data/external_validation/ncbi_pathogen_detection/file11c/file11c_cluster_bootstrap_ci.csv",
+    "bridge": "data/external_validation/ncbi_pathogen_detection/file11c/file11c_bridge_audit.csv",
+    "coefficients": "data/external_validation/ncbi_pathogen_detection/file11c/file11c_model_coefficients.csv",
+    "design": "data/external_validation/ncbi_pathogen_detection/file11c/file11c_analysis_design.json",
+    "manifest": "data/external_validation/ncbi_pathogen_detection/file11c/file11c_external_meropenem_manifest.csv",
+    "metrics": "data/external_validation/ncbi_pathogen_detection/file11c/file11c_external_metrics.csv",
+    "mlst_subgroups": "data/external_validation/ncbi_pathogen_detection/file11c/file11c_mlst_subgroup_metrics.csv",
+    "predictions": "data/external_validation/ncbi_pathogen_detection/file11c/file11c_blind_predictions.csv",
+    "shift": "data/external_validation/ncbi_pathogen_detection/file11c/file11c_feature_prevalence_shift.csv",
+    "unknown_features": "data/external_validation/ncbi_pathogen_detection/file11c/file11c_external_out_of_schema_determinants.csv"
+  },
+  "scientific_guardrails": {
+    "E2_used_for_feature_selection": false,
+    "E2_used_for_hyperparameter_selection": false,
+    "E2_used_for_threshold_tuning": false,
+    "clonal_overlap_firewall": true,
+    "exact_file04_local_branch_reproduction": true,
+    "same_amrfinder_database_version": true,
+    "same_amrfinder_mode": true,
+    "same_amrfinder_organism": true,
+    "same_amrfinder_software_version": true,
+    "same_emrD_exclusion": true,
+    "same_known_amr_schema_as_development": true,
+    "threshold": 0.5
+  },
+  "script_version": "1.0.1",
+  "status": "PASS_BLIND_EXTERNAL_VALIDATION"
+}

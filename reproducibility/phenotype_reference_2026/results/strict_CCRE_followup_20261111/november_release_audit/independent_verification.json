@@ -1,0 +1,54 @@
+{
+  "status": "PASS_INDEPENDENT_CHUNKED_SOURCE_RECONSTRUCTION",
+  "results": [
+    {
+      "species": "Klebsiella pneumoniae",
+      "paired_keys": 25850,
+      "counts": {
+        "SAME_SIR_SET": 22180,
+        "NON_SIR_OR_MISSING_INVOLVED": 3670
+      },
+      "meropenem": {
+        "SAME_SIR_SET": 1009,
+        "NON_SIR_OR_MISSING_INVOLVED": 76
+      }
+    },
+    {
+      "species": "Escherichia coli",
+      "paired_keys": 166765,
+      "counts": {
+        "SAME_SIR_SET": 129879,
+        "NON_SIR_OR_MISSING_INVOLVED": 36886
+      },
+      "meropenem": {
+        "SAME_SIR_SET": 6469,
+        "NON_SIR_OR_MISSING_INVOLVED": 725
+      }
+    },
+    {
+      "species": "Acinetobacter baumannii",
+      "paired_keys": 17358,
+      "counts": {
+        "SAME_SIR_SET": 16966,
+        "NON_SIR_OR_MISSING_INVOLVED": 392
+      },
+      "meropenem": {
+        "SAME_SIR_SET": 668
+      }
+    },
+    {
+      "species": "Pseudomonas aeruginosa",
+      "paired_keys": 7947,
+      "counts": {
+        "SAME_SIR_SET": 7373,
+        "NON_SIR_OR_MISSING_INVOLVED": 574
+      },
+      "meropenem": {
+        "SAME_SIR_SET": 492,
+        "NON_SIR_OR_MISSING_INVOLVED": 7
+      }
+    }
+  ],
+  "report_sha256": "7de2e1f369d5df544c92f6570c463fddaf8fef600be0739697383eb9144e32ad",
+  "independent_parser_and_grouping": true
+}

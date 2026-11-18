@@ -1,0 +1,50 @@
+{
+  "created_utc": "2026-11-12T08:26:57.684922+00:00",
+  "status": "SOURCE_FEASIBILITY_AND_PAIRED_REFERENCE_PROTOCOL_BEFORE_NEW_GENOME_SCORES",
+  "question": "Can independent published same-isolate routine-AST versus reference-method measurements reproduce reference-sensitive comparative genomic evaluation?",
+  "distinguishes_from_temporal_replication": true,
+  "no_author_contact": true,
+  "no_training_or_tuning": true,
+  "frozen": {
+    "model_sha256": "1f55620cbd4b1dfd946ff37977e9a851b6aeaad8a5466eb553323331613cdcdd",
+    "schema_count": 668,
+    "schema_sha256": "9ca9c8c89a6bb2c1a97d85b9b5906efbf9aee0fca7eedb0328915063212c132f",
+    "threshold": 0.5,
+    "caller": "AMRFinderPlus4.2.7",
+    "database": "2026-08-07.1",
+    "comparators": [
+      "unchanged File11E broad annotation rule",
+      "unchanged KPC-family rule"
+    ]
+  },
+  "primary_gates": [
+    "Published isolate-level table with identifiable two measurements or two explicit categories on the same biological isolate; publication aggregate counts alone are insufficient for a per-genome replay.",
+    "Primary-source genome/run/BioSample identities, antibiotic, units, method, standard and edition; missing details stay missing.",
+    "Only naturally collected clinical isolates; experimental resistance-selection derivatives are excluded.",
+    "K.pneumoniae matching the frozen classifier; other taxa can inform source-feasibility but are not scored by this species model.",
+    "Exclude PRJNA1322038 from independent reference-effect claims; report same-study publication reuse.",
+    "Exact overlap screen against fitting, E2 and CCRE with known limitations; unknown identities do not establish independence.",
+    "Preserve raw MIC inequalities and I/ND. Primary paired binary comparisons require explicit S/R under both references; do not force I to S/R.",
+    "No model score or method-discordance used to choose isolates. Preserve all eligible results, including agreement and null effects."
+  ],
+  "candidate_papers": [
+    "10.1128/jcm.01893-24",
+    "10.1128/spectrum.01493-26",
+    "10.3390/diagnostics16010133",
+    "10.2807/1560-7917.es.2025.30.43.2500133",
+    "10.1128/spectrum.03115-24",
+    "10.1038/s41564-019-0492-8"
+  ],
+  "analysis_if_gates_pass": [
+    "Fixed predictions assessed under both legitimate assay references; paired error counts, BA/MCC/AUROC only when defined; FN/FP tradeoffs retained.",
+    "Separate temporal record changes from independent AST-method differences; neither discrepancy alone proves an error.",
+    "Reference-method status follows documented methods, not genotype agreement.",
+    "Publish source-selection flow, all exclusions and source-level sensitivity; no invented clinical outcomes or acceptance probability."
+  ],
+  "stop_rules": [
+    "No author contact to obtain nonpublic data.",
+    "If primary matched two-reference/genome table unavailable, report blocked/ineligible and stop that branch.",
+    "A new single-reference MIC validation cohort alone does not resolve independent-reference-effect bottleneck.",
+    "No claim bottleneck resolved until new reference-sensitive result and its independent evidence are actually verified."
+  ]
+}

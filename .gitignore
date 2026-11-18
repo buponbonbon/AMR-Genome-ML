@@ -97,3 +97,9 @@ scripts/build_unitig_bitpack_benchmark_pass
 scripts/build_unitig_bitpack_benchmark_pass.cpp
 scripts/file13_drive_legacy_audit.py
 scripts/repair_key_metrics_summary.py
+
+# Curated, checksum-verified inputs and outputs for the reference-version study.
+# Keep the general exclusions above for exploratory/generated project files.
+!reproducibility/phenotype_reference_2026/**
+reproducibility/phenotype_reference_2026/**/__pycache__/
+reproducibility/phenotype_reference_2026/**/*.pyc

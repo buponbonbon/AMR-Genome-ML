@@ -1,0 +1,12 @@
+{
+  "build": "PDG000000010.1999",
+  "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Acinetobacter/PDG000000010.1999/",
+  "sha256": "7f40ca4b502e62371e63b2656513235fcce04005e9871d5c07b5dd872b50097f",
+  "links": [
+    "/pathogen/Results/Acinetobacter/",
+    "Metadata/",
+    "PDG000000010.1999.kmer.descriptor.xml",
+    "https://www.hhs.gov/vulnerability-disclosure-policy/index.html"
+  ],
+  "retrieved_utc": "2026-11-11T09:59:08.571200+00:00"
+}

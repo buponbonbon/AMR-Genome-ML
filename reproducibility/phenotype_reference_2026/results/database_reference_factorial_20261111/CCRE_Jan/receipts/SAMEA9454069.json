@@ -1,0 +1,12 @@
+{
+  "sample_accession": "SAMEA9454069",
+  "fasta_path": "/workspace/AMR-Genome-ML/results/strict_CCRE_followup_20261111/native355_input_snapshot/SAMEA9454069.fna",
+  "fasta_sha256": "c944cbbc3cbe43b671968b4b605c02832eaebeaa28df5e9fea0a5f7f1938747d",
+  "caller_exe_sha256": "91afefff09d115c8547a2cbb5ce4d1fb25bfc74f06b63b7a8e69c4236099fd5f",
+  "database_manifest_sha256": "d4606bec9b6d4756bbe721efb0420e785eb3b064d802364c5a2bce2db450c0cc",
+  "started_utc": "2026-11-11T15:18:30.354539+00:00",
+  "status": "PASS",
+  "execution": "PASS",
+  "output_sha256": "4f3b6d9507215b57d38a3a1ece0c8955203429956c8823517a14c9e3b5af1178",
+  "seconds": 107.00321740199979
+}

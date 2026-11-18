@@ -1,0 +1,66 @@
+{
+  "protocol_sha256": "c905b87746d228ab37fd52c1659148c33d749a42f8ccbac7509450390875fc73",
+  "responses": [
+    {
+      "build": "PDG000000004.6313",
+      "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6313/Metadata/PDG000000004.6313.metadata.tsv",
+      "started_utc": "2026-11-10T02:53:59.030164+00:00",
+      "http_status": 200,
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6313/Metadata/PDG000000004.6313.metadata.tsv",
+      "http_last_modified": "Sat, 19 Sep 2026 00:07:29 GMT",
+      "content_type": "text/tab-separated-values",
+      "status": "COMPLETE",
+      "file": "PDG000000004.6313.metadata.tsv",
+      "bytes": 543883032,
+      "sha256": "4584b8f3f5d47729b81299a33e07a8e150066b162e63c7986b25a94fc06a65cd",
+      "completed_utc": "2026-11-10T02:54:17.418901+00:00",
+      "column_count": 67
+    },
+    {
+      "build": "PDG000000004.6380",
+      "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6380/Metadata/PDG000000004.6380.metadata.tsv",
+      "started_utc": "2026-11-10T02:53:59.492837+00:00",
+      "http_status": 200,
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Escherichia_coli_Shigella/PDG000000004.6380/Metadata/PDG000000004.6380.metadata.tsv",
+      "http_last_modified": "Thu, 22 Oct 2026 03:46:12 GMT",
+      "content_type": "text/tab-separated-values",
+      "status": "COMPLETE",
+      "file": "PDG000000004.6380.metadata.tsv",
+      "bytes": 552982454,
+      "sha256": "2e731e8c911d122030ee2b64d3aa38b9a71924527a7520243a3ce070186eb8d5",
+      "completed_utc": "2026-11-10T02:54:18.938784+00:00",
+      "column_count": 67
+    },
+    {
+      "build": "PDG000000012.2530",
+      "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Klebsiella/PDG000000012.2530/Metadata/PDG000000012.2530.metadata.tsv",
+      "started_utc": "2026-11-10T02:53:52.046158+00:00",
+      "http_status": 200,
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Klebsiella/PDG000000012.2530/Metadata/PDG000000012.2530.metadata.tsv",
+      "http_last_modified": "Sun, 20 Sep 2026 08:12:59 GMT",
+      "content_type": "text/tab-separated-values",
+      "status": "COMPLETE",
+      "file": "PDG000000012.2530.metadata.tsv",
+      "bytes": 190516613,
+      "sha256": "588f790c68b74a794bae7874984886a669cacf20f491b0f4bfdce7327efb1aa7",
+      "completed_utc": "2026-11-10T02:53:59.030071+00:00",
+      "column_count": 67
+    },
+    {
+      "build": "PDG000000012.2559",
+      "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Klebsiella/PDG000000012.2559/Metadata/PDG000000012.2559.metadata.tsv",
+      "started_utc": "2026-11-10T02:53:52.046791+00:00",
+      "http_status": 200,
+      "final_url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Klebsiella/PDG000000012.2559/Metadata/PDG000000012.2559.metadata.tsv",
+      "http_last_modified": "Thu, 22 Oct 2026 09:21:51 GMT",
+      "content_type": "text/tab-separated-values",
+      "status": "COMPLETE",
+      "file": "PDG000000012.2559.metadata.tsv",
+      "bytes": 193651556,
+      "sha256": "0c0452413e3eae8558486061b655a0cc1c3c152ec69cf0c14ac7692486870ecc",
+      "completed_utc": "2026-11-10T02:53:59.492755+00:00",
+      "column_count": 67
+    }
+  ],
+  "all_complete": true
+}

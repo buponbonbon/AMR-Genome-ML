@@ -1,0 +1,14 @@
+{
+  "genus": "Pseudomonas_aeruginosa",
+  "prefix": "PDG000000036",
+  "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Pseudomonas_aeruginosa/",
+  "retrieved_utc": "2026-11-11T09:50:43.670149+00:00",
+  "sha256": "d8f137a33c2cf888d6f9dc94f645f5aed600f3d38f8620055ea8e0fcafcea06d",
+  "last_builds": [
+    "1830",
+    "1831",
+    "1832",
+    "1833",
+    "1834"
+  ]
+}

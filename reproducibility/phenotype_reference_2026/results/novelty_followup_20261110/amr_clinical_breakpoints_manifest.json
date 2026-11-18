@@ -1,0 +1,9 @@
+{
+  "url": "https://raw.githubusercontent.com/msberends/AMR/49a0f377137ad875fb998f6c2faee0697968ab19/data-raw/datasets/clinical_breakpoints.txt",
+  "commit": "49a0f377137ad875fb998f6c2faee0697968ab19",
+  "package_version": "3.1.0.9021",
+  "sha256": "fde8ca11e0234def62158333650bed3d3a3f554cc5de5280947cf5aa946f50aa",
+  "bytes": 11184267,
+  "utc": "2026-11-10T03:10:52.791113+00:00",
+  "source_type": "Secondary curated breakpoint dataset; not the original lab protocol"
+}

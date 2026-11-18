@@ -1,0 +1,14 @@
+{
+  "status": "PASS_ALL525_EXACT_ORIGINAL_DNA_BYTES",
+  "manifest_sha256": "27161a73eebc149cf48514db25a7872f96b784e2e7b910360381c0045766063e",
+  "source_recovery_report": {
+    "status": "COMPLETE_EXACT_FROZEN_INPUT_RECOVERY",
+    "target": 525,
+    "exact_byte_matches": 525,
+    "unverified": 0,
+    "original_manifest_sha256": "6b56e1eeb60421261d6933bf89897d0a10faae4ba7cea8399787b76008db9ef1",
+    "no_sequence_or_label_edited": true
+  },
+  "historical_and_scenario_labels_linked_one_to_one": true,
+  "all_original_E2_cases_retained": true
+}

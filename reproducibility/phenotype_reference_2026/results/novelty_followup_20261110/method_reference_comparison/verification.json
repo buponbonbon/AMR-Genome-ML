@@ -1,0 +1,6 @@
+{
+  "synthetic_isolate_based_count_transformation": "PASS",
+  "inconsistent_rule_counts_rejected": "PASS",
+  "synthetic_data_in_scientific_results": false,
+  "actual_October_rule_replay_still_missing_input": true
+}

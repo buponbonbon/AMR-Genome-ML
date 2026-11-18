@@ -1,0 +1,13 @@
+metric,n,reference_R,reference_S,eligible_flip_cases,class_totals_fixed,point_difference,integer_margin,initial_order,minimum_label_reassignments_for_strict_reversal,certificate_status,witness_integer_margin,witness_point_difference,all_fewer_reassignments_cannot_strictly_reverse,comparator
+balanced_accuracy,170,40,130,170,False,0.052884615384615384,550,method1_above_method2,5,EXACT_MINIMUM_WITH_ATTAINING_COUNTERFACTUAL_WITNESS,-125,-0.011111111111111112,True,native_broad_annotation_rule
+balanced_accuracy,170,40,130,170,True,0.052884615384615384,550,method1_above_method2,8,EXACT_MINIMUM_WITH_ATTAINING_COUNTERFACTUAL_WITNESS,-130,-0.0125,True,native_broad_annotation_rule
+AUROC,170,40,130,170,False,0.13153846153846155,1368,method1_above_method2,10,EXACT_MINIMUM_WITH_ATTAINING_COUNTERFACTUAL_WITNESS,-40,-0.0034153005464480873,True,native_broad_annotation_rule
+AUROC,170,40,130,170,True,0.13153846153846155,1368,method1_above_method2,12,EXACT_MINIMUM_WITH_ATTAINING_COUNTERFACTUAL_WITNESS,-162,-0.015576923076923077,True,native_broad_annotation_rule
+balanced_accuracy,170,40,130,170,False,0.15,1560,method1_above_method2,11,EXACT_MINIMUM_WITH_ATTAINING_COUNTERFACTUAL_WITNESS,-49,-0.00568577396147598,True,native_KPC_rule
+balanced_accuracy,170,40,130,170,True,0.15,1560,method1_above_method2,18,EXACT_MINIMUM_WITH_ATTAINING_COUNTERFACTUAL_WITNESS,-140,-0.013461538461538462,True,native_KPC_rule
+AUROC,170,40,130,170,False,0.22865384615384615,2378,method1_above_method2,16,EXACT_MINIMUM_WITH_ATTAINING_COUNTERFACTUAL_WITNESS,-20,-0.0020729684908789387,True,native_KPC_rule
+AUROC,170,40,130,170,True,0.22865384615384615,2378,method1_above_method2,16,EXACT_MINIMUM_WITH_ATTAINING_COUNTERFACTUAL_WITNESS,-16,-0.0015384615384615385,True,native_KPC_rule
+balanced_accuracy,170,40,130,170,False,0.03076923076923077,320,method1_above_method2,2,EXACT_MINIMUM_WITH_ATTAINING_COUNTERFACTUAL_WITNESS,-20,-0.0019230769230769232,True,author_carbapenemase_presence
+balanced_accuracy,170,40,130,170,True,0.03076923076923077,320,method1_above_method2,2,EXACT_MINIMUM_WITH_ATTAINING_COUNTERFACTUAL_WITNESS,-20,-0.0019230769230769232,True,author_carbapenemase_presence
+AUROC,170,40,130,170,False,0.10942307692307693,1138,method1_above_method2,8,EXACT_MINIMUM_WITH_ATTAINING_COUNTERFACTUAL_WITNESS,-60,-0.005259467040673212,True,author_carbapenemase_presence
+AUROC,170,40,130,170,True,0.10942307692307693,1138,method1_above_method2,8,EXACT_MINIMUM_WITH_ATTAINING_COUNTERFACTUAL_WITNESS,-12,-0.001153846153846154,True,author_carbapenemase_presence

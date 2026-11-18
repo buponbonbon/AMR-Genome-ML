@@ -1,0 +1,5 @@
+species_source_annotation,antibiotic,is_primary_drug,shared_raw_AST_keys,same_SIR_set,unopposed_R_S_reversal_candidates,other_SIR_set_changes,non_SIR_or_missing_involved,drug_only_in_old_AST,drug_only_in_new_AST,unique_BioSamples_shared_keys,BioProject_ids_shared_keys
+Pseudomonas aeruginosa,imipenem,True,584,519,61,0,4,0,0,584,26
+Pseudomonas aeruginosa,meropenem,True,550,492,51,0,7,0,0,550,32
+Acinetobacter baumannii,imipenem,True,1097,1016,81,0,0,0,0,1096,25
+Acinetobacter baumannii,meropenem,True,746,667,79,0,0,0,0,745,29

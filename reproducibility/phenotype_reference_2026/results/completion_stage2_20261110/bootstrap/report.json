@@ -1,0 +1,35 @@
+{
+  "status": "PAIRED_PROJECT_BOOTSTRAP_SOURCE_COMPOSITION_SENSITIVITY_NOT_POPULATION_CERTIFICATION",
+  "protocol_sha256": "9437607eb6bcaf174d9c2b04aa87fdca9879b30cb0ae709c6549408e0fc028af",
+  "script_sha256": "ed5c7446b4d134c5e3d354516ef965c015ddb5ba2f45e810cc4ed73557fd2f5c",
+  "seed": 20261110,
+  "schemes": {
+    "all_projects": {
+      "draws": 10000,
+      "focal_absent_draws": 3572,
+      "focal_absent_fraction": 0.3572,
+      "resampled_total_n_min": 60,
+      "resampled_total_n_max": 1546
+    },
+    "focal_retained": {
+      "draws": 10000,
+      "focal_absent_draws": 0,
+      "focal_absent_fraction": 0.0,
+      "resampled_total_n_min": 235,
+      "resampled_total_n_max": 1021
+    }
+  },
+  "expected_focal_absent_probability_primary": 0.3620552892563166,
+  "interpretation": "Percentile ranges and order fractions describe the specified project-resampling experiment; they are not posterior probabilities, clinical error-rate confidence guarantees or independent replications.",
+  "limitations": [
+    "Projects are selected and may share institutions or isolates; resampling ranges are descriptive source-composition sensitivity, not population confidence guarantees",
+    "One known source event cannot establish replicated clinical validity",
+    "The second scheme conditions on retaining the known event and is not an independent validation",
+    "Aggregate rule margins suffice for whole-project resampling; per-isolate paired rule predictions are not reconstructed",
+    "Continuous ML score vs binary 0/1 rule score is preserved"
+  ],
+  "input_sha256": {
+    "source_counts": "da55199bfa745118d7ec8837ea1380ca0398436f2f738f9a1f413f53da859b5d",
+    "crosswalk": "f2983db5a1d4c2300fdba90dde888262f1bb96a9e357856746c942d48409ad5a"
+  }
+}

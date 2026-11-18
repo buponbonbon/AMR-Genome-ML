@@ -1,0 +1,35 @@
+{
+  "created_utc": "2026-11-11T14:38:52.792995+00:00",
+  "status": "FIXED_BEFORE_COMPLETE_NEW_DATABASE_SCORES",
+  "primary_factors_E2": [
+    "DBJanuary2026vsAugust2026",
+    "HistoricalSeptembervsPartialOctoberReference",
+    "FrozenMLvsBroadAnnotationRulevsKPCrule"
+  ],
+  "CCRE": "PairedDBfactoronly; originalPHASreferenceunchanged",
+  "primary_metric": "BalancedaccuracywithFN/FPtradeoff; AUROC/MCC/APsecondary",
+  "paired_composition_resampling": {
+    "replicates": 10000,
+    "seed": 20261111,
+    "E2": [
+      "BioProject32whole-source",
+      "focal-retainedbackgroundsource"
+    ],
+    "CCRE": [
+      "PDS",
+      "country"
+    ]
+  },
+  "contrasts": [
+    "AugustminusJanuaryforeachmethod/reference",
+    "Octoberminushistoricalforeachmethod/database",
+    "referencebyDBinteractionforeachmethod",
+    "MLminusbroadandMLminusKPCineachcell",
+    "methodbyreferencebyDBinteraction"
+  ],
+  "no_significance_or_superiority_selection": "Publishallcells/contrasts; rangesdescribechosen-sourcecomposition, notclinicalpopulationCI.",
+  "original_E2_reproduction": "FreshAugustnativecomparedtoall525frozenfeaturevectors/probabilitiesandpreservedaggregateAugustrulecounts. Ifdifferencesdo notoverwriteoriginalstudyresults.",
+  "missingness": "Keepfixedtargetdenominators, reportpairedavailablecasesandtechnicalmissingness; nozero-featureimputation.",
+  "mechanism_audit": "Reportchangedfeaturekeys, coefficients, additive\u0394logitandactualruleannotationevidence. Do notcallitbiologicalresistancemechanism.",
+  "bounded_claim": "Compareonlythetwospecificversionsandcohortsexamined; no universalclaimphenotypesalwaysdominateannotationandnoASTtruthadjudication."
+}

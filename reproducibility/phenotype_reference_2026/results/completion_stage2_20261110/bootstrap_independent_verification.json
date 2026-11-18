@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "method": "Independent sklearn weighted scalar checks without importing production bootstrap functions, full resampling-weight and contrast/range reconstruction",
+  "schemes": [
+    {
+      "scheme": "all_projects",
+      "draws_checked_for_weights": 10000,
+      "independent_scalar_draws": 35,
+      "focal_absent_draws": 3572
+    },
+    {
+      "scheme": "focal_retained",
+      "draws_checked_for_weights": 10000,
+      "independent_scalar_draws": 35,
+      "focal_absent_draws": 0
+    }
+  ],
+  "scalar_metric_checks": 2240,
+  "resampling_summary_rows_verified": 48,
+  "limitation": "Numerical verification of source-composition resampling; it does not validate biological ground truth or population inference."
+}

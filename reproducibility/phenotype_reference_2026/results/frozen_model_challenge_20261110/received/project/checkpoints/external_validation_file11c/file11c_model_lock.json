@@ -1,0 +1,36 @@
+{
+  "feature_schema_sha256": "9ca9c8c89a6bb2c1a97d85b9b5906efbf9aee0fca7eedb0328915063212c132f",
+  "locked_utc": "2026-09-22T11:22:04+00:00",
+  "model_artifact_sha256": "1f55620cbd4b1dfd946ff37977e9a851b6aeaad8a5466eb553323331613cdcdd",
+  "script_version": "1.0.1",
+  "source_hashes": {
+    "e2": "181ad34e9087234b28ee06e72ed59861a1b199b699be45c5549206b4f0555c19",
+    "file08_summary": "62ff33a123001cca6c15f4c124bae8c90c3ddb3e4660b307b5e631720921a8b7",
+    "file09_summary": "f2e691c7961e2059787d29ec69e5db30b812e790e0d5c71e12bd766bcd4f08ae",
+    "file09b_summary": "c8d78045799526358a4f47f7584f1ab42bad2900a35b4ed22b32d6de45bae07c",
+    "file09c_summary": "b4c0860ab2423e54f74e558a32aa160354a615c9def7caf4bfbe7bf6ab30e7d2",
+    "folds": "3183e2b458fc089633fde779204e3957c7519f8b20651b4207dee9f7e10a21c4",
+    "known": "ebdb3548cc0703e631a0d8a3d1bf012828f93632a8fb595fc4c4b1c3c0114d86"
+  },
+  "specification": {
+    "C": 1.0,
+    "class_weight": null,
+    "decision_threshold": 0.5,
+    "estimator": "sklearn.linear_model.LogisticRegression",
+    "external_endpoint": "meropenem",
+    "external_labels_used_for_model_or_feature_selection": false,
+    "feature_count": 668,
+    "max_iter": 3000,
+    "random_state": 20260920,
+    "representation": "known_amr",
+    "selection_source": "pre-specified File08 primary known-AMR baseline",
+    "solver": "liblinear",
+    "threshold_source": "fixed estimator default; never tuned on E2"
+  },
+  "training_X_shape": [
+    4227,
+    668
+  ],
+  "training_y_R": 1601,
+  "training_y_S": 2626
+}

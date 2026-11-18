@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-11-10T11:07:47.072108+00:00",
+  "status": "LOCKED_BEFORE_BOOTSTRAP_OUTCOME_INSPECTION",
+  "replicates_per_scheme": 10000,
+  "seed": 20261110,
+  "cluster_unit": "BioProject, not assumed independent laboratories",
+  "primary_scheme": "Sample all 32 projects with replacement, 32 draws, retain all rows and use identical source weights for both methods and references",
+  "secondary_scheme": "Retain one copy of the focal project, resample 31 other projects with replacement; conditional background-composition analysis",
+  "point_predictions_and_labels": "Preserved fixed ML probabilities/threshold and original project-level rule counts; no training or reference relabeling beyond the already observed focal complement",
+  "metrics": [
+    "balanced_accuracy",
+    "mcc",
+    "auroc",
+    "average_precision",
+    "false_susceptible_rate",
+    "false_resistant_rate",
+    "false_susceptible_fraction_called_S",
+    "accuracy"
+  ],
+  "comparisons": "Paired ML minus rule, both references, and difference of contrasts across references",
+  "reporting": "Point estimates, percentile 2.5/50/97.5 resampling ranges, valid-draw counts, order reversal fractions, focal-omission effects; fractions are not p-values or posterior probabilities",
+  "degeneracy": "Undefined denominators yield NaN and are excluded per metric with counts reported; AP requires R>0; AUROC/BA require R>0,S>0; MCC requires nonzero denominator",
+  "limitations": [
+    "Projects are selected and may share institutions or isolates; resampling ranges are descriptive source-composition sensitivity, not population confidence guarantees",
+    "One known source event cannot establish replicated clinical validity",
+    "The second scheme conditions on retaining the known event and is not an independent validation",
+    "Aggregate rule margins suffice for whole-project resampling; per-isolate paired rule predictions are not reconstructed",
+    "Continuous ML score vs binary 0/1 rule score is preserved"
+  ],
+  "inputs": {
+    "source_counts": {
+      "path": "results/exact_rule_reference_replay_20261110/inputs/file16i_E2_paired_by_bioproject.csv",
+      "sha256": "da55199bfa745118d7ec8837ea1380ca0398436f2f738f9a1f413f53da859b5d"
+    },
+    "crosswalk": {
+      "path": "results/received_bundle_audit_20261024/full_source_verification_20261024/reconciliation/E2_POSTHOC_reference_scenario.csv",
+      "sha256": "f2983db5a1d4c2300fdba90dde888262f1bb96a9e357856746c942d48409ad5a"
+    }
+  },
+  "no_author_contact": true,
+  "no_new_model_training": true,
+  "independent_clinical_track": "Attempt public primary MIC+genome records, verify assay/standard/identity and training overlap before claiming new model validation"
+}

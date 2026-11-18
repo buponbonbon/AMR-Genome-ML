@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "ML_AUROC_AP_independent_sklearn_crosscheck": "PASS",
+  "binary_score_AUROC_AP_verified_for_feasible_count_tables": 165,
+  "historical_rule_scores_match_preserved_key_metrics_summary": "PASS",
+  "AUROC_and_AP_order_reversal_certified": true,
+  "hard_decision_or_clinical_safety_order_certified": false,
+  "synthetic_test_vectors_are_not_scientific_predictions": true,
+  "binary_rule_score_implementation_source": "scripts/file11e_external_simple_baseline_comparators.py lines 443-446",
+  "binary_rule_source_sha256": "729b454fe2b7ad582b7ac30393a74c923c2f5ea286bda0a3ebc89de299f1d0b1"
+}

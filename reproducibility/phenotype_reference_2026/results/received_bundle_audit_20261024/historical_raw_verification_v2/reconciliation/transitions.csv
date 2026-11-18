@@ -1,0 +1,9 @@
+group,drug,historical_label,current_label,n
+focal,ertapenem,I,I,1
+focal,ertapenem,R,S,30
+focal,ertapenem,S,R,144
+focal,imipenem,I,I,27
+focal,imipenem,R,S,43
+focal,imipenem,S,R,105
+focal,meropenem,R,S,36
+focal,meropenem,S,R,139

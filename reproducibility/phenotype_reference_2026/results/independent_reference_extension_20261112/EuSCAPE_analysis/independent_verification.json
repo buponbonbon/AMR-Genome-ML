@@ -1,0 +1,8 @@
+{
+  "status": "PASS_INDEPENDENT_NATIVE_TSV_VECTOR_RULE_LOGISTIC_METRIC_INTERVAL_WITNESS_AUDIT",
+  "cases": 170,
+  "maximum_math_fsum_probability_difference": 3.3306690738754696e-16,
+  "all_saved_bootstrap_contrasts_verified": true,
+  "all_counterfactual_witnesses_recomputed": true,
+  "report_sha256": "3536e0517c728b3ddf75063eac7441861e0dc8d009a001263c4ac2b0036e6f4d"
+}

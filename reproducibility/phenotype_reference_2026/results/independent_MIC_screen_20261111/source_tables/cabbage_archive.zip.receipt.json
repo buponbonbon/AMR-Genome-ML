@@ -1,0 +1,13 @@
+{
+  "file": "cabbage_archive.zip",
+  "url": "https://zenodo.org/api/records/21133550/files/Leonardini/CABBAGE-CABBAGE.zip/content",
+  "started_utc": "2026-11-11T07:18:59.413351+00:00",
+  "http_status": 200,
+  "final_url": "https://zenodo.org/api/records/21133550/files/Leonardini/CABBAGE-CABBAGE.zip/content",
+  "content_type": "application/octet-stream,application/octet-stream",
+  "content_range": null,
+  "bytes": 36199137,
+  "sha256": "6a0f3e4d588665b7c78c948ea33cc2db27561467e2dcc41f94d3ef000a11e2d6",
+  "signature_hex": "504b03040a00000000004130",
+  "completed_utc": "2026-11-11T07:19:51.098575+00:00"
+}

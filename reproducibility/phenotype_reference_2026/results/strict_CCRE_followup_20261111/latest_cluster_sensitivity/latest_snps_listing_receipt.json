@@ -1,0 +1,18 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Klebsiella/latest_snps/",
+  "sha256": "14c744dad6090ced33cc2fe1d86f1a0c3f9553c171980af6873180fbbbdf7235",
+  "retrieved_utc": "2026-11-11T09:59:38.309195+00:00",
+  "links": [
+    "/pathogen/Results/Klebsiella/",
+    "AMR/",
+    "Clusters/",
+    "Exceptions/",
+    "Metadata/",
+    "SNP_trees/",
+    "PDG000000012.2575.final.descriptor.xml",
+    "PDG000000012.2575.kmer.descriptor.xml",
+    "PDG000000012.2575.snps.descriptor.xml",
+    "https://www.hhs.gov/vulnerability-disclosure-policy/index.html"
+  ],
+  "prior_2576_cluster_request_status": 404
+}

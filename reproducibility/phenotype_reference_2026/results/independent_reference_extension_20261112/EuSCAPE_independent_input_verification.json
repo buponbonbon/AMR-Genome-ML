@@ -1,0 +1,20 @@
+{
+  "status": "PASS_INDEPENDENT_PRIMARY_XLSX_INTERVAL_ENA_PDS_FASTA_GATE",
+  "source_rows": 1717,
+  "KpI_PDS_counts": {
+    "PASS_OPERATIONAL_SOURCE_GATE": 458,
+    "MISSING_PDS": 638,
+    "SHARED_PDS_fitting": 340,
+    "SHARED_PDS_CCRE": 168,
+    "SHARED_PDS_E2,CCRE": 41,
+    "SHARED_PDS_E2": 4
+  },
+  "eligible": 349,
+  "selected": 170,
+  "selected_labels": {
+    "S": 130,
+    "R": 40
+  },
+  "FASTA_byte_hashes_checked": 170,
+  "source_SIR_not_invented": true
+}

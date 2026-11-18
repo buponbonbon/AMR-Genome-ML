@@ -1,0 +1,25 @@
+{
+  "root": "/workspace/AMR-Genome-ML",
+  "required_files": [
+    "checkpoints/external_validation_file11c/file11c_final_model.joblib",
+    "checkpoints/external_validation_file11c/file11c_model_lock.json",
+    "data/features/known_amr/known_amr_feature_metadata_final.csv",
+    "data/features/known_amr/X_known_amr_final.csv",
+    "data/splits/file07_outer_folds.csv",
+    "data/external_validation/ncbi_pathogen_detection/file11c/file11c_external_known_amr_668.csv"
+  ],
+  "found": [],
+  "missing": [
+    "checkpoints/external_validation_file11c/file11c_final_model.joblib",
+    "checkpoints/external_validation_file11c/file11c_model_lock.json",
+    "data/features/known_amr/known_amr_feature_metadata_final.csv",
+    "data/features/known_amr/X_known_amr_final.csv",
+    "data/splits/file07_outer_folds.csv",
+    "data/external_validation/ncbi_pathogen_detection/file11c/file11c_external_known_amr_668.csv"
+  ],
+  "expected_frozen_model_sha256": "1f55620cbd4b1dfd946ff37977e9a851b6aeaad8a5466eb553323331613cdcdd",
+  "frozen_model_hash_matches_previous_summary": null,
+  "mode": "CHECK_ONLY",
+  "no_training": true,
+  "no_recursive_search": true
+}

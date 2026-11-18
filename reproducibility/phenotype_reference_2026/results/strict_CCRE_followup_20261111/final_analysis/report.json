@@ -1,0 +1,745 @@
+{
+  "status": "COMPLETE_INDEPENDENT_RECOMPUTATION_AND_PAIRED_SOURCE_REFERENCE_ANALYSIS",
+  "fixed_target": 355,
+  "scored": 354,
+  "unscored": 1,
+  "threshold": 0.5,
+  "reference": "Original publisher PHAS meropenem S/R with original MIC cells, heterogeneous AST; not repeat reference AST.",
+  "methods": {
+    "frozen_ML": {
+      "n": 354,
+      "R": 164,
+      "S": 190,
+      "TP": 149,
+      "FN": 15,
+      "TN": 176,
+      "FP": 14,
+      "sensitivity": 0.9085365853658537,
+      "specificity": 0.9263157894736842,
+      "balanced_accuracy": 0.9174261874197689,
+      "MCC": 0.8352143079825396,
+      "AUROC": 0.968084082156611,
+      "average_precision": 0.9625151396810814
+    },
+    "frozen_broad_annotation_rule": {
+      "n": 354,
+      "R": 164,
+      "S": 190,
+      "TP": 162,
+      "FN": 2,
+      "TN": 122,
+      "FP": 68,
+      "sensitivity": 0.9878048780487805,
+      "specificity": 0.6421052631578947,
+      "balanced_accuracy": 0.8149550706033376,
+      "MCC": 0.6584193174579898,
+      "AUROC": 0.8149550706033376,
+      "average_precision": 0.7014079359658741
+    },
+    "frozen_KPC_rule": {
+      "n": 354,
+      "R": 164,
+      "S": 190,
+      "TP": 60,
+      "FN": 104,
+      "TN": 187,
+      "FP": 3,
+      "sensitivity": 0.36585365853658536,
+      "specificity": 0.9842105263157894,
+      "balanced_accuracy": 0.6750320924261874,
+      "MCC": 0.45638318570575415,
+      "AUROC": 0.6750320924261874,
+      "average_precision": 0.6422173664835922
+    },
+    "author_Kleborate_carbapenemase_presence": {
+      "n": 354,
+      "R": 164,
+      "S": 190,
+      "TP": 160,
+      "FN": 4,
+      "TN": 133,
+      "FP": 57,
+      "sensitivity": 0.975609756097561,
+      "specificity": 0.7,
+      "balanced_accuracy": 0.8378048780487805,
+      "MCC": 0.6916788344232435,
+      "AUROC": 0.8378048780487805,
+      "average_precision": 0.7306430339941922
+    }
+  },
+  "joint_decisions": [
+    {
+      "reference": 0,
+      "model": 0,
+      "broad_rule": 0,
+      "n": 122
+    },
+    {
+      "reference": 0,
+      "model": 0,
+      "broad_rule": 1,
+      "n": 54
+    },
+    {
+      "reference": 0,
+      "model": 1,
+      "broad_rule": 0,
+      "n": 0
+    },
+    {
+      "reference": 0,
+      "model": 1,
+      "broad_rule": 1,
+      "n": 14
+    },
+    {
+      "reference": 1,
+      "model": 0,
+      "broad_rule": 0,
+      "n": 2
+    },
+    {
+      "reference": 1,
+      "model": 0,
+      "broad_rule": 1,
+      "n": 13
+    },
+    {
+      "reference": 1,
+      "model": 1,
+      "broad_rule": 0,
+      "n": 0
+    },
+    {
+      "reference": 1,
+      "model": 1,
+      "broad_rule": 1,
+      "n": 149
+    }
+  ],
+  "source_composition_sensitivity": {
+    "PDS": {
+      "groups": 354,
+      "requested_draws": 10000,
+      "valid_draws": 10000,
+      "point_percentiles": {
+        "frozen_ML": {
+          "sensitivity": {
+            "percentile_2_5": 0.861271676300578,
+            "percentile_97_5": 0.9493688664485848
+          },
+          "specificity": {
+            "percentile_2_5": 0.8877551020408163,
+            "percentile_97_5": 0.9615384615384616
+          },
+          "balanced_accuracy": {
+            "percentile_2_5": 0.8873725740042081,
+            "percentile_97_5": 0.9453564749111248
+          },
+          "MCC": {
+            "percentile_2_5": 0.7753061455178673,
+            "percentile_97_5": 0.8916115539983585
+          },
+          "AUROC": {
+            "percentile_2_5": 0.9500620047704907,
+            "percentile_97_5": 0.9827836205904011
+          },
+          "average_precision": {
+            "percentile_2_5": 0.9367367295534487,
+            "percentile_97_5": 0.9819606751485235
+          }
+        },
+        "frozen_broad_annotation_rule": {
+          "sensitivity": {
+            "percentile_2_5": 0.96875,
+            "percentile_97_5": 1.0
+          },
+          "specificity": {
+            "percentile_2_5": 0.5728007011866235,
+            "percentile_97_5": 0.7087391976955084
+          },
+          "balanced_accuracy": {
+            "percentile_2_5": 0.7789464470972851,
+            "percentile_97_5": 0.8492265215305116
+          },
+          "MCC": {
+            "percentile_2_5": 0.5941527605738346,
+            "percentile_97_5": 0.7192318476716065
+          },
+          "AUROC": {
+            "percentile_2_5": 0.7789464470972851,
+            "percentile_97_5": 0.8492265215305116
+          },
+          "average_precision": {
+            "percentile_2_5": 0.6411994302036871,
+            "percentile_97_5": 0.7593715236081234
+          }
+        },
+        "frozen_KPC_rule": {
+          "sensitivity": {
+            "percentile_2_5": 0.2916666666666667,
+            "percentile_97_5": 0.44186837525707945
+          },
+          "specificity": {
+            "percentile_2_5": 0.9639175257731959,
+            "percentile_97_5": 1.0
+          },
+          "balanced_accuracy": {
+            "percentile_2_5": 0.6369908497202267,
+            "percentile_97_5": 0.7140433784474483
+          },
+          "MCC": {
+            "percentile_2_5": 0.38287816867175795,
+            "percentile_97_5": 0.5276563113103259
+          },
+          "AUROC": {
+            "percentile_2_5": 0.6369908497202267,
+            "percentile_97_5": 0.7140433784474483
+          },
+          "average_precision": {
+            "percentile_2_5": 0.583148503529775,
+            "percentile_97_5": 0.6976208123551302
+          }
+        },
+        "author_Kleborate_carbapenemase_presence": {
+          "sensitivity": {
+            "percentile_2_5": 0.9493670886075949,
+            "percentile_97_5": 0.9943181818181818
+          },
+          "specificity": {
+            "percentile_2_5": 0.63371949113516,
+            "percentile_97_5": 0.7624358223115129
+          },
+          "balanced_accuracy": {
+            "percentile_2_5": 0.8019322938049835,
+            "percentile_97_5": 0.871253743105754
+          },
+          "MCC": {
+            "percentile_2_5": 0.6255878033410271,
+            "percentile_97_5": 0.7535238045519909
+          },
+          "AUROC": {
+            "percentile_2_5": 0.8019322938049837,
+            "percentile_97_5": 0.8712537431057541
+          },
+          "average_precision": {
+            "percentile_2_5": 0.6696100960670267,
+            "percentile_97_5": 0.7879962247134464
+          }
+        }
+      },
+      "paired_contrasts": {
+        "ML_minus_frozen_broad_annotation_rule": {
+          "sensitivity": {
+            "point": -0.07926829268292679,
+            "percentile_2_5": -0.12280701754385959,
+            "percentile_97_5": -0.04117647058823537
+          },
+          "specificity": {
+            "point": 0.28421052631578947,
+            "percentile_2_5": 0.2216216216216217,
+            "percentile_97_5": 0.3497267759562841
+          },
+          "balanced_accuracy": {
+            "point": 0.10247111681643128,
+            "percentile_2_5": 0.06419075647561054,
+            "percentile_97_5": 0.14074169872934783
+          },
+          "MCC": {
+            "point": 0.17679499052454983,
+            "percentile_2_5": 0.10601557474847208,
+            "percentile_97_5": 0.24595324972781962
+          },
+          "AUROC": {
+            "point": 0.1531290115532734,
+            "percentile_2_5": 0.12198879795946238,
+            "percentile_97_5": 0.18549590354453477
+          },
+          "average_precision": {
+            "point": 0.26110720371520724,
+            "percentile_2_5": 0.20838496528228612,
+            "percentile_97_5": 0.3163242166794382
+          }
+        },
+        "ML_minus_frozen_KPC_rule": {
+          "sensitivity": {
+            "point": 0.5426829268292683,
+            "percentile_2_5": 0.4634146341463415,
+            "percentile_97_5": 0.621301775147929
+          },
+          "specificity": {
+            "point": -0.05789473684210522,
+            "percentile_2_5": -0.09317011553438671,
+            "percentile_97_5": -0.026595744680851127
+          },
+          "balanced_accuracy": {
+            "point": 0.24239409499358144,
+            "percentile_2_5": 0.19995120918041207,
+            "percentile_97_5": 0.285428484171068
+          },
+          "MCC": {
+            "point": 0.37883112227678545,
+            "percentile_2_5": 0.30021558297602896,
+            "percentile_97_5": 0.45930923602307266
+          },
+          "AUROC": {
+            "point": 0.29305198973042357,
+            "percentile_2_5": 0.25491009318329216,
+            "percentile_97_5": 0.33054362684782346
+          },
+          "average_precision": {
+            "point": 0.3202977731974892,
+            "percentile_2_5": 0.27105744138763216,
+            "percentile_97_5": 0.37271886682753186
+          }
+        },
+        "ML_minus_author_Kleborate_carbapenemase_presence": {
+          "sensitivity": {
+            "point": -0.06707317073170727,
+            "percentile_2_5": -0.11111111111111105,
+            "percentile_97_5": -0.028731527093596138
+          },
+          "specificity": {
+            "point": 0.22631578947368425,
+            "percentile_2_5": 0.16836734693877553,
+            "percentile_97_5": 0.2890222996713136
+          },
+          "balanced_accuracy": {
+            "point": 0.07962130937098844,
+            "percentile_2_5": 0.04233859249089593,
+            "percentile_97_5": 0.11608220601545206
+          },
+          "MCC": {
+            "point": 0.14353547355929608,
+            "percentile_2_5": 0.07343428116128493,
+            "percentile_97_5": 0.21240424047396753
+          },
+          "AUROC": {
+            "point": 0.13027920410783056,
+            "percentile_2_5": 0.10038449242491498,
+            "percentile_97_5": 0.16100390595467332
+          },
+          "average_precision": {
+            "point": 0.2318721056868892,
+            "percentile_2_5": 0.18009133657238516,
+            "percentile_97_5": 0.28664652494434834
+          }
+        }
+      }
+    },
+    "country": {
+      "groups": 29,
+      "requested_draws": 10000,
+      "valid_draws": 10000,
+      "point_percentiles": {
+        "frozen_ML": {
+          "sensitivity": {
+            "percentile_2_5": 0.8439699014011417,
+            "percentile_97_5": 0.9575770416024653
+          },
+          "specificity": {
+            "percentile_2_5": 0.8784300476947535,
+            "percentile_97_5": 0.9798657718120806
+          },
+          "balanced_accuracy": {
+            "percentile_2_5": 0.865339631973183,
+            "percentile_97_5": 0.9605103111138859
+          },
+          "MCC": {
+            "percentile_2_5": 0.7232050477585855,
+            "percentile_97_5": 0.9203510762325574
+          },
+          "AUROC": {
+            "percentile_2_5": 0.927999580719112,
+            "percentile_97_5": 0.9920671172712203
+          },
+          "average_precision": {
+            "percentile_2_5": 0.8879684738262724,
+            "percentile_97_5": 0.9931184499777441
+          }
+        },
+        "frozen_broad_annotation_rule": {
+          "sensitivity": {
+            "percentile_2_5": 0.9666666666666667,
+            "percentile_97_5": 1.0
+          },
+          "specificity": {
+            "percentile_2_5": 0.48441940293013325,
+            "percentile_97_5": 0.8277777777777777
+          },
+          "balanced_accuracy": {
+            "percentile_2_5": 0.7292422503956745,
+            "percentile_97_5": 0.91022051498614
+          },
+          "MCC": {
+            "percentile_2_5": 0.47153975576838064,
+            "percentile_97_5": 0.8416005080816179
+          },
+          "AUROC": {
+            "percentile_2_5": 0.7292422503956745,
+            "percentile_97_5": 0.91022051498614
+          },
+          "average_precision": {
+            "percentile_2_5": 0.5026059906952087,
+            "percentile_97_5": 0.8748438818858555
+          }
+        },
+        "frozen_KPC_rule": {
+          "sensitivity": {
+            "percentile_2_5": 0.20437211380902726,
+            "percentile_97_5": 0.5364856579448853
+          },
+          "specificity": {
+            "percentile_2_5": 0.9672878045043666,
+            "percentile_97_5": 1.0
+          },
+          "balanced_accuracy": {
+            "percentile_2_5": 0.5914147087024404,
+            "percentile_97_5": 0.7633213630519744
+          },
+          "MCC": {
+            "percentile_2_5": 0.2965581608487165,
+            "percentile_97_5": 0.6007749869880915
+          },
+          "AUROC": {
+            "percentile_2_5": 0.5914147087024404,
+            "percentile_97_5": 0.7633213630519743
+          },
+          "average_precision": {
+            "percentile_2_5": 0.4784004282627536,
+            "percentile_97_5": 0.7641192836328585
+          }
+        },
+        "author_Kleborate_carbapenemase_presence": {
+          "sensitivity": {
+            "percentile_2_5": 0.9512195121951219,
+            "percentile_97_5": 0.9940837104072398
+          },
+          "specificity": {
+            "percentile_2_5": 0.5219763801935117,
+            "percentile_97_5": 0.8969719251336898
+          },
+          "balanced_accuracy": {
+            "percentile_2_5": 0.7430679111416003,
+            "percentile_97_5": 0.9388902778023221
+          },
+          "MCC": {
+            "percentile_2_5": 0.48991967370158107,
+            "percentile_97_5": 0.8851201821221129
+          },
+          "AUROC": {
+            "percentile_2_5": 0.7430679111416003,
+            "percentile_97_5": 0.9388902778023221
+          },
+          "average_precision": {
+            "percentile_2_5": 0.5173591509334953,
+            "percentile_97_5": 0.9125827714456204
+          }
+        }
+      },
+      "paired_contrasts": {
+        "ML_minus_frozen_broad_annotation_rule": {
+          "sensitivity": {
+            "point": -0.07926829268292679,
+            "percentile_2_5": -0.13044024470176974,
+            "percentile_97_5": -0.035709002535925675
+          },
+          "specificity": {
+            "point": 0.28421052631578947,
+            "percentile_2_5": 0.14482324875298197,
+            "percentile_97_5": 0.39999999999999997
+          },
+          "balanced_accuracy": {
+            "point": 0.10247111681643128,
+            "percentile_2_5": 0.039935965364493856,
+            "percentile_97_5": 0.1465016512046524
+          },
+          "MCC": {
+            "point": 0.17679499052454983,
+            "percentile_2_5": 0.050664666118564926,
+            "percentile_97_5": 0.26396565374606934
+          },
+          "AUROC": {
+            "point": 0.1531290115532734,
+            "percentile_2_5": 0.07753778095284067,
+            "percentile_97_5": 0.20442543295259674
+          },
+          "average_precision": {
+            "point": 0.26110720371520724,
+            "percentile_2_5": 0.11433299147814366,
+            "percentile_97_5": 0.3895695991891976
+          }
+        },
+        "ML_minus_frozen_KPC_rule": {
+          "sensitivity": {
+            "point": 0.5426829268292683,
+            "percentile_2_5": 0.39927265441532783,
+            "percentile_97_5": 0.6810398706896552
+          },
+          "specificity": {
+            "point": -0.05789473684210522,
+            "percentile_2_5": -0.09444489685124864,
+            "percentile_97_5": -0.015384615384615441
+          },
+          "balanced_accuracy": {
+            "point": 0.24239409499358144,
+            "percentile_2_5": 0.17505008107456105,
+            "percentile_97_5": 0.3140069891484785
+          },
+          "MCC": {
+            "point": 0.37883112227678545,
+            "percentile_2_5": 0.25462024877600103,
+            "percentile_97_5": 0.518780801627439
+          },
+          "AUROC": {
+            "point": 0.29305198973042357,
+            "percentile_2_5": 0.21703777648778633,
+            "percentile_97_5": 0.3645647441735632
+          },
+          "average_precision": {
+            "point": 0.3202977731974892,
+            "percentile_2_5": 0.22364099000056745,
+            "percentile_97_5": 0.4228558595915592
+          }
+        },
+        "ML_minus_author_Kleborate_carbapenemase_presence": {
+          "sensitivity": {
+            "point": -0.06707317073170727,
+            "percentile_2_5": -0.11764705882352944,
+            "percentile_97_5": -0.0267857142857143
+          },
+          "specificity": {
+            "point": 0.22631578947368425,
+            "percentile_2_5": 0.07298907526465899,
+            "percentile_97_5": 0.360655737704918
+          },
+          "balanced_accuracy": {
+            "point": 0.07962130937098844,
+            "percentile_2_5": 0.011331845273557321,
+            "percentile_97_5": 0.12907700361837265
+          },
+          "MCC": {
+            "point": 0.14353547355929608,
+            "percentile_2_5": 0.008931975773467276,
+            "percentile_97_5": 0.24248531885000194
+          },
+          "AUROC": {
+            "point": 0.13027920410783056,
+            "percentile_2_5": 0.04920845740944779,
+            "percentile_97_5": 0.18806537856797284
+          },
+          "average_precision": {
+            "point": 0.2318721056868892,
+            "percentile_2_5": 0.0780610661695959,
+            "percentile_97_5": 0.3728031898851617
+          }
+        }
+      }
+    }
+  },
+  "missing_input_bounds": {
+    "frozen_ML": {
+      "n": 355,
+      "unscored": 1,
+      "ranges_over_missing_predictions_or_extreme_scores": {
+        "TP": {
+          "min": 149,
+          "max": 149
+        },
+        "FN": {
+          "min": 15,
+          "max": 15
+        },
+        "TN": {
+          "min": 176,
+          "max": 177
+        },
+        "FP": {
+          "min": 14,
+          "max": 15
+        },
+        "sensitivity": {
+          "min": 0.9085365853658537,
+          "max": 0.9085365853658537
+        },
+        "specificity": {
+          "min": 0.9214659685863874,
+          "max": 0.9267015706806283
+        },
+        "balanced_accuracy": {
+          "min": 0.9150012769761205,
+          "max": 0.9176190780232409
+        },
+        "MCC": {
+          "min": 0.8300025539522411,
+          "max": 0.8356117092129279
+        },
+        "AUROC": {
+          "min": 0.9630155791086706,
+          "max": 0.9682511812029115
+        },
+        "average_precision": {
+          "min": 0.9345418519969765,
+          "max": 0.9625151396810814
+        }
+      }
+    },
+    "frozen_broad_annotation_rule": {
+      "n": 355,
+      "unscored": 1,
+      "ranges_over_missing_predictions_or_extreme_scores": {
+        "TP": {
+          "min": 162,
+          "max": 162
+        },
+        "FN": {
+          "min": 2,
+          "max": 2
+        },
+        "TN": {
+          "min": 122,
+          "max": 123
+        },
+        "FP": {
+          "min": 68,
+          "max": 69
+        },
+        "sensitivity": {
+          "min": 0.9878048780487805,
+          "max": 0.9878048780487805
+        },
+        "specificity": {
+          "min": 0.6387434554973822,
+          "max": 0.643979057591623
+        },
+        "balanced_accuracy": {
+          "min": 0.8132741667730814,
+          "max": 0.8158919678202017
+        },
+        "MCC": {
+          "min": 0.6552037197191319,
+          "max": 0.6594597020703641
+        },
+        "AUROC": {
+          "min": 0.8132741667730814,
+          "max": 0.8158919678202018
+        },
+        "average_precision": {
+          "min": 0.6983800809290333,
+          "max": 0.7013920212686512
+        }
+      }
+    },
+    "frozen_KPC_rule": {
+      "n": 355,
+      "unscored": 1,
+      "ranges_over_missing_predictions_or_extreme_scores": {
+        "TP": {
+          "min": 60,
+          "max": 60
+        },
+        "FN": {
+          "min": 104,
+          "max": 104
+        },
+        "TN": {
+          "min": 187,
+          "max": 188
+        },
+        "FP": {
+          "min": 3,
+          "max": 4
+        },
+        "sensitivity": {
+          "min": 0.36585365853658536,
+          "max": 0.36585365853658536
+        },
+        "specificity": {
+          "min": 0.9790575916230366,
+          "max": 0.9842931937172775
+        },
+        "balanced_accuracy": {
+          "min": 0.672455625079811,
+          "max": 0.6750734261269314
+        },
+        "MCC": {
+          "min": 0.4473109054209299,
+          "max": 0.45690628670842287
+        },
+        "AUROC": {
+          "min": 0.672455625079811,
+          "max": 0.6750734261269314
+        },
+        "average_precision": {
+          "min": 0.6359455513569221,
+          "max": 0.6413898022280021
+        }
+      }
+    },
+    "author_Kleborate_carbapenemase_presence": {
+      "source_call_available_for_full_target": {
+        "n": 355,
+        "R": 164,
+        "S": 191,
+        "TP": 160,
+        "FN": 4,
+        "TN": 134,
+        "FP": 57,
+        "sensitivity": 0.975609756097561,
+        "specificity": 0.7015706806282722,
+        "balanced_accuracy": 0.8385902183629166,
+        "MCC": 0.6925858281545049,
+        "AUROC": 0.8385902183629166,
+        "average_precision": 0.7306112045997464
+      }
+    }
+  },
+  "processing_comparison": {
+    "matched_n": 354,
+    "feature_cells_changed": 189,
+    "samples_with_feature_changes": 109,
+    "maximum_absolute_probability_difference": 0.1830545393325005,
+    "hard_call_changes": 2,
+    "older_projection_metrics_same_cases": {
+      "n": 354,
+      "R": 164,
+      "S": 190,
+      "TP": 148,
+      "FN": 16,
+      "TN": 177,
+      "FP": 13,
+      "sensitivity": 0.9024390243902439,
+      "specificity": 0.9315789473684211,
+      "balanced_accuracy": 0.9170089858793324,
+      "MCC": 0.835184721756962,
+      "AUROC": 0.9672817715019255,
+      "average_precision": 0.9605266127270474
+    },
+    "interpretation": "Joint assembly-source and feature-database difference; not an isolated database effect."
+  },
+  "verification": {
+    "original_publisher_cells_match": true,
+    "all_native_matrices_and_rules_recomputed": true,
+    "maximum_manual_probability_difference": 3.3306690738754696e-16,
+    "weighted_metric_sklearn_checks": 80
+  },
+  "input_sha256": {
+    "manifest": "fc4f6ce8217fba1107f506997953d860a1c454c9d5cf5ac872a0f6b2bcf11b20",
+    "workbook": "a486d288842447fed0d50d97ed9e78471b8a2c671fc6015f95bee230d5c2443a",
+    "native_predictions": "ed7609ea5f71d5deb60bfc09ab20e39019f81a77228deed8fd0b58924da02495",
+    "coefficients": "100a71f8bddd416fb48b265ca7345fb552a9f12c0bb4d37e201fcc927f6e6101",
+    "score_specification": "fb92e8391c315edafbe3b5f2141d8a36361ab23feb9c81399563817ccb374e6a",
+    "legacy_predictions": "eda6058ac5b91c3bb1257016009f7b21112bd05d649972fc5b46687c2e5967b2"
+  },
+  "limitations": [
+    "Post-hoc selected source; not prospective validation or random clinical population.",
+    "One-per-PDS filter only excludes sharing with mapped development isolates (2944/4218 BioSamples).",
+    "40-case staging subset is included and is not an independent replication.",
+    "BioSample/Run-linked AllTheBacteria Shovill assemblies differ from the original author assembly source.",
+    "No exact fitting/E2 BioSample overlap detected; universal genomic independence is not established.",
+    "Country and PDS percentile ranges describe selected source composition, not future-patient confidence intervals.",
+    "Frozen broad rule includes carbapenem-associated porin disruptions, not only carbapenemases.",
+    "Author Kleborate presence control has different annotation/assembly provenance; keep separate from native rules.",
+    "No classifier, threshold, frozen rule, eligibility or source phenotype was optimized or changed."
+  ]
+}

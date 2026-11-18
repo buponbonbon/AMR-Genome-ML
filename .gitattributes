@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve archived bytes (including CSV line endings) for SHA-256 validation.
+reproducibility/phenotype_reference_2026/** -text -whitespace
+
+# Retain the previous README verbatim, including Markdown hard line breaks.
+docs/README_original_workflow.md -whitespace
+
+# Collapse machine-generated data in code review without hiding source code.
+reproducibility/phenotype_reference_2026/results/** linguist-generated=true
+reproducibility/phenotype_reference_2026/figures/*.csv linguist-generated=true

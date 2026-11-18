@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "methods": "Independent per-source sklearn confusion checks, weighted aggregate rule metrics, 64 source-omission checks and direct paired correctness updates",
+  "source_projects_verified": 32,
+  "global_method_reference_pairs_verified": [
+    {
+      "method": "frozen_ML",
+      "reference": "historical",
+      "tp": 109,
+      "fn": 54,
+      "tn": 221,
+      "fp": 141
+    },
+    {
+      "method": "frozen_rule",
+      "reference": "historical",
+      "tp": 138,
+      "fn": 25,
+      "tn": 192,
+      "fp": 170
+    },
+    {
+      "method": "frozen_ML",
+      "reference": "october",
+      "tp": 236,
+      "fn": 30,
+      "tn": 245,
+      "fp": 14
+    },
+    {
+      "method": "frozen_rule",
+      "reference": "october",
+      "tp": 262,
+      "fn": 4,
+      "tn": 213,
+      "fp": 46
+    }
+  ],
+  "source_omission_rows_verified": 64,
+  "current_apparent_FN_difference_ML_minus_rule": 26,
+  "current_apparent_FP_difference_rule_minus_ML": 32,
+  "current_hypothetical_error_weight_break_even": "16/13",
+  "source_counts_sha256": "da55199bfa745118d7ec8837ea1380ca0398436f2f738f9a1f413f53da859b5d",
+  "limitations": "Exact counts and metric arithmetic verified; no per-isolate rule calls or clinical reference truth were recovered."
+}

@@ -1,0 +1,59 @@
+{
+  "file": "FILE19",
+  "version": "1.0.2",
+  "generated_utc": "2026-10-22T16:53:20.001368+00:00",
+  "status": "POST_HOC_AST_PROVENANCE_TRIAGE__NOT_LABORATORY_ADJUDICATION",
+  "primary_e2_unchanged": true,
+  "focus_bioproject": "PRJNA1322038",
+  "input_files": {
+    "frozen": "/mnt/c/Users/ASUS/Desktop/AMR-Genome-ML/data/external_validation/ncbi_pathogen_detection/final/file11_external_strict_E2_FROZEN.csv",
+    "frozen_sha256": "181ad34e9087234b28ee06e72ed59861a1b199b699be45c5549206b4f0555c19",
+    "predictions": "/mnt/c/Users/ASUS/Desktop/AMR-Genome-ML/results/file16_audit_mechanisms_v1/file16_per_genome_prediction_error_audit.csv",
+    "predictions_sha256": "135a68b965cc9164cb5d0fbf13a58484336e1dbd728fafa96a9f7d59f4f3d391",
+    "biosample_xml_sha256": "f472ab0f6129170d152048017e7dccfd758fb1e5f7bade8076d545b14d35503e",
+    "biosample_xml": "/mnt/c/Users/ASUS/Desktop/AMR-Genome-ML/results/file19_ncbi_evidence_cache_v1_0_1/PRJNA1322038_biosample_efetch.xml"
+  },
+  "frozen_guardrails": {
+    "e2_n": 525,
+    "e2_R": 163,
+    "e2_model_errors": 195,
+    "focus_n": 175,
+    "focus_R": 36,
+    "focus_errors": 163
+  },
+  "evidence": {
+    "biosample_xml_provided": true,
+    "xml_biosamples_total": 175,
+    "focus_biosamples_seen_in_xml": 175,
+    "focus_records_with_one_meropenem_AST_row": 175,
+    "focus_records_with_multiple_AST_rows": 0,
+    "focus_missing_meropenem_AST": 0,
+    "focus_ncbi_phenotype_agrees": 0,
+    "focus_ncbi_phenotype_conflicts": 175,
+    "focus_mic_review_flags": {
+      "NO_SIMPLE_DIRECTION_FLAG__NOT_AST_ADJUDICATION": 175
+    },
+    "external_ast_csv_provided": false,
+    "focus_external_ast_label_agrees": 0,
+    "focus_external_ast_label_conflicts": 0,
+    "focus_ncbi_resistant_count": 139,
+    "focus_ncbi_susceptible_count": 36,
+    "focus_frozen_vs_ncbi_cross_table": {
+      "frozen_0_ncbi_1": 139,
+      "frozen_1_ncbi_0": 36
+    },
+    "focus_all_comparable_labels_opposite": true,
+    "focus_model_predictions_match_ncbi_count": 163,
+    "focus_model_predictions_disagree_ncbi_count": 12
+  },
+  "constraints": {
+    "no_training": true,
+    "no_label_changes": true,
+    "no_breakpoint_inference": true,
+    "no_primary_cohort_changes": true,
+    "no_automatic_AST_validation": true,
+    "never_infer_phenotype_from_low_or_high_MIC_without_standards": true
+  },
+  "scientific_interpretation": "This audit measures record-level concordance and flags potentially suspicious source entries. NCBI BioSample values may originate from the same submitted AST as the frozen labels. Agreements are not independent laboratory confirmation.",
+  "decision": "CRITICAL_COMPLETE_LABEL_POLARITY_DISCORDANCE__HALT_MANUSCRIPT_CLAIMS__VERIFY_SOURCE_MAPPING"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE_AVAILABLE_CASES_WITH_REPORTED_MISSING_OR_FAILED_INPUTS",
+  "target": 355,
+  "scored": 354,
+  "missing_or_failed": 1,
+  "maximum_native_manual_probability_difference": 0.0,
+  "model_sha256": "1f55620cbd4b1dfd946ff37977e9a851b6aeaad8a5466eb553323331613cdcdd",
+  "threshold": 0.5,
+  "caller": "AMRFinderPlus4.2.7 / database2026-01-21.1 / nucleotide",
+  "load_warnings": [
+    "Trying to unpickle estimator LogisticRegression from version 1.9.1 when using version 1.8.0. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:\nhttps://scikit-learn.org/stable/model_persistence.html#security-maintainability-limitations"
+  ],
+  "model_fitting_or_tuning_performed": false,
+  "clinical_utility_or_absolute_clonal_independence_claimed": false,
+  "elapsed_seconds": 7426.744804143
+}

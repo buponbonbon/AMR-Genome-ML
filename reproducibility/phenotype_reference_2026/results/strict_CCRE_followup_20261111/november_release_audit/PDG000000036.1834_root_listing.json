@@ -1,0 +1,12 @@
+{
+  "build": "PDG000000036.1834",
+  "url": "https://ftp.ncbi.nlm.nih.gov/pathogen/Results/Pseudomonas_aeruginosa/PDG000000036.1834/",
+  "sha256": "999ad297f3f11491ea5dc6508882e8fad81b6c2396a65c2690169521bbd6147b",
+  "links": [
+    "/pathogen/Results/Pseudomonas_aeruginosa/",
+    "Metadata/",
+    "PDG000000036.1834.kmer.descriptor.xml",
+    "https://www.hhs.gov/vulnerability-disclosure-policy/index.html"
+  ],
+  "retrieved_utc": "2026-11-11T09:59:08.552621+00:00"
+}

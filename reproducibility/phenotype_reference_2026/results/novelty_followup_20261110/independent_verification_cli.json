@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "method": "Independent pandas chunk/explode/index join",
+  "results": [
+    {
+      "species": "Pseudomonas aeruginosa",
+      "shared_raw_AST_keys": 8853,
+      "SIR_comparable_keys": 8279,
+      "SIR_changed_keys": 876,
+      "unopposed_R_S_flips": 876,
+      "outside_focal_SIR_keys": 7362,
+      "outside_focal_changes": 0
+    },
+    {
+      "species": "Acinetobacter baumannii",
+      "shared_raw_AST_keys": 18364,
+      "SIR_comparable_keys": 17805,
+      "SIR_changed_keys": 815,
+      "unopposed_R_S_flips": 815,
+      "outside_focal_SIR_keys": 16980,
+      "outside_focal_changes": 0
+    },
+    {
+      "species": "Klebsiella pneumoniae",
+      "shared_raw_AST_keys": 32265,
+      "SIR_comparable_keys": 28584,
+      "SIR_changed_keys": 6115,
+      "unopposed_R_S_flips": 6115,
+      "outside_focal_SIR_keys": 22182,
+      "outside_focal_changes": 0
+    },
+    {
+      "species": "Escherichia coli",
+      "shared_raw_AST_keys": 169761,
+      "SIR_comparable_keys": 133051,
+      "SIR_changed_keys": 3281,
+      "unopposed_R_S_flips": 3281,
+      "outside_focal_SIR_keys": 129575,
+      "outside_focal_changes": 0
+    }
+  ]
+}
